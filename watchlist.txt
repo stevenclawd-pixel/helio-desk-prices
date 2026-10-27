@@ -1,0 +1,11 @@
+# One ticker per line.
+PANW
+WMT
+TSLA
+DDOG
+JPM
+CSCO
+IBIT
+ETHA
+COIN
+URA

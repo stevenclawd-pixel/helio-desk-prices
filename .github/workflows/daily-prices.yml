@@ -1,0 +1,31 @@
+name: daily-prices
+on:
+  schedule:
+    - cron: "5 11 * * 1-5"   # 7:05 AM ET (EDT) / 6:05 AM ET (EST)
+    - cron: "30 21 * * 1-5"  # 5:30 PM ET (EDT) / 4:30 PM ET (EST), after the close in both seasons
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: repo-writes
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python fetch_prices.py
+      - name: Commit snapshot
+        run: |
+          git config user.name "helio-desk-bot"
+          git config user.email "helio-desk-bot@users.noreply.github.com"
+          git add data/prices.json
+          git diff --cached --quiet && exit 0
+          git commit -m "prices $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
