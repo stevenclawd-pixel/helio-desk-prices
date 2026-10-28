@@ -5,3 +5,7 @@ A GitHub Actions job fetches daily bars from Yahoo Finance (through the `yfinanc
 Schedule: weekdays at 11:05 and 21:30 UTC, plus on demand. Data is free, unofficial and delayed. Use it for daily levels, not for live quotes.
 
 Read it at `https://raw.githubusercontent.com/<owner>/<repo>/main/data/prices.json`.
+
+## History
+
+`fetch_history.py` writes `history/daily.csv.gz` (five years of daily bars for the tickers in `universe.txt` and `watchlist.txt`, plus SPY, QQQ, BTC-USD and ETH-USD) and `history/earnings.json` (past and announced earnings dates from Yahoo). It runs with the Friday after-close job and on demand.
