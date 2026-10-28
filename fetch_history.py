@@ -56,7 +56,7 @@ def main():
         for t, r in df.iterrows():
             w.writerow([s, t.strftime("%Y-%m-%d"), round(r.Open, 4), round(r.High, 4), round(r.Low, 4),
                         round(r.Close, 4), int(r.Volume) if r.Volume == r.Volume else 0])
-    with open(f"{a.out}/daily.csv.gz", "wb") as f:  # mtime=0 keeps the file stable when the data is
+    with open(f"{a.out}/daily.csv.gz", "wb") as f:  # mtime=0: same data, same bytes
         f.write(gzip.compress(buf.getvalue().encode(), compresslevel=9, mtime=0))
 
     epath = f"{a.out}/earnings.json"
@@ -82,7 +82,8 @@ def main():
         stamp = old["generated_utc"]
     json.dump({"generated_utc": stamp, "dates": dates}, open(epath, "w"), indent=0, sort_keys=True)
     meta = {"generated_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-            "years": a.years, "symbols": loaded, "errors": errors}
+            "years": a.years, "symbols": loaded, "universe": [s for s in tickers("universe.txt") if s in loaded],
+            "errors": errors}
     json.dump(meta, open(f"{a.out}/meta.json", "w"), indent=1)
     print(f"history: {len(loaded)} symbols, {len(errors)} errors, earnings for {len(dates)}")
 
