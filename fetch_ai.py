@@ -76,7 +76,44 @@ def structure(df, smh):
     # Swing low of the last 5 sessions, for pullback stops.
     out["low5"] = clean(l.iloc[-5:].min())
     out["high20"] = clean(h.iloc[-20:].max())
+    # Last five sessions, for earnings reaction days.
+    out["recent"] = [{"date": i.strftime("%Y-%m-%d"), "chg": clean(chg.loc[i] / c.shift().loc[i]),
+                      "vol_ratio": clean(v.loc[i] / vol50.shift().loc[i]), "high": clean(h.loc[i]),
+                      "low": clean(l.loc[i]), "close": clean(c.loc[i])} for i in df.index[-5:]]
     return out
+
+
+def since_listing(df, start):
+    """For names listed inside the download window: the IPO high and how far price sits from it."""
+    first = df.index[0]
+    if (first - start).days < 10:
+        return None
+    c, h, l = df["Close"], df["High"], df["Low"]
+    hi_day = h.idxmax()
+    after = l.loc[hi_day:]
+    return {"first_date": first.strftime("%Y-%m-%d"), "sessions": len(df), "first_close": clean(c.iloc[0]),
+            "high": clean(h.max()), "high_date": hi_day.strftime("%Y-%m-%d"),
+            "low_since_high": clean(after.min()), "low": clean(l.min()),
+            "pct_from_high": clean(c.iloc[-1] / h.max() - 1), "pct_vs_first_close": clean(c.iloc[-1] / c.iloc[0] - 1)}
+
+
+def report_dates(path):
+    try:
+        return json.load(open(path)).get("dates", {})
+    except Exception:
+        return {}
+
+
+def capex_history(t):
+    for attr in ("quarterly_cashflow", "quarterly_cash_flow"):
+        try:
+            q = getattr(t, attr)
+            if q is not None and len(q) and "Capital Expenditure" in q.index:
+                r = q.loc["Capital Expenditure"].dropna().sort_index()
+                return [{"end": d.strftime("%Y-%m-%d"), "capex": clean(-x)} for d, x in r.items()][-8:]
+        except Exception:
+            continue
+    return None
 
 
 def frame_dict(df):
@@ -99,6 +136,9 @@ def revenue_history(t):
     return None
 
 
+CAPEX = {"MSFT", "GOOGL", "AMZN", "META", "ORCL", "CRWV", "NBIS"}
+
+
 def fundamentals(sym):
     t = yf.Ticker(sym)
     out, errs = {"fetched_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}, {}
@@ -115,6 +155,11 @@ def fundamentals(sym):
         out["revenue_q"] = revenue_history(t)
     except Exception as e:
         errs["revenue_q"] = str(e)[:120]
+    if sym in CAPEX:
+        try:
+            out["capex_q"] = capex_history(t)
+        except Exception as e:
+            errs["capex_q"] = str(e)[:120]
     for name in ("revenue_estimate", "earnings_estimate", "eps_trend", "eps_revisions", "earnings_history"):
         try:
             out[name] = frame_dict(getattr(t, name))
@@ -151,6 +196,7 @@ def main():
     ap.add_argument("--universe", default="ai_universe.txt")
     ap.add_argument("--out", default="data/ai_scan.json")
     ap.add_argument("--fund-max-age-h", type=float, default=20)
+    ap.add_argument("--earnings", default="history/earnings.json")
     a = ap.parse_args()
     rows = universe(a.universe)
     syms = list(dict.fromkeys(BENCH + [s for s, _ in rows]))
@@ -158,6 +204,8 @@ def main():
                       progress=False, threads=True)
     spy = raw["SPY"]["Close"].dropna()
     smh = raw["SMH"]["Close"].dropna()
+    start = raw.index[0]
+    reports = report_dates(a.earnings)
     old = {}
     if os.path.exists(a.out):
         try:
@@ -180,6 +228,9 @@ def main():
             rec.update(structure(df, smh))
             rec["layer"] = layer
             rec["history_days"] = len(df)
+            rec["since_listing"] = since_listing(df, start)
+            past = sorted(d for d in reports.get(sym, []) if d <= today)
+            rec["last_report"] = past[-1] if past else None
         except Exception as e:
             errors[sym] = str(e)[:200]
             continue

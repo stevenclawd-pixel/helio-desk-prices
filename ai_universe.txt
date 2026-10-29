@@ -10,6 +10,7 @@ INTC compute
 QCOM compute
 ALAB compute
 CRDO compute
+CBRS compute
 MU memory
 WDC memory
 STX memory
