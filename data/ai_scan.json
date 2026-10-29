@@ -1,7 +1,7 @@
 {
-"generated_utc": "2026-10-29T14:28:15Z",
+"generated_utc": "2026-10-29T17:23:54Z",
 "source": "Yahoo Finance via yfinance: daily bars (auto-adjusted), statements, analyst estimates",
-"fundamentals_refreshed": 8,
+"fundamentals_refreshed": 0,
 "partial_bar_dropped": true,
 "bench": {
 "SPY": {
@@ -3792,7 +3792,7 @@
 "pct_from_high": -0.7087,
 "pct_vs_first_close": -0.6382
 },
-"last_report": null,
+"last_report": "2026-08-12",
 "fund": {
 "fetched_utc": "2026-10-29T14:28:04Z",
 "shortName": "Cerebras Systems Inc.",
@@ -9557,7 +9557,7 @@
 "sma200": 1589.0215,
 "sma200_slope20": 58.9223,
 "hi52": 1994.7303,
-"lo52": 940.339,
+"lo52": 940.3391,
 "vol50": 1359206.0,
 "ret21": -0.0923,
 "ret63": 0.0082,
@@ -12146,7 +12146,7 @@
 "sma150": 142.9326,
 "sma200": 137.4813,
 "sma200_slope20": 6.2817,
-"hi52": 186.6574,
+"hi52": 186.6573,
 "lo52": 67.764,
 "vol50": 2252702.0,
 "ret21": 0.0301,
@@ -14737,7 +14737,7 @@
 "sma200": 941.4984,
 "sma200_slope20": 28.0988,
 "hi52": 1195.2407,
-"lo52": 528.87,
+"lo52": 528.8699,
 "vol50": 2431596.0,
 "ret21": -0.0872,
 "ret63": -0.1053,
@@ -15107,7 +15107,7 @@
 "sma200": 624.1818,
 "sma200_slope20": 21.0634,
 "hi52": 788.4945,
-"lo52": 408.1476,
+"lo52": 408.1475,
 "vol50": 1041494.0,
 "ret21": -0.0687,
 "ret63": -0.0775,
@@ -24498,7 +24498,7 @@
 "sma150": 156.0739,
 "sma200": 156.5298,
 "sma200_slope20": -5.5343,
-"hi52": 281.691,
+"hi52": 281.6911,
 "lo52": 114.0781,
 "vol50": 30447220.0,
 "ret21": 0.0529,
