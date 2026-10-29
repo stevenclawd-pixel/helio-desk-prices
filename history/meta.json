@@ -1,7 +1,8 @@
 {
- "generated_utc": "2026-10-29T13:39:53Z",
+ "generated_utc": "2026-10-29T13:41:39Z",
  "years": 5,
  "symbols": [
+  "SPY",
   "QQQ",
   "ETH-USD",
   "BTC-USD",
@@ -105,6 +106,7 @@
   "ETHA",
   "URA",
   "ADI",
+  "ARM",
   "ALAB",
   "CRDO",
   "WDC",
@@ -144,6 +146,7 @@
   "DLR",
   "CRWV",
   "NBIS",
+  "IREN",
   "CIFR",
   "APLD",
   "WULF",
@@ -261,10 +264,5 @@
   "FTNT",
   "ZS"
  ],
- "errors": {
-  "SPY": "not enough history",
-  "ARM": "not enough history",
-  "PSTG": "not enough history",
-  "IREN": "not enough history"
- }
+ "errors": {}
 }
