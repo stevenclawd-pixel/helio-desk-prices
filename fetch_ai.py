@@ -131,6 +131,13 @@ def fundamentals(sym):
     return out
 
 
+def bench_df(df, in_session, today):
+    df = df.dropna(subset=["Close"])
+    if in_session and len(df) and df.index[-1].strftime("%Y-%m-%d") == today:
+        df = df.iloc[:-1]
+    return df
+
+
 def age_hours(stamp):
     try:
         then = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
@@ -157,10 +164,16 @@ def main():
             old = json.load(open(a.out)).get("symbols", {})
         except Exception:
             old = {}
+    now = datetime.now(timezone.utc)
+    # A run during US market hours would score a partial bar; keep the prior close instead.
+    in_session = now.weekday() < 5 and (13, 30) <= (now.hour, now.minute) < (21, 0)
+    today = now.strftime("%Y-%m-%d")
     result, errors, fetched = {}, {}, 0
     for sym, layer in rows:
         try:
             df = raw[sym].dropna(subset=["Close"])
+            if in_session and len(df) and df.index[-1].strftime("%Y-%m-%d") == today:
+                df = df.iloc[:-1]
             if len(df) < 30:
                 raise ValueError("not enough history")
             rec = snapshot(sym, df, spy)
@@ -188,7 +201,8 @@ def main():
         "generated_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "source": "Yahoo Finance via yfinance: daily bars (auto-adjusted), statements, analyst estimates",
         "fundamentals_refreshed": fetched,
-        "bench": {b: snapshot(b, raw[b].dropna(subset=["Close"]), spy) for b in BENCH},
+        "partial_bar_dropped": in_session,
+        "bench": {b: snapshot(b, bench_df(raw[b], in_session, today), spy) for b in BENCH},
         "symbols": result,
         "errors": errors,
     }
