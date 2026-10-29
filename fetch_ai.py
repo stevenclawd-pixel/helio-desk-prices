@@ -236,7 +236,7 @@ def main():
             continue
         if layer != "bench":
             prev = old.get(sym, {}).get("fund")
-            if prev and age_hours(prev.get("fetched_utc", "")) < a.fund_max_age_h:
+            if prev and age_hours(prev.get("fetched_utc", "")) < a.fund_max_age_h and (sym not in CAPEX or "capex_q" in prev):
                 rec["fund"] = prev
             else:
                 try:
