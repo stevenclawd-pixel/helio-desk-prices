@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Daily bar history and earnings dates for a list of tickers.
 
+Tickers come from universe.txt, watchlist.txt and ai_universe.txt (first column).
 Writes history/daily.csv.gz (symbol,date,open,high,low,close,volume; auto-adjusted)
 and history/earnings.json ({"generated_utc", "dates": {symbol: [YYYY-MM-DD, ...]}}).
 Earnings dates are refreshed only when the file is older than 6 days, because each
@@ -26,7 +27,7 @@ def tickers(*files):
     out = []
     for f in files:
         try:
-            out += [l.strip().upper() for l in open(f) if l.strip() and not l.startswith("#")]
+            out += [l.split()[0].upper() for l in open(f) if l.strip() and not l.startswith("#")]
         except FileNotFoundError:
             pass
     return out
@@ -38,7 +39,7 @@ def main():
     ap.add_argument("--out", default="history")
     a = ap.parse_args()
     os.makedirs(a.out, exist_ok=True)
-    syms = list(dict.fromkeys(BASE + tickers("universe.txt", "watchlist.txt")))
+    syms = list(dict.fromkeys(BASE + tickers("universe.txt", "watchlist.txt", "ai_universe.txt")))
     raw = yf.download(syms, period=f"{a.years}y", interval="1d", group_by="ticker",
                       auto_adjust=True, progress=False, threads=True)
     buf, loaded, errors = io.StringIO(), [], {}

@@ -9,3 +9,7 @@ Read it at `https://raw.githubusercontent.com/<owner>/<repo>/main/data/prices.js
 ## History
 
 `fetch_history.py` writes `history/daily.csv.gz` (five years of daily bars for the tickers in `universe.txt` and `watchlist.txt`, plus SPY, QQQ, BTC-USD and ETH-USD) and `history/earnings.json` (past and announced earnings dates from Yahoo). It runs with the Friday after-close job and on demand.
+
+## AI scan
+
+`fetch_ai.py` writes `data/ai_scan.json` for the tickers in `ai_universe.txt` (ticker and supply-chain layer per line): the same snapshot fields as `prices.json` plus 5/126/189/252-day returns, 3-month return vs SMH, 50-day up/down volume ratio, heavy-volume up and down days over 25 sessions, ATR, dollar volume, the 35-session base (pivot, base low, depth, 10-day tightness, distance from pivot), and from Yahoo: quarterly revenue, revenue and EPS estimates, EPS estimate trend (now vs 7/30/60/90 days ago), revision counts, the last four EPS surprises and the next earnings date. Raw metrics only. It runs with both daily jobs; fundamentals refresh when the stored ones are over 20 hours old, so the morning run fetches and the after-close run reuses them.
