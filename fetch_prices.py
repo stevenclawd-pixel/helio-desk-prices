@@ -54,12 +54,18 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--watchlist", default="watchlist.txt")
     ap.add_argument("--out", default="data/prices.json")
+    ap.add_argument("--ai-universe", dest="ai_universe", default="ai_universe.txt")
     a = ap.parse_args()
     try:
         extra = [l.strip().upper() for l in open(a.watchlist) if l.strip() and not l.startswith("#")]
     except FileNotFoundError:
         extra = []
-    syms = list(dict.fromkeys(CORE + extra))
+    # v2: the AI universe gets bars here too, so the desk can mark every call from one file
+    try:
+        ai = [l.split()[0].upper() for l in open(a.ai_universe) if l.strip() and not l.startswith("#")]
+    except FileNotFoundError:
+        ai = []
+    syms = list(dict.fromkeys(CORE + extra + ai))
     raw = yf.download(syms, period="2y", interval="1d", group_by="ticker", auto_adjust=True, progress=False, threads=True)
     spy = raw["SPY"]["Close"].dropna()
     btc = raw["BTC-USD"]["Close"].dropna()
