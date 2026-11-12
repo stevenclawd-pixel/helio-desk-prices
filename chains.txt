@@ -1,0 +1,13 @@
+# One ticker per line: names the desk prices options on (shortlist and lane candidates).
+NVDA
+ANET
+AMAT
+MSFT
+AMD
+MU
+LLY
+EQIX
+TSLA
+SMH
+SPY
+QQQ
