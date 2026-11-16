@@ -1,8 +1,8 @@
 {
-"generated_utc": "2026-11-14T03:25:58Z",
+"generated_utc": "2026-11-16T20:56:46Z",
 "source": "Yahoo Finance via yfinance: daily bars (auto-adjusted), statements, analyst estimates",
-"fundamentals_refreshed": 0,
-"partial_bar_dropped": false,
+"fundamentals_refreshed": 84,
+"partial_bar_dropped": true,
 "bench": {
 "SPY": {
 "Close": 754.37,
@@ -109,7 +109,7 @@
 "sma200": 681.2007,
 "sma200_slope20": 7.5408,
 "hi52": 762.86,
-"lo52": 554.4123,
+"lo52": 554.4124,
 "vol50": 40713458.0,
 "ret21": -0.0661,
 "ret63": -0.0675,
@@ -398,7 +398,7 @@
 "accum_days_25": 2,
 "dist_days_25": 12,
 "atr14_pct": 6.7578,
-"dollar_vol50": 29981619928.4246,
+"dollar_vol50": 29981619928.4247,
 "pivot": 243.37,
 "pivot_date": "2026-10-06",
 "base_low": 148.8,
@@ -450,27 +450,27 @@
 }
 ],
 "layer": "compute",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-08-26",
 "fund": {
-"fetched_utc": "2026-11-13T18:28:51Z",
+"fetched_utc": "2026-11-16T20:55:21Z",
 "shortName": "NVIDIA Corporation",
 "sector": "Technology",
 "industry": "Semiconductors",
 "currency": "USD",
-"marketCap": 3896963235840.0,
+"marketCap": 3759929294848.0,
 "revenueGrowth": 1.059,
 "earningsGrowth": 1.278,
 "grossMargins": 0.7467,
 "operatingMargins": 0.6521,
-"forwardPE": 10.1727,
-"trailingPE": 20.4027,
-"heldPercentInstitutions": 0.7125,
+"forwardPE": 9.8283,
+"trailingPE": 19.6852,
+"heldPercentInstitutions": 0.7117,
 "shortPercentOfFloat": 0.0121,
-"numberOfAnalystOpinions": 53.0,
-"recommendationMean": 1.5902,
-"targetMeanPrice": 285.3453,
+"numberOfAnalystOpinions": 54.0,
+"recommendationMean": 1.6393,
+"targetMeanPrice": 268.7574,
 "revenue_q": [
 {
 "end": "2025-07-31",
@@ -495,12 +495,12 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 108813797290.0,
+"avg": 108731903900.0,
 "low": 100481000000.0,
 "high": 116251000000.0,
-"numberOfAnalysts": 46.0,
+"numberOfAnalysts": 45.0,
 "yearAgoRevenue": 57006000000.0,
-"growth": 0.9088,
+"growth": 0.9074,
 "currency": "USD"
 },
 "+1q": {
@@ -513,32 +513,32 @@
 "currency": "USD"
 },
 "0y": {
-"avg": 411703849190.0,
+"avg": 411860431010.0,
 "low": 390230475380.0,
 "high": 426885000000.0,
 "numberOfAnalysts": 55.0,
 "yearAgoRevenue": 215938000000.0,
-"growth": 0.9066,
+"growth": 0.9073,
 "currency": "USD"
 },
 "+1y": {
-"avg": 688853326360.0,
+"avg": 688499084780.0,
 "low": 506483000000.0,
 "high": 778471000000.0,
 "numberOfAnalysts": 57.0,
-"yearAgoRevenue": 411703849190.0,
-"growth": 0.6732,
+"yearAgoRevenue": 411860431010.0,
+"growth": 0.6717,
 "currency": "USD"
 }
 },
 "earnings_estimate": {
 "0q": {
-"avg": 2.4732,
+"avg": 2.4712,
 "low": 2.2575,
 "high": 2.7,
 "yearAgoEps": 1.3,
-"numberOfAnalysts": 44.0,
-"growth": 0.9025,
+"numberOfAnalysts": 43.0,
+"growth": 0.9009,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -553,29 +553,29 @@
 "methodology": "normalized"
 },
 "0y": {
-"avg": 9.3232,
+"avg": 9.3269,
 "low": 8.7839,
 "high": 10.1,
 "yearAgoEps": 4.77,
 "numberOfAnalysts": 51.0,
-"growth": 0.9546,
+"growth": 0.9553,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"avg": 15.8496,
+"avg": 15.839,
 "low": 11.85,
 "high": 18.746,
-"yearAgoEps": 9.3232,
+"yearAgoEps": 9.3269,
 "numberOfAnalysts": 52.0,
-"growth": 0.7,
+"growth": 0.6982,
 "currency": "USD",
 "methodology": "normalized"
 }
 },
 "eps_trend": {
 "0q": {
-"current": 2.4732,
+"current": 2.4712,
 "7daysAgo": 2.4733,
 "30daysAgo": 2.4733,
 "60daysAgo": 2.4727,
@@ -587,26 +587,26 @@
 "current": 2.7562,
 "7daysAgo": 2.7462,
 "30daysAgo": 2.7462,
-"60daysAgo": 2.7433,
-"90daysAgo": 2.661,
+"60daysAgo": 2.7429,
+"90daysAgo": 2.6654,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"current": 9.3232,
+"current": 9.3269,
 "7daysAgo": 9.3124,
 "30daysAgo": 9.3124,
-"60daysAgo": 9.3046,
-"90daysAgo": 8.9577,
+"60daysAgo": 9.3071,
+"90daysAgo": 8.9638,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"current": 15.8496,
+"current": 15.839,
 "7daysAgo": 15.9146,
 "30daysAgo": 15.9146,
-"60daysAgo": 15.5675,
-"90daysAgo": 12.8206,
+"60daysAgo": 15.6826,
+"90daysAgo": 12.8548,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -836,23 +836,23 @@
 }
 ],
 "layer": "compute",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-03",
 "fund": {
-"fetched_utc": "2026-11-13T18:28:52Z",
+"fetched_utc": "2026-11-16T20:55:22Z",
 "shortName": "Advanced Micro Devices, Inc.",
 "sector": "Technology",
 "industry": "Semiconductors",
 "currency": "USD",
-"marketCap": 863833817088.0,
+"marketCap": 827875065856.0,
 "revenueGrowth": 0.447,
 "earningsGrowth": 0.938,
 "grossMargins": 0.56,
 "operatingMargins": 0.1782,
-"forwardPE": 29.7727,
-"trailingPE": 112.5427,
-"heldPercentInstitutions": 0.7691,
+"forwardPE": 28.6179,
+"trailingPE": 107.8579,
+"heldPercentInstitutions": 0.7668,
 "shortPercentOfFloat": 0.0236,
 "numberOfAnalystOpinions": 49.0,
 "recommendationMean": 1.3518,
@@ -949,12 +949,12 @@
 "methodology": "normalized"
 },
 "+1y": {
-"avg": 17.6907,
+"avg": 17.6384,
 "low": 14.51,
 "high": 23.66,
 "yearAgoEps": 8.0844,
-"numberOfAnalysts": 50.0,
-"growth": 1.1883,
+"numberOfAnalysts": 49.0,
+"growth": 1.1818,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -988,10 +988,10 @@
 "methodology": "normalized"
 },
 "+1y": {
-"current": 17.6907,
-"7daysAgo": 17.5182,
-"30daysAgo": 15.783,
-"60daysAgo": 15.5105,
+"current": 17.6384,
+"7daysAgo": 17.6419,
+"30daysAgo": 15.8485,
+"60daysAgo": 15.5707,
 "90daysAgo": 15.3249,
 "currency": "USD",
 "methodology": "normalized"
@@ -1007,15 +1007,15 @@
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 1.0,
-"upLast30days": 6.0,
-"downLast30days": 5.0,
-"downLast7Days": 2.0,
+"upLast7days": 16.0,
+"upLast30days": 19.0,
+"downLast30days": 4.0,
+"downLast7Days": 4.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 24.0,
+"upLast7days": 31.0,
 "upLast30days": 32.0,
 "downLast30days": 1.0,
 "downLast7Days": 1.0,
@@ -1023,10 +1023,10 @@
 "methodology": "normalized"
 },
 "+1y": {
-"upLast7days": 26.0,
-"upLast30days": 29.0,
-"downLast30days": 2.0,
-"downLast7Days": 4.0,
+"upLast7days": 33.0,
+"upLast30days": 35.0,
+"downLast30days": 3.0,
+"downLast7Days": 3.0,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -1222,27 +1222,27 @@
 }
 ],
 "layer": "compute",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-09-02",
 "fund": {
-"fetched_utc": "2026-11-13T18:28:53Z",
+"fetched_utc": "2026-11-16T20:55:23Z",
 "shortName": "Broadcom Inc.",
 "sector": "Technology",
 "industry": "Semiconductors",
 "currency": "USD",
-"marketCap": 1650339348480.0,
+"marketCap": 1591146315776.0,
 "revenueGrowth": 0.855,
 "earningsGrowth": 2.153,
 "grossMargins": 0.7551,
 "operatingMargins": 0.4881,
-"forwardPE": 17.8078,
-"trailingPE": 44.1533,
-"heldPercentInstitutions": 0.7945,
+"forwardPE": 17.169,
+"trailingPE": 42.5696,
+"heldPercentInstitutions": 0.7946,
 "shortPercentOfFloat": 0.0111,
 "numberOfAnalystOpinions": 47.0,
-"recommendationMean": 1.2353,
-"targetMeanPrice": 533.4238,
+"recommendationMean": 1.2745,
+"targetMeanPrice": 528.1743,
 "revenue_q": [
 {
 "end": "2025-07-31",
@@ -1285,21 +1285,21 @@
 "currency": "USD"
 },
 "0y": {
-"avg": 105985008460.0,
+"avg": 105982873730.0,
 "low": 105797177130.0,
 "high": 106680502000.0,
-"numberOfAnalysts": 41.0,
+"numberOfAnalysts": 42.0,
 "yearAgoRevenue": 63887000000.0,
 "growth": 0.6589,
 "currency": "USD"
 },
 "+1y": {
-"avg": 175466681820.0,
+"avg": 174984617760.0,
 "low": 163082916000.0,
-"high": 200118493840.0,
+"high": 199924000000.0,
 "numberOfAnalysts": 48.0,
-"yearAgoRevenue": 105985008460.0,
-"growth": 0.6556,
+"yearAgoRevenue": 105982873730.0,
+"growth": 0.6511,
 "currency": "USD"
 }
 },
@@ -1325,22 +1325,22 @@
 "methodology": "normalized"
 },
 "0y": {
-"avg": 11.6657,
+"avg": 11.6644,
 "low": 11.5,
 "high": 12.38,
 "yearAgoEps": 6.82,
 "numberOfAnalysts": 48.0,
-"growth": 0.7105,
+"growth": 0.7103,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"avg": 19.4651,
+"avg": 19.414,
 "low": 17.4665,
 "high": 22.44,
-"yearAgoEps": 11.6657,
+"yearAgoEps": 11.6644,
 "numberOfAnalysts": 48.0,
-"growth": 0.6686,
+"growth": 0.6644,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -1348,37 +1348,37 @@
 "eps_trend": {
 "0q": {
 "current": 3.8377,
-"7daysAgo": 3.8282,
-"30daysAgo": 3.8253,
-"60daysAgo": 3.881,
-"90daysAgo": 3.8609,
+"7daysAgo": 3.8377,
+"30daysAgo": 3.8277,
+"60daysAgo": 3.8258,
+"90daysAgo": 3.8738,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
 "current": 4.0961,
-"7daysAgo": 4.083,
-"30daysAgo": 4.0757,
-"60daysAgo": 4.1352,
-"90daysAgo": 4.1297,
+"7daysAgo": 4.0961,
+"30daysAgo": 4.0794,
+"60daysAgo": 4.0757,
+"90daysAgo": 4.1288,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"current": 11.6657,
-"7daysAgo": 11.658,
-"30daysAgo": 11.656,
-"60daysAgo": 11.629,
-"90daysAgo": 11.627,
+"current": 11.6644,
+"7daysAgo": 11.6657,
+"30daysAgo": 11.6576,
+"60daysAgo": 11.6554,
+"90daysAgo": 11.6254,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"current": 19.4651,
-"7daysAgo": 19.397,
-"30daysAgo": 19.3807,
-"60daysAgo": 19.5606,
-"90daysAgo": 19.5823,
+"current": 19.414,
+"7daysAgo": 19.4651,
+"30daysAgo": 19.3938,
+"60daysAgo": 19.3832,
+"90daysAgo": 19.598,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -1608,23 +1608,23 @@
 }
 ],
 "layer": "compute",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-08-27",
 "fund": {
-"fetched_utc": "2026-11-13T18:28:54Z",
+"fetched_utc": "2026-11-16T20:55:24Z",
 "shortName": "Marvell Technology, Inc.",
 "sector": "Technology",
 "industry": "Semiconductors",
 "currency": "USD",
-"marketCap": 139679662080.0,
+"marketCap": 130920439808.0,
 "revenueGrowth": 0.365,
 "earningsGrowth": 0.5,
 "grossMargins": 0.5222,
 "operatingMargins": 0.1681,
-"forwardPE": 21.1214,
-"trailingPE": 51.0658,
-"heldPercentInstitutions": 0.8013,
+"forwardPE": 19.74,
+"trailingPE": 47.8635,
+"heldPercentInstitutions": 0.7996,
 "shortPercentOfFloat": 0.0348,
 "numberOfAnalystOpinions": 40.0,
 "recommendationMean": 1.3954,
@@ -1774,7 +1774,7 @@
 "upLast7days": 0.0,
 "upLast30days": 2.0,
 "downLast30days": 2.0,
-"downLast7Days": 1.0,
+"downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -1787,7 +1787,7 @@
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 1.0,
+"upLast7days": 0.0,
 "upLast30days": 7.0,
 "downLast30days": 1.0,
 "downLast7Days": 0.0,
@@ -1795,7 +1795,7 @@
 "methodology": "normalized"
 },
 "+1y": {
-"upLast7days": 2.0,
+"upLast7days": 0.0,
 "upLast30days": 26.0,
 "downLast30days": 1.0,
 "downLast7Days": 0.0,
@@ -1994,22 +1994,22 @@
 }
 ],
 "layer": "compute",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-04",
 "fund": {
-"fetched_utc": "2026-11-13T18:28:55Z",
+"fetched_utc": "2026-11-16T20:55:25Z",
 "shortName": "Arm Holdings plc",
 "sector": "Technology",
 "industry": "Semiconductors",
 "currency": "USD",
-"marketCap": 202486808576.0,
+"marketCap": 188020408320.0,
 "revenueGrowth": 0.271,
 "earningsGrowth": -0.455,
 "grossMargins": 0.9744,
 "operatingMargins": 0.1702,
-"forwardPE": 61.5435,
-"trailingPE": 217.5172,
+"forwardPE": 57.1466,
+"trailingPE": 201.977,
 "heldPercentInstitutions": 0.9582,
 "shortPercentOfFloat": 0.1071,
 "numberOfAnalystOpinions": 40.0,
@@ -2157,34 +2157,34 @@
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 1.0,
-"upLast30days": 1.0,
-"downLast30days": 0.0,
-"downLast7Days": 0.0,
+"upLast7days": 11.0,
+"upLast30days": 12.0,
+"downLast30days": 7.0,
+"downLast7Days": 7.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
 "upLast7days": 5.0,
-"upLast30days": 0.0,
-"downLast30days": 1.0,
+"upLast30days": 5.0,
+"downLast30days": 14.0,
 "downLast7Days": 13.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 1.0,
-"upLast30days": 2.0,
-"downLast30days": 0.0,
-"downLast7Days": 0.0,
+"upLast7days": 16.0,
+"upLast30days": 17.0,
+"downLast30days": 4.0,
+"downLast7Days": 4.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"upLast7days": 1.0,
-"upLast30days": 1.0,
-"downLast30days": 1.0,
-"downLast7Days": 0.0,
+"upLast7days": 10.0,
+"upLast30days": 11.0,
+"downLast30days": 9.0,
+"downLast7Days": 9.0,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -2380,23 +2380,23 @@
 }
 ],
 "layer": "compute",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-29",
 "fund": {
-"fetched_utc": "2026-11-13T18:28:56Z",
+"fetched_utc": "2026-11-16T20:55:26Z",
 "shortName": "Intel Corporation",
 "sector": "Technology",
 "industry": "Semiconductors",
 "currency": "USD",
-"marketCap": 313930448896.0,
+"marketCap": 295021281280.0,
 "revenueGrowth": 0.209,
 "earningsGrowth": -0.327,
 "grossMargins": 0.4015,
 "operatingMargins": 0.1032,
-"forwardPE": 32.9887,
+"forwardPE": 31.0017,
 "trailingPE": null,
-"heldPercentInstitutions": 0.6519,
+"heldPercentInstitutions": 0.6695,
 "shortPercentOfFloat": 0.0288,
 "numberOfAnalystOpinions": 43.0,
 "recommendationMean": 2.5102,
@@ -2507,8 +2507,8 @@
 "0q": {
 "current": 0.249,
 "7daysAgo": 0.249,
-"30daysAgo": 0.4331,
-"60daysAgo": 0.4274,
+"30daysAgo": 0.4356,
+"60daysAgo": 0.4309,
 "90daysAgo": 0.4261,
 "currency": "USD",
 "methodology": "normalized"
@@ -2516,8 +2516,8 @@
 "+1q": {
 "current": 0.2698,
 "7daysAgo": 0.2698,
-"30daysAgo": 0.3949,
-"60daysAgo": 0.3846,
+"30daysAgo": 0.4004,
+"60daysAgo": 0.3898,
 "90daysAgo": 0.3776,
 "currency": "USD",
 "methodology": "normalized"
@@ -2525,8 +2525,8 @@
 "0y": {
 "current": 1.4866,
 "7daysAgo": 1.4866,
-"30daysAgo": 1.5237,
-"60daysAgo": 1.5146,
+"30daysAgo": 1.5274,
+"60daysAgo": 1.5203,
 "90daysAgo": 1.5129,
 "currency": "USD",
 "methodology": "normalized"
@@ -2534,8 +2534,8 @@
 "+1y": {
 "current": 1.7905,
 "7daysAgo": 1.7905,
-"30daysAgo": 2.0906,
-"60daysAgo": 2.0448,
+"30daysAgo": 2.1201,
+"60daysAgo": 2.0621,
 "90daysAgo": 2.0351,
 "currency": "USD",
 "methodology": "normalized"
@@ -2551,10 +2551,10 @@
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 4.0,
+"upLast7days": 1.0,
 "upLast30days": 1.0,
 "downLast30days": 29.0,
-"downLast7Days": 9.0,
+"downLast7Days": 31.0,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -2766,23 +2766,23 @@
 }
 ],
 "layer": "compute",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-04",
 "fund": {
-"fetched_utc": "2026-11-13T18:28:57Z",
+"fetched_utc": "2026-11-16T20:55:27Z",
 "shortName": "QUALCOMM Incorporated",
 "sector": "Technology",
 "industry": "Semiconductors",
 "currency": "USD",
-"marketCap": 183932993536.0,
+"marketCap": 180712292352.0,
 "revenueGrowth": -0.084,
 "earningsGrowth": null,
 "grossMargins": 0.531,
 "operatingMargins": 0.2085,
-"forwardPE": 14.0824,
-"trailingPE": 13.5354,
-"heldPercentInstitutions": 0.8197,
+"forwardPE": 13.8358,
+"trailingPE": 13.2984,
+"heldPercentInstitutions": 0.8194,
 "shortPercentOfFloat": 0.0303,
 "numberOfAnalystOpinions": 28.0,
 "recommendationMean": 2.6216,
@@ -2929,25 +2929,25 @@
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 6.0,
+"upLast7days": 12.0,
 "upLast30days": 13.0,
 "downLast30days": 10.0,
-"downLast7Days": 6.0,
+"downLast7Days": 9.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 0.0,
-"upLast30days": 5.0,
-"downLast30days": 9.0,
-"downLast7Days": 1.0,
+"upLast7days": 8.0,
+"upLast30days": 9.0,
+"downLast30days": 13.0,
+"downLast7Days": 12.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
 "upLast7days": 6.0,
-"upLast30days": 1.0,
-"downLast30days": 5.0,
+"upLast30days": 6.0,
+"downLast30days": 21.0,
 "downLast7Days": 21.0,
 "currency": "USD",
 "methodology": "normalized"
@@ -3152,23 +3152,23 @@
 }
 ],
 "layer": "compute",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-03",
 "fund": {
-"fetched_utc": "2026-11-13T18:28:59Z",
+"fetched_utc": "2026-11-16T20:55:28Z",
 "shortName": "Astera Labs, Inc.",
 "sector": "Technology",
 "industry": "Semiconductors",
 "currency": "USD",
-"marketCap": 38842695680.0,
+"marketCap": 35510476800.0,
 "revenueGrowth": 1.537,
 "earningsGrowth": 0.98,
 "grossMargins": 0.7389,
 "operatingMargins": 0.2552,
-"forwardPE": 31.0734,
-"trailingPE": 87.8399,
-"heldPercentInstitutions": 0.7194,
+"forwardPE": 28.4077,
+"trailingPE": 80.3043,
+"heldPercentInstitutions": 0.7289,
 "shortPercentOfFloat": 0.0596,
 "numberOfAnalystOpinions": 22.0,
 "recommendationMean": 1.8,
@@ -3315,10 +3315,10 @@
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 1.0,
+"upLast7days": 17.0,
 "upLast30days": 17.0,
 "downLast30days": 1.0,
-"downLast7Days": 0.0,
+"downLast7Days": 1.0,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -3331,8 +3331,8 @@
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 1.0,
-"upLast30days": 2.0,
+"upLast7days": 18.0,
+"upLast30days": 18.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
@@ -3538,27 +3538,27 @@
 }
 ],
 "layer": "compute",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-09-01",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:00Z",
+"fetched_utc": "2026-11-16T20:55:29Z",
 "shortName": "Credo Technology Group Holding ",
 "sector": "Technology",
 "industry": "Semiconductors",
 "currency": "USD",
-"marketCap": 24670568448.0,
+"marketCap": 22813603840.0,
 "revenueGrowth": 1.147,
 "earningsGrowth": 0.971,
 "grossMargins": 0.6707,
 "operatingMargins": 0.3174,
-"forwardPE": 13.5151,
-"trailingPE": 46.5461,
-"heldPercentInstitutions": 0.7763,
+"forwardPE": 12.4978,
+"trailingPE": 43.0426,
+"heldPercentInstitutions": 0.7719,
 "shortPercentOfFloat": 0.0587,
 "numberOfAnalystOpinions": 19.0,
-"recommendationMean": 1.35,
-"targetMeanPrice": 284.0454,
+"recommendationMean": null,
+"targetMeanPrice": 277.4664,
 "revenue_q": [
 {
 "end": "2025-07-31",
@@ -3938,23 +3938,23 @@
 },
 "last_report": "2026-11-12",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:01Z",
+"fetched_utc": "2026-11-16T20:55:30Z",
 "shortName": "Cerebras Systems Inc.",
 "sector": "Technology",
 "industry": "Semiconductors",
 "currency": "USD",
-"marketCap": 25778075648.0,
+"marketCap": 24554274816.0,
 "revenueGrowth": 0.553,
 "earningsGrowth": null,
-"grossMargins": 0.2965,
+"grossMargins": 0.2971,
 "operatingMargins": -0.9926,
-"forwardPE": 66.7972,
+"forwardPE": 54.3729,
 "trailingPE": null,
-"heldPercentInstitutions": 0.851,
-"shortPercentOfFloat": 0.1978,
+"heldPercentInstitutions": 0.6362,
+"shortPercentOfFloat": 0.147,
 "numberOfAnalystOpinions": 11.0,
 "recommendationMean": 1.2727,
-"targetMeanPrice": 239.7273,
+"targetMeanPrice": 210.1818,
 "revenue_q": [
 {
 "end": "2025-03-31",
@@ -3975,96 +3975,96 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 214614210.0,
-"low": 213310000.0,
-"high": 215287000.0,
-"numberOfAnalysts": 7.0,
+"avg": 310427160.0,
+"low": 274387820.0,
+"high": 328375650.0,
+"numberOfAnalysts": 9.0,
 "yearAgoRevenue": null,
 "growth": null,
 "currency": "USD"
 },
 "+1q": {
-"avg": 409263640.0,
-"low": 373100000.0,
-"high": 475321480.0,
+"avg": 406398910.0,
+"low": 370000000.0,
+"high": 446200000.0,
 "numberOfAnalysts": 7.0,
 "yearAgoRevenue": 191348000.0,
-"growth": 1.1388,
+"growth": 1.1239,
 "currency": "USD"
 },
 "0y": {
-"avg": 900906770.0,
-"low": 885000000.0,
-"high": 952550000.0,
+"avg": 936941560.0,
+"low": 858712820.0,
+"high": 960465650.0,
 "numberOfAnalysts": 10.0,
 "yearAgoRevenue": null,
 "growth": null,
 "currency": "USD"
 },
 "+1y": {
-"avg": 2960511520.0,
-"low": 2628378000.0,
-"high": 3615796210.0,
+"avg": 2978225110.0,
+"low": 2750000000.0,
+"high": 3226403310.0,
 "numberOfAnalysts": 11.0,
-"yearAgoRevenue": 900906770.0,
-"growth": 2.2861,
+"yearAgoRevenue": 936941560.0,
+"growth": 2.1787,
 "currency": "USD"
 }
 },
 "earnings_estimate": {
 "0q": {
-"avg": null,
-"low": null,
-"high": null,
+"avg": 0.0814,
+"low": -0.06,
+"high": 0.2249,
+"numberOfAnalysts": 7.0,
 "yearAgoEps": null,
-"numberOfAnalysts": null,
 "growth": null,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"avg": -0.0504,
-"low": -0.19,
-"high": 0.1,
+"avg": 0.1258,
+"low": 0.04,
+"high": 0.4,
+"numberOfAnalysts": 7.0,
 "yearAgoEps": -0.0395,
-"numberOfAnalysts": 8.0,
-"growth": -0.276,
+"growth": 4.1844,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"avg": -0.4812,
-"low": -0.6976,
-"high": -0.2,
+"avg": 0.2889,
+"low": 0.11,
+"high": 0.4743,
+"numberOfAnalysts": 5.0,
 "yearAgoEps": null,
-"numberOfAnalysts": 8.0,
 "growth": null,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"avg": 1.3149,
-"low": 0.84,
-"high": 2.09,
-"yearAgoEps": -0.4812,
+"avg": 1.8584,
+"low": 1.04,
+"high": 2.83,
 "numberOfAnalysts": 10.0,
-"growth": 3.7325,
+"yearAgoEps": 0.2889,
+"growth": 5.433,
 "currency": "USD",
 "methodology": "normalized"
 }
 },
 "eps_trend": {
 "0q": {
-"current": null,
-"7daysAgo": null,
-"30daysAgo": null,
-"60daysAgo": null,
-"90daysAgo": null,
+"current": 0.0814,
+"7daysAgo": -0.2262,
+"30daysAgo": -0.2266,
+"60daysAgo": -0.2266,
+"90daysAgo": -0.2266,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"current": -0.0504,
+"current": 0.1258,
 "7daysAgo": -0.0907,
 "30daysAgo": -0.0765,
 "60daysAgo": -0.0765,
@@ -4073,7 +4073,7 @@
 "methodology": "normalized"
 },
 "0y": {
-"current": -0.4812,
+"current": 0.2889,
 "7daysAgo": -0.4687,
 "30daysAgo": -0.4694,
 "60daysAgo": -0.4694,
@@ -4082,7 +4082,7 @@
 "methodology": "normalized"
 },
 "+1y": {
-"current": 1.3149,
+"current": 1.8584,
 "7daysAgo": 1.2793,
 "30daysAgo": 1.2737,
 "60daysAgo": 1.2737,
@@ -4093,10 +4093,10 @@
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": null,
-"upLast30days": null,
-"downLast30days": null,
-"downLast7Days": null,
+"upLast7days": 1.0,
+"upLast30days": 1.0,
+"downLast30days": 0.0,
+"downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -4109,7 +4109,7 @@
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 9.0,
+"upLast7days": 1.0,
 "upLast30days": 1.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
@@ -4117,7 +4117,7 @@
 "methodology": "normalized"
 },
 "+1y": {
-"upLast7days": 9.0,
+"upLast7days": 1.0,
 "upLast30days": 1.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
@@ -4134,10 +4134,10 @@
 "methodology": "normalized"
 },
 "2026-06-30 00:00:00": {
-"epsActual": -2.98,
-"epsEstimate": -1.6745,
-"epsDifference": -1.31,
-"surprisePercent": -0.7796,
+"epsActual": -0.0458,
+"epsEstimate": -0.1801,
+"epsDifference": 0.13,
+"surprisePercent": 0.7457,
 "methodology": "normalized"
 },
 "2026-09-30 00:00:00": {
@@ -4309,23 +4309,23 @@
 }
 ],
 "layer": "memory",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-09-30",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:02Z",
+"fetched_utc": "2026-11-16T20:55:31Z",
 "shortName": "Micron Technology, Inc.",
 "sector": "Technology",
 "industry": "Semiconductors",
 "currency": "USD",
-"marketCap": 864000081920.0,
+"marketCap": 813380206592.0,
 "revenueGrowth": 3.793,
 "earningsGrowth": 10.595,
 "grossMargins": 0.8072,
 "operatingMargins": 0.7459,
-"forwardPE": 3.6756,
-"trailingPE": 10.2736,
-"heldPercentInstitutions": 0.8022,
+"forwardPE": 3.4602,
+"trailingPE": 9.6717,
+"heldPercentInstitutions": 0.8035,
 "shortPercentOfFloat": 0.0207,
 "numberOfAnalystOpinions": 45.0,
 "recommendationMean": 1.3469,
@@ -4489,8 +4489,8 @@
 },
 "0y": {
 "upLast7days": 0.0,
-"upLast30days": 29.0,
-"downLast30days": 2.0,
+"upLast30days": 1.0,
+"downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
@@ -4695,23 +4695,23 @@
 }
 ],
 "layer": "memory",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-22",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:03Z",
+"fetched_utc": "2026-11-16T20:55:32Z",
 "shortName": "Western Digital Corporation",
 "sector": "Technology",
 "industry": "Computer Hardware",
 "currency": "USD",
-"marketCap": 109545701376.0,
+"marketCap": 105117458432.0,
 "revenueGrowth": 0.555,
 "earningsGrowth": 0.509,
 "grossMargins": 0.526,
 "operatingMargins": 0.4088,
-"forwardPE": 7.2429,
-"trailingPE": 10.2937,
-"heldPercentInstitutions": 0.8983,
+"forwardPE": 6.9502,
+"trailingPE": 9.8776,
+"heldPercentInstitutions": 0.8952,
 "shortPercentOfFloat": 0.0518,
 "numberOfAnalystOpinions": 24.0,
 "recommendationMean": 1.5,
@@ -5081,23 +5081,23 @@
 }
 ],
 "layer": "memory",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-27",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:04Z",
+"fetched_utc": "2026-11-16T20:55:33Z",
 "shortName": "Seagate Technology Holdings PLC",
 "sector": "Technology",
 "industry": "Computer Hardware",
 "currency": "USD",
-"marketCap": 119925006336.0,
+"marketCap": 114456870912.0,
 "revenueGrowth": 0.61,
 "earningsGrowth": 2.123,
 "grossMargins": 0.5035,
 "operatingMargins": 0.4049,
-"forwardPE": 7.9951,
-"trailingPE": 27.3943,
-"heldPercentInstitutions": 0.8714,
+"forwardPE": 7.6305,
+"trailingPE": 26.1453,
+"heldPercentInstitutions": 0.8727,
 "shortPercentOfFloat": 0.0368,
 "numberOfAnalystOpinions": 24.0,
 "recommendationMean": 1.4231,
@@ -5481,19 +5481,19 @@
 },
 "last_report": "2026-10-29",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:05Z",
+"fetched_utc": "2026-11-16T20:55:34Z",
 "shortName": "Sandisk Corporation",
 "sector": "Technology",
 "industry": "Computer Hardware",
 "currency": "USD",
-"marketCap": 123154292736.0,
+"marketCap": 115567419392.0,
 "revenueGrowth": 3.779,
 "earningsGrowth": 69.133,
 "grossMargins": 0.7995,
 "operatingMargins": 0.7268,
-"forwardPE": 2.9943,
-"trailingPE": 6.9175,
-"heldPercentInstitutions": 0.7998,
+"forwardPE": 2.8099,
+"trailingPE": 6.4914,
+"heldPercentInstitutions": 0.8185,
 "shortPercentOfFloat": 0.0346,
 "numberOfAnalystOpinions": 24.0,
 "recommendationMean": 1.48,
@@ -5522,7 +5522,7 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 12506326860.0,
+"avg": 12506351860.0,
 "low": 12393328500.0,
 "high": 13023891000.0,
 "numberOfAnalysts": 16.0,
@@ -5531,7 +5531,7 @@
 "currency": "USD"
 },
 "+1q": {
-"avg": 12478210170.0,
+"avg": 12478235170.0,
 "low": 11672656450.0,
 "high": 13378800000.0,
 "numberOfAnalysts": 16.0,
@@ -5549,7 +5549,7 @@
 "currency": "USD"
 },
 "+1y": {
-"avg": 61323552670.0,
+"avg": 61323562670.0,
 "low": 53838113560.0,
 "high": 80249200000.0,
 "numberOfAnalysts": 20.0,
@@ -5603,37 +5603,37 @@
 "eps_trend": {
 "0q": {
 "current": 57.1181,
-"7daysAgo": 53.0924,
-"30daysAgo": 52.9374,
+"7daysAgo": 57.1181,
+"30daysAgo": 53.0924,
 "60daysAgo": 52.9347,
-"90daysAgo": 52.866,
+"90daysAgo": 52.4121,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
 "current": 57.5219,
-"7daysAgo": 54.8416,
-"30daysAgo": 54.739,
+"7daysAgo": 57.5219,
+"30daysAgo": 54.8416,
 "60daysAgo": 54.8358,
-"90daysAgo": 50.8651,
+"90daysAgo": 54.0951,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
 "current": 227.4808,
-"7daysAgo": 215.4188,
-"30daysAgo": 214.3824,
+"7daysAgo": 227.8023,
+"30daysAgo": 214.8233,
 "60daysAgo": 214.0982,
-"90daysAgo": 212.1455,
+"90daysAgo": 213.2349,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
 "current": 289.054,
-"7daysAgo": 266.2971,
-"30daysAgo": 265.2415,
+"7daysAgo": 287.2584,
+"30daysAgo": 266.2971,
 "60daysAgo": 264.7216,
-"90daysAgo": 261.165,
+"90daysAgo": 265.1222,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -5656,15 +5656,15 @@
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 17.0,
-"upLast30days": 17.0,
+"upLast7days": 18.0,
+"upLast30days": 18.0,
 "downLast30days": 2.0,
 "downLast7Days": 2.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"upLast7days": 14.0,
+"upLast7days": 15.0,
 "upLast30days": 15.0,
 "downLast30days": 3.0,
 "downLast7Days": 3.0,
@@ -5863,23 +5863,23 @@
 }
 ],
 "layer": "network",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-03",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:06Z",
+"fetched_utc": "2026-11-16T20:55:35Z",
 "shortName": "Arista Networks, Inc.",
 "sector": "Technology",
 "industry": "Computer Hardware",
 "currency": "USD",
-"marketCap": 249262964736.0,
+"marketCap": 235258167296.0,
 "revenueGrowth": 0.585,
 "earningsGrowth": 0.821,
 "grossMargins": 0.6288,
 "operatingMargins": 0.4383,
-"forwardPE": 32.681,
-"trailingPE": 52.8941,
-"heldPercentInstitutions": 0.7402,
+"forwardPE": 30.8448,
+"trailingPE": 49.9223,
+"heldPercentInstitutions": 0.7407,
 "shortPercentOfFloat": 0.0115,
 "numberOfAnalystOpinions": 29.0,
 "recommendationMean": 1.3,
@@ -6026,15 +6026,15 @@
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 2.0,
-"upLast30days": 2.0,
+"upLast7days": 16.0,
+"upLast30days": 16.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 2.0,
+"upLast7days": 11.0,
 "upLast30days": 12.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
@@ -6042,7 +6042,7 @@
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 16.0,
+"upLast7days": 18.0,
 "upLast30days": 18.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
@@ -6050,8 +6050,8 @@
 "methodology": "normalized"
 },
 "+1y": {
-"upLast7days": 16.0,
-"upLast30days": 17.0,
+"upLast7days": 18.0,
+"upLast30days": 18.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
@@ -6249,27 +6249,27 @@
 }
 ],
 "layer": "network",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-12",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:07Z",
+"fetched_utc": "2026-11-16T20:55:36Z",
 "shortName": "Cisco Systems, Inc.",
 "sector": "Technology",
 "industry": "Communication Equipment",
 "currency": "USD",
-"marketCap": 377739247616.0,
-"revenueGrowth": 0.176,
-"earningsGrowth": 0.521,
-"grossMargins": 0.6452,
-"operatingMargins": 0.2539,
-"forwardPE": 16.1994,
-"trailingPE": 25.4814,
-"heldPercentInstitutions": 0.8232,
+"marketCap": 371631226880.0,
+"revenueGrowth": 0.244,
+"earningsGrowth": 0.583,
+"grossMargins": 0.6407,
+"operatingMargins": 0.2717,
+"forwardPE": 15.6531,
+"trailingPE": 25.1051,
+"heldPercentInstitutions": 0.8208,
 "shortPercentOfFloat": 0.0155,
 "numberOfAnalystOpinions": 24.0,
 "recommendationMean": 1.8571,
-"targetMeanPrice": 134.0,
+"targetMeanPrice": 129.9583,
 "revenue_q": [
 {
 "end": "2025-07-31",
@@ -6294,116 +6294,116 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 18165918060.0,
-"low": 18100000000.0,
+"avg": 18157232460.0,
+"low": 18096000000.0,
 "high": 18347190000.0,
-"numberOfAnalysts": 9.0,
+"numberOfAnalysts": 20.0,
 "yearAgoRevenue": 15349000000.0,
-"growth": 0.1835,
+"growth": 0.183,
 "currency": "USD"
 },
 "+1q": {
-"avg": 18652391890.0,
+"avg": 18707727620.0,
 "low": 18160000000.0,
-"high": 18866000000.0,
-"numberOfAnalysts": 9.0,
+"high": 19085000000.0,
+"numberOfAnalysts": 19.0,
 "yearAgoRevenue": 15841000000.0,
-"growth": 0.1775,
+"growth": 0.181,
 "currency": "USD"
 },
 "0y": {
-"avg": 74026687760.0,
-"low": 72720873500.0,
-"high": 76656000000.0,
-"numberOfAnalysts": 25.0,
+"avg": 75078159540.0,
+"low": 72970000000.0,
+"high": 75799200000.0,
+"numberOfAnalysts": 24.0,
 "yearAgoRevenue": 63325000000.0,
-"growth": 0.169,
+"growth": 0.1856,
 "currency": "USD"
 },
 "+1y": {
-"avg": 79624487080.0,
-"low": 72800000000.0,
-"high": 87642000000.0,
-"numberOfAnalysts": 26.0,
-"yearAgoRevenue": 74026687760.0,
-"growth": 0.0756,
+"avg": 81412792360.0,
+"low": 78025000000.0,
+"high": 88617700000.0,
+"numberOfAnalysts": 25.0,
+"yearAgoRevenue": 75078159540.0,
+"growth": 0.0844,
 "currency": "USD"
 }
 },
 "earnings_estimate": {
 "0q": {
-"avg": 1.3523,
-"low": 1.3308,
+"avg": 1.3461,
+"low": 1.3283,
 "high": 1.38,
 "yearAgoEps": 1.04,
-"numberOfAnalysts": 9.0,
-"growth": 0.3003,
+"numberOfAnalysts": 22.0,
+"growth": 0.2943,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"avg": 1.349,
+"avg": 1.3404,
 "low": 1.3,
-"high": 1.43,
+"high": 1.37,
 "yearAgoEps": 1.06,
-"numberOfAnalysts": 9.0,
-"growth": 0.2726,
+"numberOfAnalysts": 21.0,
+"growth": 0.2645,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"avg": 5.5083,
+"avg": 5.5035,
 "low": 5.45,
 "high": 5.6,
 "yearAgoEps": 4.33,
-"numberOfAnalysts": 9.0,
-"growth": 0.2721,
+"numberOfAnalysts": 23.0,
+"growth": 0.271,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"avg": 5.7702,
-"low": 5.33,
-"high": 6.81,
-"yearAgoEps": 5.5083,
+"avg": 6.0065,
+"low": 5.48,
+"high": 6.94,
+"yearAgoEps": 5.5035,
 "numberOfAnalysts": 28.0,
-"growth": 0.0476,
+"growth": 0.0914,
 "currency": "USD",
 "methodology": "normalized"
 }
 },
 "eps_trend": {
 "0q": {
-"current": 1.3523,
+"current": 1.3461,
 "7daysAgo": 1.2306,
-"30daysAgo": 1.2311,
+"30daysAgo": 1.2306,
 "60daysAgo": 1.2321,
 "90daysAgo": 1.232,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"current": 1.349,
+"current": 1.3404,
 "7daysAgo": 1.2531,
-"30daysAgo": 1.2532,
+"30daysAgo": 1.2531,
 "60daysAgo": 1.2531,
 "90daysAgo": 1.2523,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"current": 5.5083,
+"current": 5.5035,
 "7daysAgo": 5.146,
-"30daysAgo": 5.1488,
+"30daysAgo": 5.146,
 "60daysAgo": 5.1426,
 "90daysAgo": 5.1263,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"current": 5.7702,
+"current": 6.0065,
 "7daysAgo": 5.622,
-"30daysAgo": 5.6333,
+"30daysAgo": 5.622,
 "60daysAgo": 5.6023,
 "90daysAgo": 5.5825,
 "currency": "USD",
@@ -6635,27 +6635,27 @@
 }
 ],
 "layer": "network",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-09-03",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:08Z",
+"fetched_utc": "2026-11-16T20:55:37Z",
 "shortName": "Ciena Corporation",
 "sector": "Technology",
 "industry": "Communication Equipment",
 "currency": "USD",
-"marketCap": 39546142720.0,
+"marketCap": 36405084160.0,
 "revenueGrowth": 0.37,
 "earningsGrowth": 4.229,
 "grossMargins": 0.4407,
 "operatingMargins": 0.1412,
-"forwardPE": 23.5079,
-"trailingPE": 62.387,
-"heldPercentInstitutions": 0.9037,
+"forwardPE": 21.6407,
+"trailingPE": 57.4318,
+"heldPercentInstitutions": 0.9137,
 "shortPercentOfFloat": 0.0433,
 "numberOfAnalystOpinions": 20.0,
 "recommendationMean": 1.6667,
-"targetMeanPrice": 512.9907,
+"targetMeanPrice": 511.7407,
 "revenue_q": [
 {
 "end": "2025-07-31",
@@ -7021,23 +7021,23 @@
 }
 ],
 "layer": "network",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-04",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:09Z",
+"fetched_utc": "2026-11-16T20:55:38Z",
 "shortName": "Coherent Corp.",
 "sector": "Technology",
 "industry": "Scientific & Technical Instruments",
 "currency": "USD",
-"marketCap": 42332327936.0,
+"marketCap": 39976701952.0,
 "revenueGrowth": 0.499,
 "earningsGrowth": 0.601,
 "grossMargins": 0.3816,
 "operatingMargins": 0.1411,
-"forwardPE": 13.6128,
-"trailingPE": 44.499,
-"heldPercentInstitutions": 0.8645,
+"forwardPE": 12.8553,
+"trailingPE": 42.0228,
+"heldPercentInstitutions": 0.8625,
 "shortPercentOfFloat": 0.051,
 "numberOfAnalystOpinions": 25.0,
 "recommendationMean": 1.5385,
@@ -7066,30 +7066,30 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 2644924470.0,
-"low": 2490000000.0,
+"avg": 2654037670.0,
+"low": 2617060000.0,
 "high": 2711551910.0,
-"numberOfAnalysts": 18.0,
+"numberOfAnalysts": 17.0,
 "yearAgoRevenue": 1685600000.0,
-"growth": 0.5691,
+"growth": 0.5745,
 "currency": "USD"
 },
 "+1q": {
-"avg": 2927190720.0,
-"low": 2686200000.0,
+"avg": 2941366640.0,
+"low": 2850000000.0,
 "high": 3022800000.0,
-"numberOfAnalysts": 18.0,
+"numberOfAnalysts": 17.0,
 "yearAgoRevenue": 1805600000.0,
-"growth": 0.6212,
+"growth": 0.629,
 "currency": "USD"
 },
 "0y": {
-"avg": 11169184730.0,
-"low": 10380400000.0,
+"avg": 11205038580.0,
+"low": 10892300000.0,
 "high": 11500000000.0,
-"numberOfAnalysts": 23.0,
+"numberOfAnalysts": 22.0,
 "yearAgoRevenue": 7118200000.0,
-"growth": 0.5691,
+"growth": 0.5741,
 "currency": "USD"
 },
 "+1y": {
@@ -7097,8 +7097,8 @@
 "low": 13698000000.0,
 "high": 18714000000.0,
 "numberOfAnalysts": 21.0,
-"yearAgoRevenue": 11169184730.0,
-"growth": 0.3988,
+"yearAgoRevenue": 11205038580.0,
+"growth": 0.3943,
 "currency": "USD"
 }
 },
@@ -7184,7 +7184,7 @@
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 2.0,
+"upLast7days": 12.0,
 "upLast30days": 12.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
@@ -7200,17 +7200,17 @@
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 2.0,
-"upLast30days": 2.0,
-"downLast30days": 1.0,
+"upLast7days": 16.0,
+"upLast30days": 15.0,
+"downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"upLast7days": 1.0,
-"upLast30days": 3.0,
-"downLast30days": 1.0,
+"upLast7days": 13.0,
+"upLast30days": 12.0,
+"downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
@@ -7407,23 +7407,23 @@
 }
 ],
 "layer": "network",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-02",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:10Z",
+"fetched_utc": "2026-11-16T20:55:39Z",
 "shortName": "Lumentum Holdings Inc.",
 "sector": "Technology",
 "industry": "Communication Equipment",
 "currency": "USD",
-"marketCap": 53861396480.0,
+"marketCap": 49406046208.0,
 "revenueGrowth": 1.365,
 "earningsGrowth": 69.8,
 "grossMargins": 0.4797,
 "operatingMargins": 0.2335,
-"forwardPE": 14.7987,
+"forwardPE": 13.5746,
 "trailingPE": null,
-"heldPercentInstitutions": 0.9332,
+"heldPercentInstitutions": 0.9396,
 "shortPercentOfFloat": 0.0897,
 "numberOfAnalystOpinions": 25.0,
 "recommendationMean": 1.6,
@@ -7571,7 +7571,7 @@
 "eps_revisions": {
 "0q": {
 "upLast7days": 14.0,
-"upLast30days": 5.0,
+"upLast30days": 14.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
@@ -7586,8 +7586,8 @@
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 1.0,
-"upLast30days": 9.0,
+"upLast7days": 17.0,
+"upLast30days": 16.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
@@ -7793,23 +7793,23 @@
 }
 ],
 "layer": "network",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-02",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:11Z",
+"fetched_utc": "2026-11-16T20:55:40Z",
 "shortName": "Fabrinet",
 "sector": "Technology",
 "industry": "Electronic Components",
 "currency": "USD",
-"marketCap": 11620336640.0,
+"marketCap": 11103861760.0,
 "revenueGrowth": 0.507,
 "earningsGrowth": 0.075,
 "grossMargins": 0.1195,
 "operatingMargins": 0.1004,
-"forwardPE": 13.4934,
-"trailingPE": 24.554,
-"heldPercentInstitutions": 0.9615,
+"forwardPE": 12.8937,
+"trailingPE": 23.4626,
+"heldPercentInstitutions": 0.9346,
 "shortPercentOfFloat": 0.0609,
 "numberOfAnalystOpinions": 9.0,
 "recommendationMean": 1.7778,
@@ -7965,15 +7965,15 @@
 },
 "+1q": {
 "upLast7days": 6.0,
-"upLast30days": 2.0,
+"upLast30days": 7.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 1.0,
-"upLast30days": 3.0,
+"upLast7days": 6.0,
+"upLast30days": 7.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
@@ -8179,23 +8179,23 @@
 }
 ],
 "layer": "network",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-08-06",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:12Z",
+"fetched_utc": "2026-11-16T20:55:41Z",
 "shortName": "Applied Optoelectronics, Inc.",
 "sector": "Technology",
 "industry": "Communication Equipment",
 "currency": "USD",
-"marketCap": 4465003520.0,
+"marketCap": 4082413824.0,
 "revenueGrowth": 1.275,
 "earningsGrowth": null,
 "grossMargins": 0.288,
 "operatingMargins": -0.0678,
-"forwardPE": 13.1232,
+"forwardPE": 11.9987,
 "trailingPE": null,
-"heldPercentInstitutions": 0.6108,
+"heldPercentInstitutions": 0.6116,
 "shortPercentOfFloat": 0.2075,
 "numberOfAnalystOpinions": 5.0,
 "recommendationMean": 2.0,
@@ -8342,18 +8342,18 @@
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 3.0,
-"upLast30days": 3.0,
-"downLast30days": 3.0,
-"downLast7Days": 3.0,
+"upLast7days": 1.0,
+"upLast30days": 1.0,
+"downLast30days": 1.0,
+"downLast7Days": 1.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 2.0,
+"upLast7days": 0.0,
 "upLast30days": 0.0,
 "downLast30days": 2.0,
-"downLast7Days": 3.0,
+"downLast7Days": 2.0,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -8565,26 +8565,26 @@
 }
 ],
 "layer": "network",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-26",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:13Z",
+"fetched_utc": "2026-11-16T20:55:42Z",
 "shortName": "Celestica, Inc.",
 "sector": "Technology",
 "industry": "Electronic Components",
 "currency": "USD",
-"marketCap": 30002628608.0,
+"marketCap": 30005782528.0,
 "revenueGrowth": 0.825,
 "earningsGrowth": 0.411,
 "grossMargins": 0.1146,
 "operatingMargins": 0.0832,
-"forwardPE": 10.7029,
-"trailingPE": 22.4439,
-"heldPercentInstitutions": 0.6633,
+"forwardPE": 10.6697,
+"trailingPE": 22.4462,
+"heldPercentInstitutions": 0.688,
 "shortPercentOfFloat": 0.0371,
 "numberOfAnalystOpinions": 18.0,
-"recommendationMean": 1.2381,
+"recommendationMean": 1.2273,
 "targetMeanPrice": 456.1701,
 "revenue_q": [
 {
@@ -8610,39 +8610,39 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 6465842510.0,
+"avg": 6475184600.0,
 "low": 6310000000.0,
 "high": 6687000000.0,
-"numberOfAnalysts": 17.0,
+"numberOfAnalysts": 18.0,
 "yearAgoRevenue": 3654900000.0,
-"growth": 0.7691,
+"growth": 0.7716,
 "currency": "USD"
 },
 "+1q": {
-"avg": 7426488180.0,
+"avg": 7459856680.0,
 "low": 7060100000.0,
 "high": 8012000000.0,
-"numberOfAnalysts": 11.0,
+"numberOfAnalysts": 13.0,
 "yearAgoRevenue": 4047000000.0,
-"growth": 0.8351,
+"growth": 0.8433,
 "currency": "USD"
 },
 "0y": {
-"avg": 21037951940.0,
+"avg": 21046954470.0,
 "low": 20966000000.0,
 "high": 21262050000.0,
-"numberOfAnalysts": 18.0,
+"numberOfAnalysts": 19.0,
 "yearAgoRevenue": 12390900000.0,
-"growth": 0.6979,
+"growth": 0.6986,
 "currency": "USD"
 },
 "+1y": {
-"avg": 40207919360.0,
+"avg": 40262034950.0,
 "low": 39761578740.0,
-"high": 40907000000.0,
-"numberOfAnalysts": 17.0,
-"yearAgoRevenue": 21037951940.0,
-"growth": 0.9112,
+"high": 41182000000.0,
+"numberOfAnalysts": 18.0,
+"yearAgoRevenue": 21046954470.0,
+"growth": 0.913,
 "currency": "USD"
 }
 },
@@ -8658,32 +8658,32 @@
 "methodology": "normalized"
 },
 "+1q": {
-"avg": 3.9202,
+"avg": 3.9408,
 "low": 3.58,
-"high": 4.35,
+"high": 4.5,
 "yearAgoEps": 2.16,
-"numberOfAnalysts": 14.0,
-"growth": 0.8149,
+"numberOfAnalysts": 16.0,
+"growth": 0.8244,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"avg": 11.5557,
+"avg": 11.5714,
 "low": 11.43,
-"high": 11.69,
+"high": 11.9,
 "yearAgoEps": 6.05,
-"numberOfAnalysts": 21.0,
-"growth": 0.91,
+"numberOfAnalysts": 22.0,
+"growth": 0.9126,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"avg": 21.7591,
+"avg": 21.7726,
 "low": 20.65,
 "high": 23.6,
-"yearAgoEps": 11.6348,
-"numberOfAnalysts": 7.0,
-"growth": 0.8702,
+"yearAgoEps": 11.6538,
+"numberOfAnalysts": 9.0,
+"growth": 0.8683,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -8699,61 +8699,61 @@
 "methodology": "normalized"
 },
 "+1q": {
-"current": 3.9202,
-"7daysAgo": 3.9267,
-"30daysAgo": 3.9337,
+"current": 3.9408,
+"7daysAgo": 3.9035,
+"30daysAgo": 3.9267,
 "60daysAgo": 3.9479,
-"90daysAgo": 4.0341,
+"90daysAgo": 3.9683,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"current": 11.5557,
-"7daysAgo": 11.5553,
-"30daysAgo": 11.2054,
+"current": 11.5714,
+"7daysAgo": 11.5557,
+"30daysAgo": 11.1802,
 "60daysAgo": 11.2174,
 "90daysAgo": 11.238,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"current": 21.7591,
-"7daysAgo": 19.3605,
+"current": 21.7726,
+"7daysAgo": 21.6942,
 "30daysAgo": 19.3605,
 "60daysAgo": 19.3605,
-"90daysAgo": 19.529,
+"90daysAgo": 19.5301,
 "currency": "USD",
 "methodology": "normalized"
 }
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 2.0,
+"upLast7days": 0.0,
 "upLast30days": 6.0,
-"downLast30days": 3.0,
-"downLast7Days": 3.0,
+"downLast30days": 4.0,
+"downLast7Days": 1.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 3.0,
+"upLast7days": 0.0,
 "upLast30days": 13.0,
-"downLast30days": 8.0,
-"downLast7Days": 8.0,
+"downLast30days": 10.0,
+"downLast7Days": 1.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 17.0,
-"upLast30days": 17.0,
+"upLast7days": 2.0,
+"upLast30days": 20.0,
 "downLast30days": 1.0,
 "downLast7Days": 2.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"upLast7days": 7.0,
-"upLast30days": 7.0,
+"upLast7days": 0.0,
+"upLast30days": 8.0,
 "downLast30days": 0.0,
 "downLast7Days": 1.0,
 "currency": "USD",
@@ -8951,23 +8951,23 @@
 }
 ],
 "layer": "network",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-28",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:14Z",
+"fetched_utc": "2026-11-16T20:55:43Z",
 "shortName": "Amphenol Corporation",
 "sector": "Technology",
 "industry": "Electronic Components",
 "currency": "USD",
-"marketCap": 191664062464.0,
+"marketCap": 185960071168.0,
 "revenueGrowth": 0.651,
 "earningsGrowth": 0.612,
 "grossMargins": 0.3921,
 "operatingMargins": 0.2873,
-"forwardPE": 21.4145,
-"trailingPE": 33.7478,
-"heldPercentInstitutions": 0.9514,
+"forwardPE": 20.7772,
+"trailingPE": 32.7435,
+"heldPercentInstitutions": 0.9565,
 "shortPercentOfFloat": 0.0128,
 "numberOfAnalystOpinions": 19.0,
 "recommendationMean": 1.421,
@@ -9114,6 +9114,14 @@
 },
 "eps_revisions": {
 "0q": {
+"upLast7days": 13.0,
+"upLast30days": 13.0,
+"downLast30days": 0.0,
+"downLast7Days": 0.0,
+"currency": "USD",
+"methodology": "normalized"
+},
+"+1q": {
 "upLast7days": 9.0,
 "upLast30days": 9.0,
 "downLast30days": 0.0,
@@ -9121,25 +9129,17 @@
 "currency": "USD",
 "methodology": "normalized"
 },
-"+1q": {
-"upLast7days": 7.0,
-"upLast30days": 7.0,
-"downLast30days": 0.0,
-"downLast7Days": 0.0,
-"currency": "USD",
-"methodology": "normalized"
-},
 "0y": {
 "upLast7days": 16.0,
-"upLast30days": 11.0,
+"upLast30days": 16.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"upLast7days": 11.0,
-"upLast30days": 11.0,
+"upLast7days": 16.0,
+"upLast30days": 16.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
@@ -9337,27 +9337,27 @@
 }
 ],
 "layer": "network",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-09-02",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:15Z",
+"fetched_utc": "2026-11-16T20:55:44Z",
 "shortName": "Hewlett Packard Enterprise Comp",
 "sector": "Technology",
 "industry": "Communication Equipment",
 "currency": "USD",
-"marketCap": 63698399232.0,
+"marketCap": 61687291904.0,
 "revenueGrowth": 0.337,
 "earningsGrowth": 4.102,
 "grossMargins": 0.3662,
 "operatingMargins": 0.0812,
-"forwardPE": 10.1334,
-"trailingPE": 24.7345,
-"heldPercentInstitutions": 0.9104,
+"forwardPE": 9.8203,
+"trailingPE": 23.9536,
+"heldPercentInstitutions": 0.9158,
 "shortPercentOfFloat": 0.0398,
 "numberOfAnalystOpinions": 21.0,
 "recommendationMean": 1.9583,
-"targetMeanPrice": 72.2019,
+"targetMeanPrice": 71.8209,
 "revenue_q": [
 {
 "end": "2025-07-31",
@@ -9463,60 +9463,60 @@
 "eps_trend": {
 "0q": {
 "current": 1.2772,
-"7daysAgo": 1.2729,
+"7daysAgo": 1.2772,
 "30daysAgo": 1.2729,
-"60daysAgo": 1.2694,
-"90daysAgo": 1.0569,
+"60daysAgo": 1.2684,
+"90daysAgo": 1.0604,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
 "current": 1.0503,
-"7daysAgo": 1.0417,
-"30daysAgo": 1.041,
-"60daysAgo": 1.0184,
-"90daysAgo": 0.9224,
+"7daysAgo": 1.0503,
+"30daysAgo": 1.0417,
+"60daysAgo": 1.0255,
+"90daysAgo": 0.9266,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
 "current": 3.8307,
-"7daysAgo": 3.8261,
+"7daysAgo": 3.8307,
 "30daysAgo": 3.8261,
-"60daysAgo": 3.8208,
-"90daysAgo": 3.4258,
+"60daysAgo": 3.8223,
+"90daysAgo": 3.4325,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
 "current": 4.7354,
-"7daysAgo": 4.7088,
-"30daysAgo": 4.6993,
-"60daysAgo": 4.5958,
-"90daysAgo": 4.0498,
+"7daysAgo": 4.7354,
+"30daysAgo": 4.7088,
+"60daysAgo": 4.5973,
+"90daysAgo": 4.0748,
 "currency": "USD",
 "methodology": "normalized"
 }
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 3.0,
+"upLast7days": 2.0,
 "upLast30days": 2.0,
 "downLast30days": 0.0,
-"downLast7Days": 1.0,
+"downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 7.0,
+"upLast7days": 1.0,
 "upLast30days": 1.0,
 "downLast30days": 0.0,
-"downLast7Days": 1.0,
+"downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 0.0,
+"upLast7days": 2.0,
 "upLast30days": 2.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
@@ -9524,8 +9524,8 @@
 "methodology": "normalized"
 },
 "+1y": {
-"upLast7days": 0.0,
-"upLast30days": 12.0,
+"upLast7days": 2.0,
+"upLast30days": 2.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
@@ -9576,7 +9576,7 @@
 "sma200": 401.6695,
 "sma200_slope20": 8.2619,
 "hi52": 487.47,
-"lo52": 264.0257,
+"lo52": 264.0256,
 "vol50": 12272076.0,
 "ret21": -0.0557,
 "ret63": -0.0723,
@@ -9723,23 +9723,23 @@
 }
 ],
 "layer": "foundry",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-15",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:16Z",
+"fetched_utc": "2026-11-16T20:55:45Z",
 "shortName": "Taiwan Semiconductor Manufactur",
 "sector": "Technology",
 "industry": "Semiconductors",
 "currency": "USD",
-"marketCap": 2057473884160.0,
+"marketCap": 1937795973120.0,
 "revenueGrowth": 0.509,
 "earningsGrowth": 0.687,
 "grossMargins": 0.6585,
 "operatingMargins": 0.5796,
-"forwardPE": 16.9637,
-"trailingPE": 25.7097,
-"heldPercentInstitutions": 0.1535,
+"forwardPE": 15.9769,
+"trailingPE": 24.2142,
+"heldPercentInstitutions": 0.1543,
 "shortPercentOfFloat": 0.0066,
 "numberOfAnalystOpinions": 20.0,
 "recommendationMean": 1.3809,
@@ -9961,8 +9961,8 @@
 "sma150": 1668.552,
 "sma200": 1598.0596,
 "sma200_slope20": 25.7295,
-"hi52": 1994.7452,
-"lo52": 940.3462,
+"hi52": 1994.7453,
+"lo52": 940.3461,
 "vol50": 1554370.0,
 "ret21": -0.0967,
 "ret63": -0.205,
@@ -10109,27 +10109,27 @@
 }
 ],
 "layer": "foundry",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-14",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:17Z",
+"fetched_utc": "2026-11-16T20:55:46Z",
 "shortName": "ASML Holding N.V. - New York Re",
 "sector": "Technology",
 "industry": "Semiconductor Equipment & Materials",
 "currency": "USD",
-"marketCap": 571165900800.0,
+"marketCap": 543130648576.0,
 "revenueGrowth": 0.552,
 "earningsGrowth": 1.359,
 "grossMargins": 0.5434,
 "operatingMargins": 0.3855,
-"forwardPE": 23.3747,
-"trailingPE": 36.4651,
-"heldPercentInstitutions": 0.1996,
+"forwardPE": 22.2274,
+"trailingPE": 34.6752,
+"heldPercentInstitutions": 0.1987,
 "shortPercentOfFloat": 0.003,
 "numberOfAnalystOpinions": 17.0,
 "recommendationMean": 1.3659,
-"targetMeanPrice": 2116.731,
+"targetMeanPrice": 2109.7456,
 "revenue_q": [
 {
 "end": "2025-09-30",
@@ -10297,7 +10297,7 @@
 },
 "+1y": {
 "upLast7days": 1.0,
-"upLast30days": 21.0,
+"upLast30days": 22.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "EUR",
@@ -10495,27 +10495,27 @@
 }
 ],
 "layer": "foundry",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-12",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:18Z",
+"fetched_utc": "2026-11-16T20:55:47Z",
 "shortName": "Applied Materials, Inc.",
 "sector": "Technology",
 "industry": "Semiconductor Equipment & Materials",
 "currency": "USD",
-"marketCap": 288718684160.0,
+"marketCap": 277937684480.0,
 "revenueGrowth": 0.531,
 "earningsGrowth": 0.431,
 "grossMargins": 0.4999,
 "operatingMargins": 0.3294,
-"forwardPE": 14.8271,
-"trailingPE": 28.8281,
-"heldPercentInstitutions": 0.8389,
+"forwardPE": 14.2173,
+"trailingPE": 27.7516,
+"heldPercentInstitutions": 0.8396,
 "shortPercentOfFloat": 0.0183,
-"numberOfAnalystOpinions": 36.0,
-"recommendationMean": 1.425,
-"targetMeanPrice": 608.2778,
+"numberOfAnalystOpinions": 35.0,
+"recommendationMean": 1.4872,
+"targetMeanPrice": 566.1429,
 "revenue_q": [
 {
 "end": "2025-07-31",
@@ -10540,118 +10540,118 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 10949257090.0,
-"low": 10462000000.0,
+"avg": 11111092920.0,
+"low": 10600000000.0,
 "high": 11470834000.0,
-"numberOfAnalysts": 23.0,
+"numberOfAnalysts": 24.0,
 "yearAgoRevenue": 7012000000.0,
-"growth": 0.5615,
+"growth": 0.5846,
 "currency": "USD"
 },
 "+1q": {
-"avg": 11466765950.0,
-"low": 10812000000.0,
+"avg": 11635695530.0,
+"low": 10900000000.0,
 "high": 12333200000.0,
-"numberOfAnalysts": 23.0,
+"numberOfAnalysts": 24.0,
 "yearAgoRevenue": 7910000000.0,
-"growth": 0.4497,
+"growth": 0.471,
 "currency": "USD"
 },
 "0y": {
-"avg": 47144752780.0,
-"low": 43085000000.0,
+"avg": 47851126310.0,
+"low": 45278000000.0,
 "high": 51005700000.0,
 "numberOfAnalysts": 33.0,
 "yearAgoRevenue": 34446000000.0,
-"growth": 0.3687,
+"growth": 0.3892,
 "currency": "USD"
 },
 "+1y": {
-"avg": 56702778470.0,
+"avg": 57836585880.0,
 "low": 45896000000.0,
-"high": 68373153040.0,
-"numberOfAnalysts": 25.0,
-"yearAgoRevenue": 47144752780.0,
-"growth": 0.2027,
+"high": 67981321000.0,
+"numberOfAnalysts": 27.0,
+"yearAgoRevenue": 47851126310.0,
+"growth": 0.2087,
 "currency": "USD"
 }
 },
 "earnings_estimate": {
 "0q": {
-"avg": 4.2991,
+"avg": 4.3628,
 "low": 3.99,
 "high": 4.7,
 "yearAgoEps": 2.38,
-"numberOfAnalysts": 22.0,
-"growth": 0.8063,
+"numberOfAnalysts": 25.0,
+"growth": 0.8331,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"avg": 4.5883,
+"avg": 4.6439,
 "low": 4.09,
 "high": 5.17,
 "yearAgoEps": 2.86,
-"numberOfAnalysts": 22.0,
-"growth": 0.6043,
+"numberOfAnalysts": 25.0,
+"growth": 0.6238,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"avg": 18.8732,
-"low": 16.72,
+"avg": 19.1798,
+"low": 16.77,
 "high": 21.77,
 "yearAgoEps": 12.89,
-"numberOfAnalysts": 32.0,
-"growth": 0.4642,
+"numberOfAnalysts": 33.0,
+"growth": 0.488,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"avg": 24.1835,
+"avg": 24.7053,
 "low": 18.07,
-"high": 30.6036,
-"yearAgoEps": 18.8732,
-"numberOfAnalysts": 21.0,
-"growth": 0.2814,
+"high": 30.5078,
+"yearAgoEps": 19.1798,
+"numberOfAnalysts": 25.0,
+"growth": 0.2881,
 "currency": "USD",
 "methodology": "normalized"
 }
 },
 "eps_trend": {
 "0q": {
-"current": 4.2991,
+"current": 4.3628,
 "7daysAgo": 4.226,
-"30daysAgo": 4.2291,
+"30daysAgo": 4.2241,
 "60daysAgo": 4.1978,
 "90daysAgo": 4.2038,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"current": 4.5883,
+"current": 4.6439,
 "7daysAgo": 4.5298,
-"30daysAgo": 4.5219,
+"30daysAgo": 4.5173,
 "60daysAgo": 4.4936,
 "90daysAgo": 4.5076,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"current": 18.8732,
+"current": 19.1798,
 "7daysAgo": 18.6913,
-"30daysAgo": 18.6116,
+"30daysAgo": 18.5886,
 "60daysAgo": 18.5286,
-"90daysAgo": 18.2216,
+"90daysAgo": 18.3343,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"current": 24.1835,
+"current": 24.7053,
 "7daysAgo": 23.8934,
-"30daysAgo": 23.6486,
+"30daysAgo": 23.61,
 "60daysAgo": 23.5965,
-"90daysAgo": 23.1391,
+"90daysAgo": 23.4445,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -10675,8 +10675,8 @@
 },
 "0y": {
 "upLast7days": 1.0,
-"upLast30days": 5.0,
-"downLast30days": 2.0,
+"upLast30days": 6.0,
+"downLast30days": 3.0,
 "downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
@@ -10881,23 +10881,23 @@
 }
 ],
 "layer": "foundry",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-21",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:19Z",
+"fetched_utc": "2026-11-16T20:55:48Z",
 "shortName": "Lam Research Corporation",
 "sector": "Technology",
 "industry": "Semiconductor Equipment & Materials",
 "currency": "USD",
-"marketCap": 280513839104.0,
+"marketCap": 263275266048.0,
 "revenueGrowth": 0.544,
 "earningsGrowth": 0.766,
 "grossMargins": 0.5105,
 "operatingMargins": 0.3695,
-"forwardPE": 18.3519,
-"trailingPE": 33.4665,
-"heldPercentInstitutions": 0.8855,
+"forwardPE": 17.2241,
+"trailingPE": 31.4098,
+"heldPercentInstitutions": 0.8865,
 "shortPercentOfFloat": 0.0221,
 "numberOfAnalystOpinions": 30.0,
 "recommendationMean": 1.3823,
@@ -11267,23 +11267,23 @@
 }
 ],
 "layer": "foundry",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-28",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:20Z",
+"fetched_utc": "2026-11-16T20:55:49Z",
 "shortName": "KLA Corporation",
 "sector": "Technology",
 "industry": "Semiconductor Equipment & Materials",
 "currency": "USD",
-"marketCap": 196949278720.0,
+"marketCap": 187613560832.0,
 "revenueGrowth": 0.289,
 "earningsGrowth": 0.388,
 "grossMargins": 0.6147,
 "operatingMargins": 0.4264,
-"forwardPE": 21.2929,
-"trailingPE": 37.8835,
-"heldPercentInstitutions": 0.9282,
+"forwardPE": 20.2836,
+"trailingPE": 36.0877,
+"heldPercentInstitutions": 0.9313,
 "shortPercentOfFloat": 0.0165,
 "numberOfAnalystOpinions": 26.0,
 "recommendationMean": 1.7586,
@@ -11653,23 +11653,23 @@
 }
 ],
 "layer": "foundry",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-27",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:20Z",
+"fetched_utc": "2026-11-16T20:55:50Z",
 "shortName": "Teradyne, Inc.",
 "sector": "Technology",
 "industry": "Semiconductor Equipment & Materials",
 "currency": "USD",
-"marketCap": 38937669632.0,
+"marketCap": 36241240064.0,
 "revenueGrowth": 0.698,
 "earningsGrowth": 1.893,
 "grossMargins": 0.5932,
 "operatingMargins": 0.3251,
-"forwardPE": 20.7215,
-"trailingPE": 28.6668,
-"heldPercentInstitutions": 1.0129,
+"forwardPE": 19.283,
+"trailingPE": 26.6816,
+"heldPercentInstitutions": 1.0183,
 "shortPercentOfFloat": 0.0595,
 "numberOfAnalystOpinions": 16.0,
 "recommendationMean": 1.5556,
@@ -11756,22 +11756,22 @@
 "methodology": "normalized"
 },
 "0y": {
-"avg": 9.4442,
+"avg": 9.4455,
 "low": 9.4,
 "high": 9.55,
 "yearAgoEps": 3.96,
 "numberOfAnalysts": 16.0,
-"growth": 1.3849,
+"growth": 1.3852,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"avg": 12.0359,
+"avg": 12.0381,
 "low": 9.0,
 "high": 13.8369,
-"yearAgoEps": 9.4442,
+"yearAgoEps": 9.4455,
 "numberOfAnalysts": 18.0,
-"growth": 0.2744,
+"growth": 0.2745,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -11796,7 +11796,7 @@
 "methodology": "normalized"
 },
 "0y": {
-"current": 9.4442,
+"current": 9.4455,
 "7daysAgo": 9.4405,
 "30daysAgo": 9.0994,
 "60daysAgo": 9.0994,
@@ -11805,7 +11805,7 @@
 "methodology": "normalized"
 },
 "+1y": {
-"current": 12.0359,
+"current": 12.0381,
 "7daysAgo": 11.9909,
 "30daysAgo": 11.3656,
 "60daysAgo": 11.3656,
@@ -12039,27 +12039,27 @@
 }
 ],
 "layer": "foundry",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-09",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:22Z",
+"fetched_utc": "2026-11-16T20:55:51Z",
 "shortName": "Onto Innovation Inc.",
 "sector": "Technology",
 "industry": "Semiconductor Equipment & Materials",
 "currency": "USD",
-"marketCap": 9849997312.0,
+"marketCap": 9662740480.0,
 "revenueGrowth": 0.878,
 "earningsGrowth": 0.667,
 "grossMargins": 0.5639,
 "operatingMargins": 0.227,
-"forwardPE": 15.6002,
-"trailingPE": 66.0115,
-"heldPercentInstitutions": 1.0065,
+"forwardPE": 15.3036,
+"trailingPE": 64.7566,
+"heldPercentInstitutions": 1.0198,
 "shortPercentOfFloat": 0.074,
 "numberOfAnalystOpinions": 12.0,
 "recommendationMean": 1.25,
-"targetMeanPrice": 336.0833,
+"targetMeanPrice": 329.0,
 "revenue_q": [
 {
 "end": "2025-09-30",
@@ -12210,10 +12210,10 @@
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 2.0,
-"upLast30days": 2.0,
-"downLast30days": 0.0,
-"downLast7Days": 0.0,
+"upLast7days": 0.0,
+"upLast30days": 0.0,
+"downLast30days": 1.0,
+"downLast7Days": 1.0,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -12418,23 +12418,23 @@
 }
 ],
 "layer": "foundry",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-26",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:23Z",
+"fetched_utc": "2026-11-16T20:55:51Z",
 "shortName": "Amkor Technology, Inc.",
 "sector": "Technology",
 "industry": "Semiconductor Equipment & Materials",
 "currency": "USD",
-"marketCap": 8836911104.0,
+"marketCap": 8444132352.0,
 "revenueGrowth": 0.002,
 "earningsGrowth": 0.49,
 "grossMargins": 0.1656,
 "operatingMargins": 0.0951,
-"forwardPE": 12.8466,
-"trailingPE": 14.379,
-"heldPercentInstitutions": 0.4506,
+"forwardPE": 12.2756,
+"trailingPE": 13.7399,
+"heldPercentInstitutions": 0.4634,
 "shortPercentOfFloat": 0.2072,
 "numberOfAnalystOpinions": 10.0,
 "recommendationMean": 1.9091,
@@ -12656,7 +12656,7 @@
 "sma150": 144.8714,
 "sma200": 139.318,
 "sma200_slope20": 3.7371,
-"hi52": 186.6574,
+"hi52": 186.6573,
 "lo52": 67.764,
 "vol50": 2797210.0,
 "ret21": 0.0043,
@@ -12804,27 +12804,27 @@
 }
 ],
 "layer": "foundry",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-29",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:24Z",
+"fetched_utc": "2026-11-16T20:55:53Z",
 "shortName": "Entegris, Inc.",
 "sector": "Technology",
 "industry": "Semiconductor Equipment & Materials",
 "currency": "USD",
-"marketCap": 22342416384.0,
+"marketCap": 21449299968.0,
 "revenueGrowth": 0.246,
 "earningsGrowth": 1.239,
 "grossMargins": 0.4697,
 "operatingMargins": 0.1864,
-"forwardPE": 25.7522,
-"trailingPE": 56.8949,
-"heldPercentInstitutions": 1.1033,
+"forwardPE": 24.7228,
+"trailingPE": 54.6206,
+"heldPercentInstitutions": 1.0945,
 "shortPercentOfFloat": 0.0714,
 "numberOfAnalystOpinions": 14.0,
 "recommendationMean": 1.6667,
-"targetMeanPrice": 189.7857,
+"targetMeanPrice": 190.5,
 "revenue_q": [
 {
 "end": "2025-09-30",
@@ -12858,12 +12858,12 @@
 "currency": "USD"
 },
 "+1q": {
-"avg": 993536760.0,
+"avg": 994728850.0,
 "low": 970600000.0,
 "high": 1010918000.0,
-"numberOfAnalysts": 9.0,
+"numberOfAnalysts": 8.0,
 "yearAgoRevenue": 811900000.0,
-"growth": 0.2237,
+"growth": 0.2252,
 "currency": "USD"
 },
 "0y": {
@@ -12876,12 +12876,12 @@
 "currency": "USD"
 },
 "+1y": {
-"avg": 4300721940.0,
+"avg": 4304798860.0,
 "low": 3969000000.0,
-"high": 4480000000.0,
+"high": 4533000000.0,
 "numberOfAnalysts": 13.0,
 "yearAgoRevenue": 3740827510.0,
-"growth": 0.1497,
+"growth": 0.1508,
 "currency": "USD"
 }
 },
@@ -12897,12 +12897,12 @@
 "methodology": "normalized"
 },
 "+1q": {
-"avg": 1.2073,
-"low": 1.08,
+"avg": 1.2201,
+"low": 1.09,
 "high": 1.3112,
 "yearAgoEps": 0.86,
-"numberOfAnalysts": 11.0,
-"growth": 0.4039,
+"numberOfAnalysts": 10.0,
+"growth": 0.4187,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -12917,12 +12917,12 @@
 "methodology": "normalized"
 },
 "+1y": {
-"avg": 5.6573,
+"avg": 5.678,
 "low": 4.7,
 "high": 6.2927,
 "yearAgoEps": 4.3658,
 "numberOfAnalysts": 15.0,
-"growth": 0.2958,
+"growth": 0.3005,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -12931,14 +12931,14 @@
 "0q": {
 "current": 1.3675,
 "7daysAgo": 1.3675,
-"30daysAgo": 1.0993,
+"30daysAgo": 1.1034,
 "60daysAgo": 1.0953,
 "90daysAgo": 1.0953,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"current": 1.2073,
+"current": 1.2201,
 "7daysAgo": 1.2046,
 "30daysAgo": 1.1146,
 "60daysAgo": 1.1113,
@@ -12949,16 +12949,16 @@
 "0y": {
 "current": 4.3658,
 "7daysAgo": 4.3896,
-"30daysAgo": 3.9166,
+"30daysAgo": 3.9211,
 "60daysAgo": 3.9144,
 "90daysAgo": 3.9144,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"current": 5.6573,
+"current": 5.678,
 "7daysAgo": 5.588,
-"30daysAgo": 5.0498,
+"30daysAgo": 5.0538,
 "60daysAgo": 5.0157,
 "90daysAgo": 5.0157,
 "currency": "USD",
@@ -12968,7 +12968,7 @@
 "eps_revisions": {
 "0q": {
 "upLast7days": 12.0,
-"upLast30days": 8.0,
+"upLast30days": 9.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
@@ -12983,15 +12983,15 @@
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 12.0,
-"upLast30days": 9.0,
+"upLast7days": 13.0,
+"upLast30days": 10.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"upLast7days": 13.0,
+"upLast7days": 14.0,
 "upLast30days": 11.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
@@ -13190,23 +13190,23 @@
 }
 ],
 "layer": "eda",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-08-26",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:25Z",
+"fetched_utc": "2026-11-16T20:55:54Z",
 "shortName": "Synopsys, Inc.",
 "sector": "Technology",
 "industry": "Software - Infrastructure",
 "currency": "USD",
-"marketCap": 86932127744.0,
+"marketCap": 84553916416.0,
 "revenueGrowth": 0.424,
 "earningsGrowth": 0.893,
 "grossMargins": 0.8292,
 "operatingMargins": 0.1103,
-"forwardPE": 24.3292,
-"trailingPE": 80.1466,
-"heldPercentInstitutions": 0.9095,
+"forwardPE": 23.6636,
+"trailingPE": 77.9541,
+"heldPercentInstitutions": 0.9091,
 "shortPercentOfFloat": 0.0331,
 "numberOfAnalystOpinions": 25.0,
 "recommendationMean": 1.28,
@@ -13576,23 +13576,23 @@
 }
 ],
 "layer": "eda",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-26",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:26Z",
+"fetched_utc": "2026-11-16T20:55:55Z",
 "shortName": "Cadence Design Systems, Inc.",
 "sector": "Technology",
 "industry": "Software - Application",
 "currency": "USD",
-"marketCap": 88561311744.0,
+"marketCap": 84883259392.0,
 "revenueGrowth": 0.22,
 "earningsGrowth": 0.0,
 "grossMargins": 0.8568,
 "operatingMargins": 0.2994,
-"forwardPE": 32.7843,
-"trailingPE": 64.169,
-"heldPercentInstitutions": 0.9124,
+"forwardPE": 31.4227,
+"trailingPE": 61.504,
+"heldPercentInstitutions": 0.9103,
 "shortPercentOfFloat": 0.0201,
 "numberOfAnalystOpinions": 24.0,
 "recommendationMean": 1.3333,
@@ -13962,23 +13962,23 @@
 }
 ],
 "layer": "servers",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-03",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:27Z",
+"fetched_utc": "2026-11-16T20:55:56Z",
 "shortName": "Super Micro Computer, Inc.",
 "sector": "Technology",
 "industry": "Computer Hardware",
 "currency": "USD",
-"marketCap": 17591482368.0,
+"marketCap": 16556495872.0,
 "revenueGrowth": 2.975,
 "earningsGrowth": 5.813,
 "grossMargins": 0.1138,
 "operatingMargins": 0.0833,
-"forwardPE": 3.8423,
-"trailingPE": 5.6297,
-"heldPercentInstitutions": 0.6405,
+"forwardPE": 3.6162,
+"trailingPE": 5.2985,
+"heldPercentInstitutions": 0.6409,
 "shortPercentOfFloat": 0.1268,
 "numberOfAnalystOpinions": 15.0,
 "recommendationMean": 2.9444,
@@ -14125,15 +14125,15 @@
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 1.0,
-"upLast30days": 5.0,
+"upLast7days": 8.0,
+"upLast30days": 10.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 1.0,
+"upLast7days": 8.0,
 "upLast30days": 9.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
@@ -14150,7 +14150,7 @@
 },
 "+1y": {
 "upLast7days": 10.0,
-"upLast30days": 5.0,
+"upLast30days": 12.0,
 "downLast30days": 0.0,
 "downLast7Days": 1.0,
 "currency": "USD",
@@ -14348,27 +14348,27 @@
 }
 ],
 "layer": "servers",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-09-01",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:28Z",
+"fetched_utc": "2026-11-16T20:55:57Z",
 "shortName": "Dell Technologies Inc.",
 "sector": "Technology",
 "industry": "Computer Hardware",
 "currency": "USD",
-"marketCap": 217975668736.0,
+"marketCap": 203218468864.0,
 "revenueGrowth": 0.577,
 "earningsGrowth": 2.729,
 "grossMargins": 0.1991,
 "operatingMargins": 0.099,
-"forwardPE": 11.2738,
-"trailingPE": 19.932,
-"heldPercentInstitutions": 0.7628,
+"forwardPE": 10.4297,
+"trailingPE": 18.5826,
+"heldPercentInstitutions": 0.7798,
 "shortPercentOfFloat": 0.0357,
 "numberOfAnalystOpinions": 25.0,
 "recommendationMean": 1.8276,
-"targetMeanPrice": 590.0,
+"targetMeanPrice": 585.68,
 "revenue_q": [
 {
 "end": "2025-07-31",
@@ -14393,7 +14393,7 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 49169931760.0,
+"avg": 49169949940.0,
 "low": 47770000000.0,
 "high": 49984771000.0,
 "numberOfAnalysts": 22.0,
@@ -14402,7 +14402,7 @@
 "currency": "USD"
 },
 "+1q": {
-"avg": 53536758450.0,
+"avg": 53536763000.0,
 "low": 51133000000.0,
 "high": 56734566000.0,
 "numberOfAnalysts": 22.0,
@@ -14411,32 +14411,32 @@
 "currency": "USD"
 },
 "0y": {
-"avg": 193503361630.0,
+"avg": 194859402660.0,
 "low": 189717000000.0,
-"high": 197532337000.0,
-"numberOfAnalysts": 24.0,
+"high": 211785000000.0,
+"numberOfAnalysts": 25.0,
 "yearAgoRevenue": 113538000000.0,
-"growth": 0.7043,
+"growth": 0.7162,
 "currency": "USD"
 },
 "+1y": {
-"avg": 232704123670.0,
+"avg": 233027188780.0,
 "low": 158379000000.0,
-"high": 293021320420.0,
-"numberOfAnalysts": 26.0,
-"yearAgoRevenue": 193503361630.0,
-"growth": 0.2026,
+"high": 280178824530.0,
+"numberOfAnalysts": 25.0,
+"yearAgoRevenue": 194859402660.0,
+"growth": 0.1959,
 "currency": "USD"
 }
 },
 "earnings_estimate": {
 "0q": {
-"avg": 6.5536,
+"avg": 6.5784,
 "low": 6.34,
-"high": 7.37,
+"high": 7.99,
 "yearAgoEps": 2.59,
 "numberOfAnalysts": 25.0,
-"growth": 1.5303,
+"growth": 1.5399,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -14451,12 +14451,12 @@
 "methodology": "normalized"
 },
 "0y": {
-"avg": 25.9171,
+"avg": 25.99,
 "low": 25.17,
-"high": 28.93,
+"high": 29.58,
 "yearAgoEps": 10.3,
 "numberOfAnalysts": 28.0,
-"growth": 1.5162,
+"growth": 1.5233,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -14473,11 +14473,11 @@
 },
 "eps_trend": {
 "0q": {
-"current": 6.5536,
+"current": 6.5784,
 "7daysAgo": 6.5537,
 "30daysAgo": 6.5575,
 "60daysAgo": 6.5569,
-"90daysAgo": 4.3524,
+"90daysAgo": 4.367,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -14491,11 +14491,11 @@
 "methodology": "normalized"
 },
 "0y": {
-"current": 25.9171,
+"current": 25.99,
 "7daysAgo": 25.9137,
 "30daysAgo": 25.8966,
 "60daysAgo": 25.8838,
-"90daysAgo": 18.6219,
+"90daysAgo": 18.6384,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -14734,26 +14734,26 @@
 }
 ],
 "layer": "power",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-28",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:29Z",
+"fetched_utc": "2026-11-16T20:55:58Z",
 "shortName": "Vertiv Holdings, LLC",
 "sector": "Industrials",
 "industry": "Electrical Equipment & Parts",
 "currency": "USD",
-"marketCap": 77397147648.0,
+"marketCap": 72491474944.0,
 "revenueGrowth": 0.612,
 "earningsGrowth": 0.912,
 "grossMargins": 0.3811,
 "operatingMargins": 0.2111,
-"forwardPE": 20.2647,
-"trailingPE": 37.5701,
-"heldPercentInstitutions": 0.833,
+"forwardPE": 19.0665,
+"trailingPE": 35.1888,
+"heldPercentInstitutions": 0.8228,
 "shortPercentOfFloat": 0.0288,
 "numberOfAnalystOpinions": 30.0,
-"recommendationMean": 1.3871,
+"recommendationMean": 1.4193,
 "targetMeanPrice": 334.286,
 "revenue_q": [
 {
@@ -14797,21 +14797,21 @@
 "currency": "USD"
 },
 "0y": {
-"avg": 14722893640.0,
+"avg": 14720430510.0,
 "low": 14526000000.0,
 "high": 14975000000.0,
-"numberOfAnalysts": 29.0,
+"numberOfAnalysts": 30.0,
 "yearAgoRevenue": 10229900000.0,
-"growth": 0.4392,
+"growth": 0.439,
 "currency": "USD"
 },
 "+1y": {
-"avg": 19546864820.0,
+"avg": 19540525290.0,
 "low": 17664000000.0,
 "high": 22000000000.0,
-"numberOfAnalysts": 31.0,
-"yearAgoRevenue": 14722893640.0,
-"growth": 0.3277,
+"numberOfAnalysts": 32.0,
+"yearAgoRevenue": 14720430510.0,
+"growth": 0.3274,
 "currency": "USD"
 }
 },
@@ -14837,22 +14837,22 @@
 "methodology": "normalized"
 },
 "0y": {
-"avg": 7.1955,
+"avg": 7.1907,
 "low": 7.13,
 "high": 7.32,
 "yearAgoEps": 4.2,
 "numberOfAnalysts": 29.0,
-"growth": 0.7132,
+"growth": 0.7121,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"avg": 9.9187,
+"avg": 9.8739,
 "low": 8.729,
 "high": 11.89,
-"yearAgoEps": 7.1955,
+"yearAgoEps": 7.1907,
 "numberOfAnalysts": 31.0,
-"growth": 0.3785,
+"growth": 0.3731,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -14877,7 +14877,7 @@
 "methodology": "normalized"
 },
 "0y": {
-"current": 7.1955,
+"current": 7.1907,
 "7daysAgo": 7.1881,
 "30daysAgo": 6.7393,
 "60daysAgo": 6.7349,
@@ -14886,9 +14886,9 @@
 "methodology": "normalized"
 },
 "+1y": {
-"current": 9.9187,
+"current": 9.8739,
 "7daysAgo": 9.8423,
-"30daysAgo": 9.1961,
+"30daysAgo": 9.1928,
 "60daysAgo": 9.1224,
 "90daysAgo": 9.0988,
 "currency": "USD",
@@ -14897,8 +14897,8 @@
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 19.0,
-"upLast30days": 18.0,
+"upLast7days": 22.0,
+"upLast30days": 21.0,
 "downLast30days": 1.0,
 "downLast7Days": 0.0,
 "currency": "USD",
@@ -14913,8 +14913,8 @@
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 23.0,
-"upLast30days": 22.0,
+"upLast7days": 26.0,
+"upLast30days": 25.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
@@ -15120,27 +15120,27 @@
 }
 ],
 "layer": "power",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-03",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:30Z",
+"fetched_utc": "2026-11-16T20:56:00Z",
 "shortName": "Eaton Corporation, PLC",
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery",
 "currency": "USD",
-"marketCap": 136583004160.0,
+"marketCap": 130840977408.0,
 "revenueGrowth": 0.28,
 "earningsGrowth": 0.07,
 "grossMargins": 0.3515,
 "operatingMargins": 0.1772,
-"forwardPE": 21.3898,
-"trailingPE": 35.1214,
-"heldPercentInstitutions": 0.867,
+"forwardPE": 20.4505,
+"trailingPE": 33.6449,
+"heldPercentInstitutions": 0.8611,
 "shortPercentOfFloat": 0.0185,
 "numberOfAnalystOpinions": 27.0,
 "recommendationMean": 1.5862,
-"targetMeanPrice": 471.1581,
+"targetMeanPrice": 468.7407,
 "revenue_q": [
 {
 "end": "2025-09-30",
@@ -15203,49 +15203,49 @@
 },
 "earnings_estimate": {
 "0q": {
-"avg": 4.1443,
+"avg": 4.1516,
 "low": 4.08,
 "high": 4.3,
 "yearAgoEps": 3.33,
 "numberOfAnalysts": 22.0,
-"growth": 0.2445,
+"growth": 0.2467,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"avg": 3.5408,
+"avg": 3.5515,
 "low": 3.34,
-"high": 3.7,
+"high": 3.86,
 "yearAgoEps": 2.81,
-"numberOfAnalysts": 10.0,
-"growth": 0.2601,
+"numberOfAnalysts": 12.0,
+"growth": 0.2639,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"avg": 13.7827,
+"avg": 13.7878,
 "low": 13.7,
 "high": 13.93,
 "yearAgoEps": 12.07,
-"numberOfAnalysts": 24.0,
-"growth": 0.1419,
+"numberOfAnalysts": 25.0,
+"growth": 0.1423,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"avg": 16.4547,
+"avg": 16.4361,
 "low": 15.0,
 "high": 17.7815,
-"yearAgoEps": 13.7827,
+"yearAgoEps": 13.7878,
 "numberOfAnalysts": 22.0,
-"growth": 0.1939,
+"growth": 0.1921,
 "currency": "USD",
 "methodology": "normalized"
 }
 },
 "eps_trend": {
 "0q": {
-"current": 4.1443,
+"current": 4.1516,
 "7daysAgo": 4.1364,
 "30daysAgo": 4.077,
 "60daysAgo": 4.0546,
@@ -15254,7 +15254,7 @@
 "methodology": "normalized"
 },
 "+1q": {
-"current": 3.5408,
+"current": 3.5515,
 "7daysAgo": 3.5468,
 "30daysAgo": 3.4952,
 "60daysAgo": 3.4765,
@@ -15263,7 +15263,7 @@
 "methodology": "normalized"
 },
 "0y": {
-"current": 13.7827,
+"current": 13.7878,
 "7daysAgo": 13.7429,
 "30daysAgo": 13.5825,
 "60daysAgo": 13.5539,
@@ -15272,7 +15272,7 @@
 "methodology": "normalized"
 },
 "+1y": {
-"current": 16.4547,
+"current": 16.4361,
 "7daysAgo": 16.462,
 "30daysAgo": 16.263,
 "60daysAgo": 16.1327,
@@ -15307,10 +15307,10 @@
 "methodology": "normalized"
 },
 "+1y": {
-"upLast7days": 6.0,
-"upLast30days": 9.0,
-"downLast30days": 3.0,
-"downLast7Days": 3.0,
+"upLast7days": 9.0,
+"upLast30days": 11.0,
+"downLast30days": 4.0,
+"downLast7Days": 4.0,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -15506,23 +15506,23 @@
 }
 ],
 "layer": "power",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-28",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:31Z",
+"fetched_utc": "2026-11-16T20:56:01Z",
 "shortName": "GE Vernova Inc.",
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery",
 "currency": "USD",
-"marketCap": 210241077248.0,
+"marketCap": 201453666304.0,
 "revenueGrowth": 0.268,
 "earningsGrowth": 1.933,
 "grossMargins": 0.2179,
 "operatingMargins": 0.0822,
-"forwardPE": 30.476,
-"trailingPE": 20.854,
-"heldPercentInstitutions": 0.8063,
+"forwardPE": 29.2022,
+"trailingPE": 19.9824,
+"heldPercentInstitutions": 0.7977,
 "shortPercentOfFloat": 0.0283,
 "numberOfAnalystOpinions": 32.0,
 "recommendationMean": 1.4595,
@@ -15641,8 +15641,8 @@
 },
 "+1q": {
 "current": 5.0116,
-"7daysAgo": 4.7397,
-"30daysAgo": 4.7788,
+"7daysAgo": 5.0116,
+"30daysAgo": 4.7802,
 "60daysAgo": 4.8171,
 "90daysAgo": 5.0275,
 "currency": "USD",
@@ -15685,16 +15685,16 @@
 "methodology": "gaap"
 },
 "0y": {
-"upLast7days": 14.0,
-"upLast30days": 14.0,
+"upLast7days": 17.0,
+"upLast30days": 16.0,
 "downLast30days": 4.0,
 "downLast7Days": 2.0,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"upLast7days": 16.0,
-"upLast30days": 17.0,
+"upLast7days": 19.0,
+"upLast30days": 19.0,
 "downLast30days": 4.0,
 "downLast7Days": 3.0,
 "currency": "USD",
@@ -15745,7 +15745,7 @@
 "sma200": 632.049,
 "sma200_slope20": 13.9917,
 "hi52": 788.4945,
-"lo52": 408.1476,
+"lo52": 408.1475,
 "vol50": 1226514.0,
 "ret21": -0.0626,
 "ret63": -0.1664,
@@ -15892,27 +15892,27 @@
 }
 ],
 "layer": "power",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-29",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:32Z",
+"fetched_utc": "2026-11-16T20:56:02Z",
 "shortName": "Quanta Services, Inc.",
 "sector": "Industrials",
 "industry": "Engineering & Construction",
 "currency": "USD",
-"marketCap": 90338484224.0,
+"marketCap": 88120524800.0,
 "revenueGrowth": 0.574,
 "earningsGrowth": 1.031,
 "grossMargins": 0.1576,
-"operatingMargins": 0.0681,
-"forwardPE": 27.586,
-"trailingPE": 54.2579,
-"heldPercentInstitutions": 0.8973,
+"operatingMargins": 0.0707,
+"forwardPE": 26.9087,
+"trailingPE": 52.9258,
+"heldPercentInstitutions": 0.8987,
 "shortPercentOfFloat": 0.0265,
 "numberOfAnalystOpinions": 29.0,
 "recommendationMean": 1.4,
-"targetMeanPrice": 769.9717,
+"targetMeanPrice": 774.3969,
 "revenue_q": [
 {
 "end": "2025-09-30",
@@ -16056,23 +16056,23 @@
 "eps_revisions": {
 "0q": {
 "upLast7days": 17.0,
-"upLast30days": 13.0,
+"upLast30days": 17.0,
 "downLast30days": 1.0,
 "downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 1.0,
+"upLast7days": 3.0,
 "upLast30days": 6.0,
 "downLast30days": 4.0,
-"downLast7Days": 3.0,
+"downLast7Days": 4.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 18.0,
-"upLast30days": 21.0,
+"upLast7days": 24.0,
+"upLast30days": 24.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
@@ -16080,7 +16080,7 @@
 },
 "+1y": {
 "upLast7days": 22.0,
-"upLast30days": 20.0,
+"upLast30days": 25.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
@@ -16278,23 +16278,23 @@
 }
 ],
 "layer": "power",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-09",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:33Z",
+"fetched_utc": "2026-11-16T20:56:03Z",
 "shortName": "Constellation Energy Corporatio",
 "sector": "Utilities",
 "industry": "Utilities - Independent Power Producers",
 "currency": "USD",
-"marketCap": 97919451136.0,
+"marketCap": 97328750592.0,
 "revenueGrowth": 0.454,
 "earningsGrowth": 0.745,
 "grossMargins": 0.2524,
 "operatingMargins": 0.1794,
-"forwardPE": 20.7208,
-"trailingPE": 22.3867,
-"heldPercentInstitutions": 0.8532,
+"forwardPE": 20.6048,
+"trailingPE": 22.2516,
+"heldPercentInstitutions": 0.8514,
 "shortPercentOfFloat": 0.0334,
 "numberOfAnalystOpinions": 23.0,
 "recommendationMean": 1.64,
@@ -16341,12 +16341,12 @@
 "currency": "USD"
 },
 "0y": {
-"avg": 36772179270.0,
-"low": 33970236240.0,
+"avg": 36503156040.0,
+"low": 33274877310.0,
 "high": 42960000000.0,
-"numberOfAnalysts": 12.0,
+"numberOfAnalysts": 13.0,
 "yearAgoRevenue": 25533000000.0,
-"growth": 0.4402,
+"growth": 0.4296,
 "currency": "USD"
 },
 "+1y": {
@@ -16354,8 +16354,8 @@
 "low": 32269000000.0,
 "high": 44016000000.0,
 "numberOfAnalysts": 14.0,
-"yearAgoRevenue": 36772179270.0,
-"growth": 0.0022,
+"yearAgoRevenue": 36503156040.0,
+"growth": 0.0096,
 "currency": "USD"
 }
 },
@@ -16371,49 +16371,49 @@
 "methodology": "normalized"
 },
 "+1q": {
-"avg": 3.0141,
+"avg": 3.0036,
 "low": 2.35,
 "high": 4.54,
 "yearAgoEps": 2.3,
-"numberOfAnalysts": 8.0,
-"growth": 0.3105,
+"numberOfAnalysts": 9.0,
+"growth": 0.3059,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"avg": 12.4614,
+"avg": 12.5121,
 "low": 12.28,
 "high": 12.8183,
 "yearAgoEps": 9.39,
-"numberOfAnalysts": 12.0,
-"growth": 0.3271,
+"numberOfAnalysts": 15.0,
+"growth": 0.3325,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"avg": 13.4226,
+"avg": 13.4343,
 "low": 12.75,
 "high": 14.7914,
-"yearAgoEps": 12.4614,
+"yearAgoEps": 12.5121,
 "numberOfAnalysts": 20.0,
-"growth": 0.0771,
+"growth": 0.0737,
 "currency": "USD",
 "methodology": "normalized"
 }
 },
 "eps_trend": {
 "0q": {
-"current": 2.8766,
+"current": 2.8042,
 "7daysAgo": 3.0403,
-"30daysAgo": 3.1296,
+"30daysAgo": 3.1323,
 "60daysAgo": 3.1251,
-"90daysAgo": 2.9635,
+"90daysAgo": 2.9791,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"current": 3.0141,
-"7daysAgo": 2.9936,
+"current": 3.0036,
+"7daysAgo": 3.0116,
 "30daysAgo": 2.8292,
 "60daysAgo": 2.8159,
 "90daysAgo": 2.7214,
@@ -16421,20 +16421,20 @@
 "methodology": "normalized"
 },
 "0y": {
-"current": 12.4614,
+"current": 12.5121,
 "7daysAgo": 12.2043,
-"30daysAgo": 12.145,
-"60daysAgo": 12.145,
-"90daysAgo": 11.8832,
+"30daysAgo": 12.1306,
+"60daysAgo": 12.1153,
+"90daysAgo": 11.9218,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"current": 13.4226,
-"7daysAgo": 13.3848,
-"30daysAgo": 13.3584,
-"60daysAgo": 13.377,
-"90daysAgo": 13.3545,
+"current": 13.4343,
+"7daysAgo": 13.4003,
+"30daysAgo": 13.3229,
+"60daysAgo": 13.2985,
+"90daysAgo": 13.3786,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -16671,27 +16671,27 @@
 }
 ],
 "layer": "power",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-06",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:34Z",
+"fetched_utc": "2026-11-16T20:56:04Z",
 "shortName": "Vistra Corp.",
 "sector": "Utilities",
 "industry": "Utilities - Independent Power Producers",
 "currency": "USD",
-"marketCap": 44584583168.0,
+"marketCap": 43871854592.0,
 "revenueGrowth": 0.277,
 "earningsGrowth": 0.846,
 "grossMargins": 0.4152,
 "operatingMargins": 0.23,
-"forwardPE": 13.7079,
-"trailingPE": 17.752,
-"heldPercentInstitutions": 0.9054,
+"forwardPE": 13.8089,
+"trailingPE": 17.4682,
+"heldPercentInstitutions": 0.8933,
 "shortPercentOfFloat": 0.0352,
-"numberOfAnalystOpinions": 21.0,
-"recommendationMean": 1.3913,
-"targetMeanPrice": 202.4762,
+"numberOfAnalystOpinions": 22.0,
+"recommendationMean": 1.375,
+"targetMeanPrice": 200.0546,
 "revenue_q": [
 {
 "end": "2025-09-30",
@@ -16734,21 +16734,21 @@
 "currency": "USD"
 },
 "0y": {
-"avg": 21291998190.0,
+"avg": 21741415720.0,
 "low": 17804000000.0,
-"high": 22664000000.0,
-"numberOfAnalysts": 10.0,
+"high": 23417000000.0,
+"numberOfAnalysts": 13.0,
 "yearAgoRevenue": 17738000000.0,
-"growth": 0.2004,
+"growth": 0.2257,
 "currency": "USD"
 },
 "+1y": {
-"avg": 23497170920.0,
+"avg": 23583859330.0,
 "low": 18222000000.0,
 "high": 29437898610.0,
-"numberOfAnalysts": 12.0,
-"yearAgoRevenue": 21291998190.0,
-"growth": 0.1036,
+"numberOfAnalysts": 13.0,
+"yearAgoRevenue": 21741415720.0,
+"growth": 0.0847,
 "currency": "USD"
 }
 },
@@ -16764,32 +16764,32 @@
 "methodology": "gaap"
 },
 "+1q": {
-"avg": 2.21,
-"low": 2.21,
+"avg": 1.485,
+"low": 0.76,
 "high": 2.21,
 "yearAgoEps": 2.87,
-"numberOfAnalysts": 1.0,
-"growth": -0.23,
+"numberOfAnalysts": 2.0,
+"growth": -0.4826,
 "currency": "USD",
 "methodology": "gaap"
 },
 "0y": {
-"avg": 9.4081,
+"avg": 9.3791,
 "low": 8.04,
 "high": 10.65,
 "yearAgoEps": 2.18,
-"numberOfAnalysts": 7.0,
-"growth": 3.3157,
+"numberOfAnalysts": 8.0,
+"growth": 3.3024,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"avg": 10.8702,
-"low": 9.54,
+"avg": 10.1541,
+"low": 8.25,
 "high": 12.3,
-"yearAgoEps": 9.4081,
-"numberOfAnalysts": 6.0,
-"growth": 0.1554,
+"yearAgoEps": 9.3791,
+"numberOfAnalysts": 9.0,
+"growth": 0.0826,
 "currency": "USD",
 "methodology": "gaap"
 }
@@ -16805,7 +16805,7 @@
 "methodology": "gaap"
 },
 "+1q": {
-"current": 2.21,
+"current": 1.485,
 "7daysAgo": 0.76,
 "30daysAgo": 0.79,
 "60daysAgo": 1.12,
@@ -16814,53 +16814,53 @@
 "methodology": "gaap"
 },
 "0y": {
-"current": 9.4081,
-"7daysAgo": 9.277,
+"current": 9.3791,
+"7daysAgo": 9.4795,
 "30daysAgo": 9.6295,
 "60daysAgo": 9.6383,
-"90daysAgo": 9.7653,
+"90daysAgo": 9.6406,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"current": 10.8702,
+"current": 10.1541,
 "7daysAgo": 10.3316,
 "30daysAgo": 10.2989,
 "60daysAgo": 10.4157,
-"90daysAgo": 10.8633,
+"90daysAgo": 10.5831,
 "currency": "USD",
 "methodology": "gaap"
 }
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 2.0,
+"upLast7days": 0.0,
 "upLast30days": 2.0,
 "downLast30days": 1.0,
-"downLast7Days": 2.0,
+"downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1q": {
 "upLast7days": 0.0,
 "upLast30days": 0.0,
-"downLast30days": 1.0,
-"downLast7Days": 1.0,
+"downLast30days": 0.0,
+"downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "gaap"
 },
 "0y": {
-"upLast7days": 1.0,
+"upLast7days": 0.0,
 "upLast30days": 1.0,
-"downLast30days": 2.0,
-"downLast7Days": 2.0,
+"downLast30days": 1.0,
+"downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
 "upLast7days": 0.0,
-"upLast30days": 2.0,
-"downLast30days": 2.0,
+"upLast30days": 1.0,
+"downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "gaap"
@@ -17057,27 +17057,27 @@
 }
 ],
 "layer": "power",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-03",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:35Z",
+"fetched_utc": "2026-11-16T20:56:05Z",
 "shortName": "Talen Energy Corporation",
 "sector": "Utilities",
 "industry": "Utilities - Independent Power Producers",
 "currency": "USD",
-"marketCap": 16250974208.0,
+"marketCap": 15598829568.0,
 "revenueGrowth": 0.961,
 "earningsGrowth": -0.322,
 "grossMargins": 0.4267,
 "operatingMargins": 0.0333,
-"forwardPE": 12.073,
+"forwardPE": 11.5886,
 "trailingPE": null,
-"heldPercentInstitutions": 1.1121,
+"heldPercentInstitutions": 1.0981,
 "shortPercentOfFloat": 0.1086,
 "numberOfAnalystOpinions": 20.0,
 "recommendationMean": 1.5,
-"targetMeanPrice": 452.865,
+"targetMeanPrice": 452.65,
 "revenue_q": [
 {
 "end": "2025-09-30",
@@ -17220,14 +17220,6 @@
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 1.0,
-"upLast30days": 1.0,
-"downLast30days": 1.0,
-"downLast7Days": 1.0,
-"currency": "USD",
-"methodology": "normalized"
-},
-"+1q": {
 "upLast7days": 0.0,
 "upLast30days": 0.0,
 "downLast30days": 0.0,
@@ -17235,9 +17227,17 @@
 "currency": "USD",
 "methodology": "normalized"
 },
+"+1q": {
+"upLast7days": 0.0,
+"upLast30days": 0.0,
+"downLast30days": 1.0,
+"downLast7Days": 0.0,
+"currency": "USD",
+"methodology": "normalized"
+},
 "0y": {
 "upLast7days": 0.0,
-"upLast30days": 2.0,
+"upLast30days": 0.0,
 "downLast30days": 1.0,
 "downLast7Days": 0.0,
 "currency": "USD",
@@ -17443,27 +17443,27 @@
 }
 ],
 "layer": "power",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-06",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:36Z",
+"fetched_utc": "2026-11-16T20:56:06Z",
 "shortName": "Oklo Inc.",
 "sector": "Utilities",
 "industry": "Utilities - Independent Power Producers",
 "currency": "USD",
-"marketCap": 4570753024.0,
+"marketCap": 4505331200.0,
 "revenueGrowth": null,
 "earningsGrowth": null,
 "grossMargins": 0.4106,
 "operatingMargins": -85.8707,
-"forwardPE": -20.4491,
+"forwardPE": -20.2999,
 "trailingPE": null,
-"heldPercentInstitutions": 0.4578,
+"heldPercentInstitutions": 0.4807,
 "shortPercentOfFloat": 0.2188,
 "numberOfAnalystOpinions": 21.0,
 "recommendationMean": 2.12,
-"targetMeanPrice": 55.5714,
+"targetMeanPrice": 55.4286,
 "revenue_q": [
 {
 "end": "2025-09-30",
@@ -17488,7 +17488,7 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 1158650.0,
+"avg": 1204990.0,
 "low": 0.0,
 "high": 2000000.0,
 "numberOfAnalysts": 12.0,
@@ -17506,7 +17506,7 @@
 "currency": "USD"
 },
 "0y": {
-"avg": 4323060.0,
+"avg": 4400630.0,
 "low": 3071000.0,
 "high": 5100000.0,
 "numberOfAnalysts": 14.0,
@@ -17515,23 +17515,23 @@
 "currency": "USD"
 },
 "+1y": {
-"avg": 9538360.0,
+"avg": 9634000.0,
 "low": 0.0,
 "high": 45312500.0,
 "numberOfAnalysts": 19.0,
-"yearAgoRevenue": 4323060.0,
-"growth": 1.2064,
+"yearAgoRevenue": 4400630.0,
+"growth": 1.1892,
 "currency": "USD"
 }
 },
 "earnings_estimate": {
 "0q": {
-"avg": -0.2679,
+"avg": -0.2661,
 "low": -0.3,
 "high": -0.19,
 "yearAgoEps": -0.27,
 "numberOfAnalysts": 11.0,
-"growth": 0.0077,
+"growth": 0.0144,
 "currency": "USD",
 "methodology": "gaap"
 },
@@ -17546,29 +17546,29 @@
 "methodology": "gaap"
 },
 "0y": {
-"avg": -0.9518,
+"avg": -0.9453,
 "low": -1.0234,
 "high": -0.83,
 "yearAgoEps": -0.72,
 "numberOfAnalysts": 14.0,
-"growth": -0.3219,
+"growth": -0.313,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"avg": -1.1288,
+"avg": -1.1199,
 "low": -1.55,
 "high": -0.58,
-"yearAgoEps": -0.9518,
+"yearAgoEps": -0.9453,
 "numberOfAnalysts": 19.0,
-"growth": -0.186,
+"growth": -0.1846,
 "currency": "USD",
 "methodology": "gaap"
 }
 },
 "eps_trend": {
 "0q": {
-"current": -0.2679,
+"current": -0.2661,
 "7daysAgo": -0.2675,
 "30daysAgo": -0.2621,
 "60daysAgo": -0.2504,
@@ -17586,7 +17586,7 @@
 "methodology": "gaap"
 },
 "0y": {
-"current": -0.9518,
+"current": -0.9453,
 "7daysAgo": -0.9609,
 "30daysAgo": -0.9533,
 "60daysAgo": -0.9746,
@@ -17595,7 +17595,7 @@
 "methodology": "gaap"
 },
 "+1y": {
-"current": -1.1288,
+"current": -1.1199,
 "7daysAgo": -1.0315,
 "30daysAgo": -1.0566,
 "60daysAgo": -0.9802,
@@ -17625,7 +17625,7 @@
 "upLast7days": 1.0,
 "upLast30days": 2.0,
 "downLast30days": 1.0,
-"downLast7Days": 1.0,
+"downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "gaap"
 },
@@ -17633,7 +17633,7 @@
 "upLast7days": 1.0,
 "upLast30days": 2.0,
 "downLast30days": 1.0,
-"downLast7Days": 1.0,
+"downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "gaap"
 }
@@ -17829,23 +17829,23 @@
 }
 ],
 "layer": "power",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-08-05",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:37Z",
+"fetched_utc": "2026-11-16T20:56:07Z",
 "shortName": "NuScale Power Corporation",
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery",
 "currency": "USD",
-"marketCap": 1898753920.0,
+"marketCap": 1759169792.0,
 "revenueGrowth": -0.966,
 "earningsGrowth": null,
 "grossMargins": -0.0216,
 "operatingMargins": 90.9945,
-"forwardPE": -6.8997,
+"forwardPE": -6.3296,
 "trailingPE": null,
-"heldPercentInstitutions": 0.629,
+"heldPercentInstitutions": 0.6331,
 "shortPercentOfFloat": 0.2636,
 "numberOfAnalystOpinions": 16.0,
 "recommendationMean": 2.8421,
@@ -17874,12 +17874,12 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 360440.0,
+"avg": 313440.0,
 "low": 0.0,
 "high": 1000000.0,
 "numberOfAnalysts": 9.0,
 "yearAgoRevenue": 1808000.0,
-"growth": -0.8006,
+"growth": -0.8266,
 "currency": "USD"
 },
 "+1q": {
@@ -17892,32 +17892,32 @@
 "currency": "USD"
 },
 "0y": {
-"avg": 2548370.0,
+"avg": 2510370.0,
 "low": 900000.0,
 "high": 12167000.0,
 "numberOfAnalysts": 9.0,
 "yearAgoRevenue": 31479000.0,
-"growth": -0.919,
+"growth": -0.9203,
 "currency": "USD"
 },
 "+1y": {
-"avg": 96639880.0,
+"avg": 96522230.0,
 "low": 300000.0,
 "high": 415800000.0,
 "numberOfAnalysts": 17.0,
-"yearAgoRevenue": 2548370.0,
-"growth": 36.9222,
+"yearAgoRevenue": 2510370.0,
+"growth": 37.4494,
 "currency": "USD"
 }
 },
 "earnings_estimate": {
 "0q": {
-"avg": -0.1,
-"low": -0.11,
+"avg": -0.1714,
+"low": -0.6,
 "high": -0.08,
 "yearAgoEps": -0.8,
-"numberOfAnalysts": 6.0,
-"growth": 0.875,
+"numberOfAnalysts": 7.0,
+"growth": 0.7857,
 "currency": "USD",
 "methodology": "gaap"
 },
@@ -17932,33 +17932,33 @@
 "methodology": "gaap"
 },
 "0y": {
-"avg": -0.4787,
-"low": -0.5393,
+"avg": -0.5388,
+"low": -1.02,
 "high": -0.43,
 "yearAgoEps": -2.17,
-"numberOfAnalysts": 8.0,
-"growth": 0.7794,
+"numberOfAnalysts": 9.0,
+"growth": 0.7517,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"avg": -0.6998,
+"avg": -0.707,
 "low": -1.47,
 "high": -0.34,
-"yearAgoEps": -0.4787,
+"yearAgoEps": -0.5388,
 "numberOfAnalysts": 11.0,
-"growth": -0.4619,
+"growth": -0.3122,
 "currency": "USD",
 "methodology": "gaap"
 }
 },
 "eps_trend": {
 "0q": {
-"current": -0.1,
-"7daysAgo": -0.122,
+"current": -0.1714,
+"7daysAgo": -0.0933,
 "30daysAgo": -0.122,
 "60daysAgo": -0.1183,
-"90daysAgo": -0.124,
+"90daysAgo": -0.1183,
 "currency": "USD",
 "methodology": "gaap"
 },
@@ -17972,30 +17972,30 @@
 "methodology": "gaap"
 },
 "0y": {
-"current": -0.4787,
-"7daysAgo": -0.484,
+"current": -0.5388,
+"7daysAgo": -0.4962,
 "30daysAgo": -0.484,
 "60daysAgo": -0.4826,
-"90daysAgo": -0.4812,
+"90daysAgo": -0.4826,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"current": -0.6998,
-"7daysAgo": -0.6957,
+"current": -0.707,
+"7daysAgo": -0.7225,
 "30daysAgo": -0.7267,
 "60daysAgo": -0.7237,
-"90daysAgo": -0.6634,
+"90daysAgo": -0.7125,
 "currency": "USD",
 "methodology": "gaap"
 }
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 5.0,
+"upLast7days": 2.0,
 "upLast30days": 2.0,
 "downLast30days": 0.0,
-"downLast7Days": 1.0,
+"downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "gaap"
 },
@@ -18009,8 +18009,8 @@
 },
 "0y": {
 "upLast7days": 1.0,
-"upLast30days": 0.0,
-"downLast30days": 0.0,
+"upLast30days": 1.0,
+"downLast30days": 2.0,
 "downLast7Days": 2.0,
 "currency": "USD",
 "methodology": "gaap"
@@ -18215,26 +18215,26 @@
 }
 ],
 "layer": "power",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-22",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:38Z",
+"fetched_utc": "2026-11-16T20:56:08Z",
 "shortName": "Bloom Energy Corporation",
 "sector": "Industrials",
 "industry": "Electrical Equipment & Parts",
 "currency": "USD",
-"marketCap": 56867201024.0,
+"marketCap": 52440629248.0,
 "revenueGrowth": 1.381,
 "earningsGrowth": null,
 "grossMargins": 0.3177,
 "operatingMargins": 0.1433,
-"forwardPE": 36.128,
-"trailingPE": 116.5709,
-"heldPercentInstitutions": 0.8982,
+"forwardPE": 33.3157,
+"trailingPE": 107.497,
+"heldPercentInstitutions": 0.9061,
 "shortPercentOfFloat": 0.0681,
 "numberOfAnalystOpinions": 26.0,
-"recommendationMean": 2.2069,
+"recommendationMean": 2.1724,
 "targetMeanPrice": 283.8462,
 "revenue_q": [
 {
@@ -18360,8 +18360,8 @@
 "0y": {
 "current": 3.273,
 "7daysAgo": 3.273,
-"30daysAgo": 2.7033,
-"60daysAgo": 2.6913,
+"30daysAgo": 2.71,
+"60daysAgo": 2.6909,
 "90daysAgo": 2.7113,
 "currency": "USD",
 "methodology": "normalized"
@@ -18369,8 +18369,8 @@
 "+1y": {
 "current": 5.3239,
 "7daysAgo": 5.3239,
-"30daysAgo": 4.8838,
-"60daysAgo": 4.9424,
+"30daysAgo": 4.8957,
+"60daysAgo": 4.9512,
 "90daysAgo": 4.8852,
 "currency": "USD",
 "methodology": "normalized"
@@ -18378,7 +18378,7 @@
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 15.0,
+"upLast7days": 1.0,
 "upLast30days": 16.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
@@ -18386,15 +18386,15 @@
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 6.0,
+"upLast7days": 2.0,
 "upLast30days": 7.0,
 "downLast30days": 3.0,
-"downLast7Days": 3.0,
+"downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 20.0,
+"upLast7days": 1.0,
 "upLast30days": 21.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
@@ -18402,10 +18402,10 @@
 "methodology": "normalized"
 },
 "+1y": {
-"upLast7days": 18.0,
+"upLast7days": 1.0,
 "upLast30days": 18.0,
 "downLast30days": 3.0,
-"downLast7Days": 2.0,
+"downLast7Days": 1.0,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -18601,23 +18601,23 @@
 }
 ],
 "layer": "power",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-03",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:39Z",
+"fetched_utc": "2026-11-16T20:56:09Z",
 "shortName": "Modine Manufacturing Company",
 "sector": "Industrials",
 "industry": "Building Products & Equipment",
 "currency": "USD",
-"marketCap": 7411927040.0,
+"marketCap": 6982627328.0,
 "revenueGrowth": 0.346,
 "earningsGrowth": -0.325,
 "grossMargins": 0.2176,
 "operatingMargins": 0.1132,
-"forwardPE": 14.7974,
-"trailingPE": 58.2971,
-"heldPercentInstitutions": 0.9665,
+"forwardPE": 13.9403,
+"trailingPE": 54.9205,
+"heldPercentInstitutions": 0.9581,
 "shortPercentOfFloat": 0.0468,
 "numberOfAnalystOpinions": 9.0,
 "recommendationMean": 1.1,
@@ -18727,7 +18727,7 @@
 "eps_trend": {
 "0q": {
 "current": 1.2316,
-"7daysAgo": 1.4683,
+"7daysAgo": 1.2305,
 "30daysAgo": 1.57,
 "60daysAgo": 1.9915,
 "90daysAgo": 2.0051,
@@ -18736,7 +18736,7 @@
 },
 "+1q": {
 "current": 2.2788,
-"7daysAgo": 1.9067,
+"7daysAgo": 2.2687,
 "30daysAgo": 1.9967,
 "60daysAgo": 2.6377,
 "90daysAgo": 2.6455,
@@ -18745,8 +18745,8 @@
 },
 "0y": {
 "current": 5.0862,
-"7daysAgo": 6.6067,
-"30daysAgo": 6.555,
+"7daysAgo": 4.9906,
+"30daysAgo": 6.57,
 "60daysAgo": 7.6218,
 "90daysAgo": 7.6441,
 "currency": "USD",
@@ -18754,8 +18754,8 @@
 },
 "+1y": {
 "current": 9.4158,
-"7daysAgo": 9.66,
-"30daysAgo": 10.165,
+"7daysAgo": 9.362,
+"30daysAgo": 10.1675,
 "60daysAgo": 11.0041,
 "90daysAgo": 11.1821,
 "currency": "USD",
@@ -18766,14 +18766,14 @@
 "0q": {
 "upLast7days": 0.0,
 "upLast30days": 0.0,
-"downLast30days": 1.0,
-"downLast7Days": 1.0,
+"downLast30days": 3.0,
+"downLast7Days": 6.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 1.0,
-"upLast30days": 1.0,
+"upLast7days": 6.0,
+"upLast30days": 3.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
@@ -18788,10 +18788,10 @@
 "methodology": "normalized"
 },
 "+1y": {
-"upLast7days": 0.0,
+"upLast7days": 2.0,
 "upLast30days": 1.0,
-"downLast30days": 1.0,
-"downLast7Days": 1.0,
+"downLast30days": 2.0,
+"downLast7Days": 4.0,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -18987,23 +18987,23 @@
 }
 ],
 "layer": "power",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-30",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:40Z",
+"fetched_utc": "2026-11-16T20:56:10Z",
 "shortName": "nVent Electric plc",
 "sector": "Industrials",
 "industry": "Electrical Equipment & Parts",
 "currency": "USD",
-"marketCap": 18355922944.0,
+"marketCap": 17657012224.0,
 "revenueGrowth": 0.437,
 "earningsGrowth": 0.654,
 "grossMargins": 0.3617,
 "operatingMargins": 0.1771,
-"forwardPE": 16.2308,
-"trailingPE": 27.5704,
-"heldPercentInstitutions": 0.9462,
+"forwardPE": 15.5388,
+"trailingPE": 26.5206,
+"heldPercentInstitutions": 0.9698,
 "shortPercentOfFloat": 0.0401,
 "numberOfAnalystOpinions": 18.0,
 "recommendationMean": 1.25,
@@ -19100,12 +19100,12 @@
 "methodology": "normalized"
 },
 "+1y": {
-"avg": 6.9984,
-"low": 6.38,
+"avg": 7.0318,
+"low": 6.44,
 "high": 7.71,
 "yearAgoEps": 5.3834,
 "numberOfAnalysts": 18.0,
-"growth": 0.3,
+"growth": 0.3062,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -19139,7 +19139,7 @@
 "methodology": "normalized"
 },
 "+1y": {
-"current": 6.9984,
+"current": 7.0318,
 "7daysAgo": 6.9984,
 "30daysAgo": 6.7411,
 "60daysAgo": 6.4601,
@@ -19150,7 +19150,7 @@
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 6.0,
+"upLast7days": 11.0,
 "upLast30days": 10.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
@@ -19158,7 +19158,7 @@
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 1.0,
+"upLast7days": 3.0,
 "upLast30days": 6.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
@@ -19166,8 +19166,8 @@
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 8.0,
-"upLast30days": 6.0,
+"upLast7days": 14.0,
+"upLast30days": 12.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
@@ -19175,7 +19175,7 @@
 },
 "+1y": {
 "upLast7days": 6.0,
-"upLast30days": 5.0,
+"upLast30days": 8.0,
 "downLast30days": 2.0,
 "downLast7Days": 1.0,
 "currency": "USD",
@@ -19373,27 +19373,27 @@
 }
 ],
 "layer": "power",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-30",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:41Z",
+"fetched_utc": "2026-11-16T20:56:11Z",
 "shortName": "Cameco Corporation",
 "sector": "Energy",
 "industry": "Uranium",
 "currency": "USD",
-"marketCap": 31053504512.0,
+"marketCap": 28714254336.0,
 "revenueGrowth": 0.007,
 "earningsGrowth": null,
 "grossMargins": 0.3383,
 "operatingMargins": 0.1289,
-"forwardPE": 41.6184,
-"trailingPE": 108.0303,
-"heldPercentInstitutions": 0.6859,
+"forwardPE": 38.4833,
+"trailingPE": 99.8924,
+"heldPercentInstitutions": 0.685,
 "shortPercentOfFloat": null,
 "numberOfAnalystOpinions": 9.0,
 "recommendationMean": 1.5238,
-"targetMeanPrice": 115.6018,
+"targetMeanPrice": 115.5743,
 "revenue_q": [
 {
 "end": "2025-09-30",
@@ -19418,12 +19418,12 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 1108435440.0,
+"avg": 1105900610.0,
 "low": 997045000.0,
-"high": 1189757000.0,
+"high": 1174548000.0,
 "numberOfAnalysts": 6.0,
 "yearAgoRevenue": 1201000000.0,
-"growth": -0.0771,
+"growth": -0.0792,
 "currency": "CAD"
 },
 "+1q": {
@@ -19436,32 +19436,32 @@
 "currency": "CAD"
 },
 "0y": {
-"avg": 3441192710.0,
+"avg": 3438600710.0,
 "low": 3328000000.0,
 "high": 3568476450.0,
 "numberOfAnalysts": 15.0,
 "yearAgoRevenue": 3482000000.0,
-"growth": -0.0117,
+"growth": -0.0125,
 "currency": "CAD"
 },
 "+1y": {
-"avg": 3963245680.0,
+"avg": 3969488820.0,
 "low": 3576000000.0,
 "high": 4385766440.0,
 "numberOfAnalysts": 15.0,
-"yearAgoRevenue": 3441192710.0,
-"growth": 0.1517,
+"yearAgoRevenue": 3438600710.0,
+"growth": 0.1544,
 "currency": "CAD"
 }
 },
 "earnings_estimate": {
 "0q": {
-"avg": 0.3613,
+"avg": 0.3711,
 "low": 0.25,
 "high": 0.51,
 "yearAgoEps": 0.5,
-"numberOfAnalysts": 8.0,
-"growth": -0.2775,
+"numberOfAnalysts": 9.0,
+"growth": -0.2578,
 "currency": "CAD",
 "methodology": "normalized"
 },
@@ -19476,12 +19476,12 @@
 "methodology": "normalized"
 },
 "0y": {
-"avg": 1.1113,
+"avg": 1.084,
 "low": 0.9,
 "high": 1.51,
 "yearAgoEps": 1.44,
 "numberOfAnalysts": 15.0,
-"growth": -0.2282,
+"growth": -0.2472,
 "currency": "CAD",
 "methodology": "normalized"
 },
@@ -19489,18 +19489,18 @@
 "avg": 2.4059,
 "low": 1.48,
 "high": 4.1,
-"yearAgoEps": 1.1113,
+"yearAgoEps": 1.084,
 "numberOfAnalysts": 18.0,
-"growth": 1.1649,
+"growth": 1.2195,
 "currency": "CAD",
 "methodology": "normalized"
 }
 },
 "eps_trend": {
 "0q": {
-"current": 0.3613,
-"7daysAgo": 0.3757,
-"30daysAgo": 0.5283,
+"current": 0.3711,
+"7daysAgo": 0.36,
+"30daysAgo": 0.5594,
 "60daysAgo": 0.5106,
 "90daysAgo": 0.505,
 "currency": "CAD",
@@ -19516,9 +19516,9 @@
 "methodology": "normalized"
 },
 "0y": {
-"current": 1.1113,
-"7daysAgo": 1.065,
-"30daysAgo": 1.4493,
+"current": 1.084,
+"7daysAgo": 1.1293,
+"30daysAgo": 1.4516,
 "60daysAgo": 1.492,
 "90daysAgo": 1.4815,
 "currency": "CAD",
@@ -19526,8 +19526,8 @@
 },
 "+1y": {
 "current": 2.4059,
-"7daysAgo": 2.5115,
-"30daysAgo": 2.5888,
+"7daysAgo": 2.4833,
+"30daysAgo": 2.5999,
 "60daysAgo": 2.6184,
 "90daysAgo": 2.608,
 "currency": "CAD",
@@ -19538,7 +19538,7 @@
 "0q": {
 "upLast7days": 2.0,
 "upLast30days": 1.0,
-"downLast30days": 2.0,
+"downLast30days": 4.0,
 "downLast7Days": 3.0,
 "currency": "CAD",
 "methodology": "normalized"
@@ -19547,20 +19547,20 @@
 "upLast7days": 0.0,
 "upLast30days": 0.0,
 "downLast30days": 3.0,
-"downLast7Days": 1.0,
+"downLast7Days": 2.0,
 "currency": "CAD",
 "methodology": "normalized"
 },
 "0y": {
 "upLast7days": 1.0,
-"upLast30days": 1.0,
-"downLast30days": 9.0,
-"downLast7Days": 9.0,
+"upLast30days": 2.0,
+"downLast30days": 11.0,
+"downLast7Days": 10.0,
 "currency": "CAD",
 "methodology": "normalized"
 },
 "+1y": {
-"upLast7days": 0.0,
+"upLast7days": 1.0,
 "upLast30days": 3.0,
 "downLast30days": 9.0,
 "downLast7Days": 8.0,
@@ -19613,7 +19613,7 @@
 "sma200_slope20": 5.7502,
 "hi52": 364.6653,
 "lo52": 150.0118,
-"vol50": 77070.58,
+"vol50": 77182.0,
 "ret21": -0.2086,
 "ret63": -0.2348,
 "rs21": -0.186,
@@ -19622,8 +19622,8 @@
 "date": "2026-11-13",
 "change_pct": -1.8527,
 "red_day": true,
-"volume": 60929.0,
-"vol_vs_50d": 0.7906,
+"volume": 66500.0,
+"vol_vs_50d": 0.8616,
 "pct_from_hi52": -44.2146,
 "trend_template": false,
 "bars": [
@@ -19703,11 +19703,11 @@
 "ret189": 0.0151,
 "ret252": 0.141,
 "rs63_smh": -0.0629,
-"ud_vol_50": 0.8614,
+"ud_vol_50": 0.8591,
 "accum_days_25": 7,
 "dist_days_25": 13,
 "atr14_pct": 8.6007,
-"dollar_vol50": 18501178.861,
+"dollar_vol50": 18523845.0308,
 "pivot": 318.48,
 "pivot_date": "2026-10-09",
 "base_low": 185.55,
@@ -19752,29 +19752,29 @@
 {
 "date": "2026-11-13",
 "chg": -0.0185,
-"vol_ratio": 0.7836,
+"vol_ratio": 0.8553,
 "high": 208.0,
 "low": 199.24,
 "close": 203.43
 }
 ],
 "layer": "power",
-"history_days": 503,
+"history_days": 500,
 "since_listing": null,
 "last_report": "2026-10-29",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:42Z",
+"fetched_utc": "2026-11-16T20:56:12Z",
 "shortName": "HAMMOND POWER SOLUTIONS INC., C",
 "sector": "Industrials",
 "industry": "Electrical Equipment & Parts",
 "currency": "CAD",
-"marketCap": 2440509440.0,
+"marketCap": 2390270720.0,
 "revenueGrowth": 1.044,
 "earningsGrowth": 0.596,
 "grossMargins": 0.3176,
 "operatingMargins": 0.1131,
-"forwardPE": 14.6287,
-"trailingPE": 33.9404,
+"forwardPE": 14.3276,
+"trailingPE": 33.2417,
 "heldPercentInstitutions": 0.4123,
 "shortPercentOfFloat": null,
 "numberOfAnalystOpinions": 7.0,
@@ -19939,7 +19939,7 @@
 },
 "0y": {
 "upLast7days": 6.0,
-"upLast30days": 2.0,
+"upLast30days": 6.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "CAD",
@@ -19947,8 +19947,8 @@
 },
 "+1y": {
 "upLast7days": 5.0,
-"upLast30days": 3.0,
-"downLast30days": 1.0,
+"upLast30days": 5.0,
+"downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "CAD",
 "methodology": "normalized"
@@ -20145,23 +20145,23 @@
 }
 ],
 "layer": "datacenter",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-28",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:43Z",
+"fetched_utc": "2026-11-16T20:56:13Z",
 "shortName": "Equinix, Inc.",
 "sector": "Real Estate",
 "industry": "REIT - Specialty",
 "currency": "USD",
-"marketCap": 104302755840.0,
+"marketCap": 103198793728.0,
 "revenueGrowth": 0.104,
 "earningsGrowth": 0.294,
 "grossMargins": 0.52,
 "operatingMargins": 0.2454,
-"forwardPE": 50.9151,
-"trailingPE": 63.2845,
-"heldPercentInstitutions": 1.0094,
+"forwardPE": 50.3762,
+"trailingPE": 62.6147,
+"heldPercentInstitutions": 1.0,
 "shortPercentOfFloat": 0.0205,
 "numberOfAnalystOpinions": 32.0,
 "recommendationMean": 1.4571,
@@ -20531,23 +20531,23 @@
 }
 ],
 "layer": "datacenter",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-29",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:44Z",
+"fetched_utc": "2026-11-16T20:56:14Z",
 "shortName": "Digital Realty Trust, Inc.",
 "sector": "Real Estate",
 "industry": "REIT - Specialty",
 "currency": "USD",
-"marketCap": 69217509376.0,
+"marketCap": 68809457664.0,
 "revenueGrowth": 0.207,
 "earningsGrowth": 2.205,
 "grossMargins": 0.5703,
 "operatingMargins": 0.1885,
-"forwardPE": 62.1554,
-"trailingPE": 75.8608,
-"heldPercentInstitutions": 1.0313,
+"forwardPE": 61.7889,
+"trailingPE": 75.4136,
+"heldPercentInstitutions": 1.0422,
 "shortPercentOfFloat": 0.0001,
 "numberOfAnalystOpinions": 32.0,
 "recommendationMean": 1.4412,
@@ -20931,31 +20931,27 @@
 },
 "last_report": "2026-11-10",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:45Z",
+"fetched_utc": "2026-11-16T20:56:15Z",
 "shortName": "CoreWeave, Inc.",
 "sector": "Technology",
 "industry": "Software - Infrastructure",
 "currency": "USD",
-"marketCap": 29115961344.0,
+"marketCap": 27708962816.0,
 "revenueGrowth": 1.682,
 "earningsGrowth": null,
 "grossMargins": 0.6675,
 "operatingMargins": -0.0047,
-"forwardPE": -29.8934,
+"forwardPE": -28.0965,
 "trailingPE": null,
-"heldPercentInstitutions": 0.7554,
+"heldPercentInstitutions": 0.7729,
 "shortPercentOfFloat": 0.233,
 "numberOfAnalystOpinions": 38.0,
 "recommendationMean": 1.7805,
-"targetMeanPrice": 120.079,
+"targetMeanPrice": 115.3421,
 "revenue_q": [
 {
-"end": "2025-06-30",
-"revenue": 1212000000.0
-},
-{
 "end": "2025-09-30",
-"revenue": 1364676000.0
+"revenue": 1365000000.0
 },
 {
 "end": "2025-12-31",
@@ -20968,16 +20964,16 @@
 {
 "end": "2026-06-30",
 "revenue": 2575000000.0
+},
+{
+"end": "2026-09-30",
+"revenue": 3661000000.0
 }
 ],
 "capex_q": [
 {
-"end": "2025-06-30",
-"capex": 2453000000.0
-},
-{
 "end": "2025-09-30",
-"capex": 2389239000.0
+"capex": 2389000000.0
 },
 {
 "end": "2025-12-31",
@@ -20990,84 +20986,88 @@
 {
 "end": "2026-06-30",
 "capex": 6422000000.0
+},
+{
+"end": "2026-09-30",
+"capex": 9441000000.0
 }
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 4804015240.0,
+"avg": 4845077070.0,
 "low": 4570000000.0,
 "high": 5014680000.0,
-"numberOfAnalysts": 32.0,
+"numberOfAnalysts": 34.0,
 "yearAgoRevenue": 1572000000.0,
-"growth": 2.056,
+"growth": 2.0821,
 "currency": "USD"
 },
 "+1q": {
-"avg": 5436826470.0,
-"low": 5142000000.0,
-"high": 5866000000.0,
-"numberOfAnalysts": 26.0,
+"avg": 5415525850.0,
+"low": 4959067000.0,
+"high": 5866300000.0,
+"numberOfAnalysts": 29.0,
 "yearAgoRevenue": 2078000000.0,
-"growth": 1.6164,
+"growth": 1.6061,
 "currency": "USD"
 },
 "0y": {
-"avg": 13052057170.0,
+"avg": 13113308600.0,
 "low": 12405000000.0,
 "high": 13344000000.0,
 "numberOfAnalysts": 40.0,
 "yearAgoRevenue": 5131000000.0,
-"growth": 1.5438,
+"growth": 1.5557,
 "currency": "USD"
 },
 "+1y": {
-"avg": 27072815380.0,
+"avg": 27095471930.0,
 "low": 24867000000.0,
-"high": 31460000000.0,
+"high": 30106500000.0,
 "numberOfAnalysts": 40.0,
-"yearAgoRevenue": 13052057170.0,
-"growth": 1.0742,
+"yearAgoRevenue": 13113308600.0,
+"growth": 1.0663,
 "currency": "USD"
 }
 },
 "earnings_estimate": {
 "0q": {
-"avg": -0.6158,
+"avg": -0.6002,
 "low": -0.78,
 "high": -0.21,
 "yearAgoEps": -0.5613,
-"numberOfAnalysts": 28.0,
-"growth": -0.097,
+"numberOfAnalysts": 29.0,
+"growth": -0.0694,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1q": {
-"avg": -0.9224,
-"low": -1.15,
+"avg": -0.9363,
+"low": -1.3,
 "high": -0.37,
 "yearAgoEps": -0.89,
-"numberOfAnalysts": 13.0,
-"growth": -0.0364,
+"numberOfAnalysts": 16.0,
+"growth": -0.052,
 "currency": "USD",
 "methodology": "gaap"
 },
 "0y": {
-"avg": -4.8049,
+"avg": -4.7516,
 "low": -5.43,
 "high": -4.2132,
 "yearAgoEps": -2.75,
-"numberOfAnalysts": 16.0,
-"growth": -0.7472,
+"numberOfAnalysts": 24.0,
+"growth": -0.7279,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"avg": -4.1344,
-"low": -8.75,
+"avg": -3.6423,
+"low": -10.47,
 "high": -0.0687,
-"yearAgoEps": -4.8049,
-"numberOfAnalysts": 20.0,
-"growth": 0.1395,
+"yearAgoEps": -4.7516,
+"numberOfAnalysts": 25.0,
+"growth": 0.2335,
 "currency": "USD",
 "methodology": "gaap"
 }
@@ -21078,12 +21078,12 @@
 "7daysAgo": -1.2092,
 "30daysAgo": -1.1925,
 "60daysAgo": -1.1973,
-"90daysAgo": -1.0714,
+"90daysAgo": -1.0712,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1q": {
-"current": -1.0985,
+"current": -0.9363,
 "7daysAgo": -1.144,
 "30daysAgo": -1.1032,
 "60daysAgo": -1.0785,
@@ -21092,7 +21092,7 @@
 "methodology": "gaap"
 },
 "0y": {
-"current": -4.8049,
+"current": -4.7516,
 "7daysAgo": -5.1923,
 "30daysAgo": -5.1124,
 "60daysAgo": -5.1753,
@@ -21101,7 +21101,7 @@
 "methodology": "gaap"
 },
 "+1y": {
-"current": -4.1344,
+"current": -3.6423,
 "7daysAgo": -4.7435,
 "30daysAgo": -4.3252,
 "60daysAgo": -4.2361,
@@ -21112,34 +21112,34 @@
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 1.0,
-"upLast30days": 3.0,
-"downLast30days": 6.0,
-"downLast7Days": 3.0,
+"upLast7days": 2.0,
+"upLast30days": 5.0,
+"downLast30days": 5.0,
+"downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1q": {
 "upLast7days": 0.0,
 "upLast30days": 0.0,
-"downLast30days": 4.0,
-"downLast7Days": 2.0,
+"downLast30days": 5.0,
+"downLast7Days": 1.0,
 "currency": "USD",
 "methodology": "gaap"
 },
 "0y": {
-"upLast7days": 1.0,
+"upLast7days": 0.0,
 "upLast30days": 2.0,
 "downLast30days": 7.0,
-"downLast7Days": 2.0,
+"downLast7Days": 1.0,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"upLast7days": 1.0,
+"upLast7days": 0.0,
 "upLast30days": 2.0,
-"downLast30days": 6.0,
-"downLast7Days": 2.0,
+"downLast30days": 7.0,
+"downLast7Days": 1.0,
 "currency": "USD",
 "methodology": "gaap"
 }
@@ -21335,32 +21335,28 @@
 }
 ],
 "layer": "datacenter",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-12",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:46Z",
+"fetched_utc": "2026-11-16T20:56:16Z",
 "shortName": "Nebius Group N.V.",
 "sector": "Communication Services",
 "industry": "Internet Content & Information",
 "currency": "USD",
-"marketCap": 32008235008.0,
-"revenueGrowth": 4.54,
+"marketCap": 31513368576.0,
+"revenueGrowth": 5.713,
 "earningsGrowth": null,
-"grossMargins": 0.7426,
-"operatingMargins": -0.3744,
-"forwardPE": -41.3287,
-"trailingPE": null,
-"heldPercentInstitutions": 0.6955,
-"shortPercentOfFloat": 0.2157,
+"grossMargins": 0.76,
+"operatingMargins": -0.1867,
+"forwardPE": -35.1508,
+"trailingPE": 84.0547,
+"heldPercentInstitutions": 0.6709,
+"shortPercentOfFloat": 0.198,
 "numberOfAnalystOpinions": 20.0,
 "recommendationMean": 1.8182,
-"targetMeanPrice": 271.2,
+"targetMeanPrice": 234.5,
 "revenue_q": [
-{
-"end": "2025-06-30",
-"revenue": 105100000.0
-},
 {
 "end": "2025-09-30",
 "revenue": 146100000.0
@@ -21376,13 +21372,13 @@
 {
 "end": "2026-06-30",
 "revenue": 582300000.0
+},
+{
+"end": "2026-09-30",
+"revenue": 980800000.0
 }
 ],
 "capex_q": [
-{
-"end": "2025-06-30",
-"capex": 510600000.0
-},
 {
 "end": "2025-09-30",
 "capex": 955500000.0
@@ -21398,91 +21394,95 @@
 {
 "end": "2026-06-30",
 "capex": 5657400000.0
+},
+{
+"end": "2026-09-30",
+"capex": 7300400000.0
 }
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 1308408050.0,
-"low": 1091200000.0,
-"high": 1470000000.0,
-"numberOfAnalysts": 12.0,
+"avg": 1197843850.0,
+"low": 1037900000.0,
+"high": 1450000000.0,
+"numberOfAnalysts": 14.0,
 "yearAgoRevenue": 227700000.0,
-"growth": 4.7462,
+"growth": 4.2606,
 "currency": "USD"
 },
 "+1q": {
-"avg": 2049092520.0,
-"low": 1591000000.0,
-"high": 2722689000.0,
-"numberOfAnalysts": 16.0,
+"avg": 1815098730.0,
+"low": 1296800000.0,
+"high": 2500000000.0,
+"numberOfAnalysts": 14.0,
 "yearAgoRevenue": 399000000.0,
-"growth": 4.1356,
+"growth": 3.5491,
 "currency": "USD"
 },
 "0y": {
-"avg": 3244295080.0,
-"low": 3053300000.0,
-"high": 3362000000.0,
-"numberOfAnalysts": 15.0,
+"avg": 3174332680.0,
+"low": 3000000000.0,
+"high": 3388432820.0,
+"numberOfAnalysts": 20.0,
 "yearAgoRevenue": 529800000.0,
-"growth": 5.1236,
+"growth": 4.9916,
 "currency": "USD"
 },
 "+1y": {
-"avg": 12118041620.0,
-"low": 8809100000.0,
-"high": 14626000000.0,
-"numberOfAnalysts": 22.0,
-"yearAgoRevenue": 3244295080.0,
-"growth": 2.7352,
+"avg": 12324371690.0,
+"low": 11423800000.0,
+"high": 13580210500.0,
+"numberOfAnalysts": 19.0,
+"yearAgoRevenue": 3174332680.0,
+"growth": 2.8825,
 "currency": "USD"
 }
 },
 "earnings_estimate": {
 "0q": {
-"avg": -1.165,
-"low": -1.48,
-"high": -0.85,
+"avg": -1.434,
+"low": -2.91,
+"high": -0.73,
 "yearAgoEps": -0.9865,
-"numberOfAnalysts": 2.0,
-"growth": -0.1809,
+"numberOfAnalysts": 5.0,
+"growth": -0.4536,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1q": {
-"avg": -2.3567,
-"low": -4.24,
-"high": -0.73,
+"avg": -1.5633,
+"low": -3.58,
+"high": -0.47,
 "yearAgoEps": 2.11,
-"numberOfAnalysts": 3.0,
-"growth": -2.1169,
+"numberOfAnalysts": 6.0,
+"growth": -1.7409,
 "currency": "USD",
 "methodology": "gaap"
 },
 "0y": {
-"avg": 0.0567,
-"low": -0.64,
-"high": 0.43,
+"avg": -0.2938,
+"low": -1.61,
+"high": 0.59,
 "yearAgoEps": null,
-"numberOfAnalysts": 3.0,
+"numberOfAnalysts": 8.0,
 "growth": null,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"avg": -6.0126,
-"low": -15.31,
-"high": 3.1,
-"yearAgoEps": 0.0567,
-"numberOfAnalysts": 9.0,
-"growth": -107.0985,
+"avg": -5.4343,
+"low": -10.29,
+"high": -1.89,
+"yearAgoEps": -0.2938,
+"numberOfAnalysts": 10.0,
+"growth": -17.4999,
 "currency": "USD",
 "methodology": "gaap"
 }
 },
 "eps_trend": {
 "0q": {
-"current": -1.165,
+"current": -1.434,
 "7daysAgo": -1.7775,
 "30daysAgo": -1.7775,
 "60daysAgo": -2.03,
@@ -21491,7 +21491,7 @@
 "methodology": "gaap"
 },
 "+1q": {
-"current": -2.3567,
+"current": -1.5633,
 "7daysAgo": -1.7975,
 "30daysAgo": -1.7975,
 "60daysAgo": -2.0367,
@@ -21500,7 +21500,7 @@
 "methodology": "gaap"
 },
 "0y": {
-"current": 0.0567,
+"current": -0.2938,
 "7daysAgo": -2.1132,
 "30daysAgo": -2.1132,
 "60daysAgo": -2.5183,
@@ -21509,7 +21509,7 @@
 "methodology": "gaap"
 },
 "+1y": {
-"current": -6.0126,
+"current": -5.4343,
 "7daysAgo": -6.1573,
 "30daysAgo": -6.1573,
 "60daysAgo": -5.6486,
@@ -21743,23 +21743,23 @@
 }
 ],
 "layer": "datacenter",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-08-27",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:48Z",
+"fetched_utc": "2026-11-16T20:56:17Z",
 "shortName": "IREN LIMITED",
 "sector": "Financial Services",
 "industry": "Capital Markets",
 "currency": "USD",
-"marketCap": 7607581696.0,
+"marketCap": 6921268736.0,
 "revenueGrowth": -0.05,
 "earningsGrowth": null,
 "grossMargins": 0.7342,
 "operatingMargins": -0.7291,
-"forwardPE": 66.3974,
+"forwardPE": 60.4074,
 "trailingPE": null,
-"heldPercentInstitutions": 0.5729,
+"heldPercentInstitutions": 0.5929,
 "shortPercentOfFloat": 0.2323,
 "numberOfAnalystOpinions": 19.0,
 "recommendationMean": 1.6,
@@ -21922,7 +21922,7 @@
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 0.0,
+"upLast7days": 1.0,
 "upLast30days": 2.0,
 "downLast30days": 1.0,
 "downLast7Days": 1.0,
@@ -22129,23 +22129,23 @@
 }
 ],
 "layer": "datacenter",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-02",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:49Z",
+"fetched_utc": "2026-11-16T20:56:18Z",
 "shortName": "Cipher Digital Inc.",
 "sector": "Technology",
 "industry": "Information Technology Services",
 "currency": "USD",
-"marketCap": 3082746368.0,
+"marketCap": 2973218816.0,
 "revenueGrowth": -0.628,
 "earningsGrowth": null,
 "grossMargins": -0.5266,
 "operatingMargins": -0.5964,
-"forwardPE": 82.378,
+"forwardPE": 79.4512,
 "trailingPE": null,
-"heldPercentInstitutions": 0.9148,
+"heldPercentInstitutions": 0.9544,
 "shortPercentOfFloat": 0.2205,
 "numberOfAnalystOpinions": 22.0,
 "recommendationMean": 1.4546,
@@ -22515,23 +22515,23 @@
 }
 ],
 "layer": "datacenter",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-07",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:50Z",
+"fetched_utc": "2026-11-16T20:56:19Z",
 "shortName": "Applied Digital Corporation",
 "sector": "Technology",
 "industry": "Information Technology Services",
 "currency": "USD",
-"marketCap": 4727822848.0,
+"marketCap": 4408804352.0,
 "revenueGrowth": 3.224,
 "earningsGrowth": null,
 "grossMargins": 0.2165,
 "operatingMargins": -0.2628,
-"forwardPE": -19.9314,
+"forwardPE": -18.5865,
 "trailingPE": null,
-"heldPercentInstitutions": 0.7654,
+"heldPercentInstitutions": 0.7685,
 "shortPercentOfFloat": 0.2242,
 "numberOfAnalystOpinions": 16.0,
 "recommendationMean": 1.375,
@@ -22901,23 +22901,23 @@
 }
 ],
 "layer": "datacenter",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-06",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:52Z",
+"fetched_utc": "2026-11-16T20:56:20Z",
 "shortName": "TeraWulf Inc.",
 "sector": "Financial Services",
 "industry": "Capital Markets",
 "currency": "USD",
-"marketCap": 6289080832.0,
+"marketCap": 5958076416.0,
 "revenueGrowth": 0.507,
 "earningsGrowth": null,
 "grossMargins": 0.6917,
 "operatingMargins": -2.111,
-"forwardPE": -50.7446,
+"forwardPE": -48.0738,
 "trailingPE": null,
-"heldPercentInstitutions": 0.884,
+"heldPercentInstitutions": 0.9041,
 "shortPercentOfFloat": 0.2861,
 "numberOfAnalystOpinions": 24.0,
 "recommendationMean": 1.28,
@@ -23287,23 +23287,23 @@
 }
 ],
 "layer": "datacenter",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-05",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:53Z",
+"fetched_utc": "2026-11-16T20:56:21Z",
 "shortName": "Core Scientific, Inc.",
 "sector": "Technology",
 "industry": "Software - Infrastructure",
 "currency": "USD",
-"marketCap": 4628922880.0,
+"marketCap": 4358244352.0,
 "revenueGrowth": 1.871,
 "earningsGrowth": null,
 "grossMargins": 0.4406,
 "operatingMargins": -0.0206,
-"forwardPE": 42.8141,
+"forwardPE": 40.3106,
 "trailingPE": null,
-"heldPercentInstitutions": 1.2609,
+"heldPercentInstitutions": 1.1827,
 "shortPercentOfFloat": 0.2563,
 "numberOfAnalystOpinions": 21.0,
 "recommendationMean": 1.3182,
@@ -23332,39 +23332,39 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 250826410.0,
+"avg": 250199760.0,
 "low": 239000000.0,
 "high": 262100000.0,
-"numberOfAnalysts": 15.0,
+"numberOfAnalysts": 16.0,
 "yearAgoRevenue": 79763000.0,
-"growth": 2.1446,
+"growth": 2.1368,
 "currency": "USD"
 },
 "+1q": {
-"avg": 256305400.0,
-"low": 209600000.0,
+"avg": 260459940.0,
+"low": 239669000.0,
 "high": 281900000.0,
 "numberOfAnalysts": 11.0,
 "yearAgoRevenue": 115244000.0,
-"growth": 1.224,
+"growth": 1.2601,
 "currency": "USD"
 },
 "0y": {
-"avg": 755889410.0,
+"avg": 755734450.0,
 "low": 699000000.0,
 "high": 774500000.0,
-"numberOfAnalysts": 17.0,
+"numberOfAnalysts": 18.0,
 "yearAgoRevenue": 319019000.0,
-"growth": 1.3694,
+"growth": 1.3689,
 "currency": "USD"
 },
 "+1y": {
-"avg": 1254525640.0,
-"low": 1052200000.0,
+"avg": 1258740640.0,
+"low": 1089903000.0,
 "high": 1443900000.0,
 "numberOfAnalysts": 20.0,
-"yearAgoRevenue": 755889410.0,
-"growth": 0.6597,
+"yearAgoRevenue": 755734450.0,
+"growth": 0.6656,
 "currency": "USD"
 }
 },
@@ -23673,27 +23673,27 @@
 }
 ],
 "layer": "datacenter",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-04",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:54Z",
+"fetched_utc": "2026-11-16T20:56:22Z",
 "shortName": "Hut 8 Corp.",
 "sector": "Financial Services",
 "industry": "Capital Markets",
 "currency": "USD",
-"marketCap": 6948973568.0,
+"marketCap": 6391999488.0,
 "revenueGrowth": -0.149,
 "earningsGrowth": 1.257,
 "grossMargins": 0.6148,
 "operatingMargins": -2.2987,
-"forwardPE": -10.3745,
+"forwardPE": -9.543,
 "trailingPE": null,
-"heldPercentInstitutions": 0.8367,
+"heldPercentInstitutions": 0.9029,
 "shortPercentOfFloat": 0.1793,
 "numberOfAnalystOpinions": 23.0,
 "recommendationMean": 1.3478,
-"targetMeanPrice": 128.0435,
+"targetMeanPrice": 127.6957,
 "revenue_q": [
 {
 "end": "2025-09-30",
@@ -23718,39 +23718,39 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 79513750.0,
+"avg": 82200990.0,
 "low": 67800000.0,
-"high": 96000000.0,
-"numberOfAnalysts": 16.0,
+"high": 107300000.0,
+"numberOfAnalysts": 18.0,
 "yearAgoRevenue": 88494000.0,
-"growth": -0.1015,
+"growth": -0.0711,
 "currency": "USD"
 },
 "+1q": {
-"avg": 78675580.0,
+"avg": 78592250.0,
 "low": 59800000.0,
-"high": 110700000.0,
+"high": 109700000.0,
 "numberOfAnalysts": 12.0,
 "yearAgoRevenue": 71017000.0,
-"growth": 0.1078,
+"growth": 0.1067,
 "currency": "USD"
 },
 "0y": {
-"avg": 296494200.0,
+"avg": 297957660.0,
 "low": 284562170.0,
-"high": 313000000.0,
-"numberOfAnalysts": 18.0,
+"high": 324300000.0,
+"numberOfAnalysts": 19.0,
 "yearAgoRevenue": 235118000.0,
-"growth": 0.261,
+"growth": 0.2673,
 "currency": "USD"
 },
 "+1y": {
-"avg": 571352250.0,
+"avg": 571152250.0,
 "low": 359300000.0,
-"high": 696300000.0,
+"high": 692300000.0,
 "numberOfAnalysts": 20.0,
-"yearAgoRevenue": 296494200.0,
-"growth": 0.927,
+"yearAgoRevenue": 297957660.0,
+"growth": 0.9169,
 "currency": "USD"
 }
 },
@@ -24059,23 +24059,23 @@
 }
 ],
 "layer": "hyperscaler",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-28",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:55Z",
+"fetched_utc": "2026-11-16T20:56:23Z",
 "shortName": "Microsoft Corporation",
 "sector": "Technology",
 "industry": "Software - Infrastructure",
 "currency": "USD",
-"marketCap": 3895781490688.0,
+"marketCap": 3839713869824.0,
 "revenueGrowth": 0.188,
 "earningsGrowth": 0.323,
 "grossMargins": 0.6766,
 "operatingMargins": 0.471,
-"forwardPE": 21.6815,
-"trailingPE": 27.38,
-"heldPercentInstitutions": 0.7647,
+"forwardPE": 21.3695,
+"trailingPE": 26.9859,
+"heldPercentInstitutions": 0.764,
 "shortPercentOfFloat": 0.0082,
 "numberOfAnalystOpinions": 54.0,
 "recommendationMean": 1.3793,
@@ -24208,70 +24208,70 @@
 "0q": {
 "current": 4.8557,
 "7daysAgo": 4.8557,
-"30daysAgo": 4.829,
+"30daysAgo": 4.8223,
 "60daysAgo": 4.8272,
-"90daysAgo": 4.8233,
+"90daysAgo": 4.8258,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
 "current": 4.9368,
 "7daysAgo": 4.9368,
-"30daysAgo": 4.8926,
+"30daysAgo": 4.885,
 "60daysAgo": 4.8832,
-"90daysAgo": 4.8739,
+"90daysAgo": 4.8773,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
 "current": 20.0136,
-"7daysAgo": 20.0039,
-"30daysAgo": 19.7687,
+"7daysAgo": 20.0136,
+"30daysAgo": 19.7699,
 "60daysAgo": 19.7531,
-"90daysAgo": 19.7221,
+"90daysAgo": 19.7289,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
 "current": 24.1957,
-"7daysAgo": 24.1793,
-"30daysAgo": 23.6773,
+"7daysAgo": 24.1957,
+"30daysAgo": 23.687,
 "60daysAgo": 23.573,
-"90daysAgo": 23.5527,
+"90daysAgo": 23.5733,
 "currency": "USD",
 "methodology": "normalized"
 }
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 14.0,
+"upLast7days": 15.0,
 "upLast30days": 15.0,
-"downLast30days": 3.0,
-"downLast7Days": 4.0,
+"downLast30days": 5.0,
+"downLast7Days": 6.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
 "upLast7days": 18.0,
-"upLast30days": 18.0,
-"downLast30days": 2.0,
-"downLast7Days": 2.0,
-"currency": "USD",
-"methodology": "normalized"
-},
-"0y": {
-"upLast7days": 24.0,
-"upLast30days": 25.0,
+"upLast30days": 19.0,
 "downLast30days": 3.0,
 "downLast7Days": 3.0,
 "currency": "USD",
 "methodology": "normalized"
 },
+"0y": {
+"upLast7days": 1.0,
+"upLast30days": 25.0,
+"downLast30days": 3.0,
+"downLast7Days": 0.0,
+"currency": "USD",
+"methodology": "normalized"
+},
 "+1y": {
-"upLast7days": 23.0,
-"upLast30days": 24.0,
-"downLast30days": 4.0,
-"downLast7Days": 3.0,
+"upLast7days": 2.0,
+"upLast30days": 25.0,
+"downLast30days": 3.0,
+"downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -24467,23 +24467,23 @@
 }
 ],
 "layer": "hyperscaler",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-28",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:56Z",
+"fetched_utc": "2026-11-16T20:56:24Z",
 "shortName": "Alphabet Inc.",
 "sector": "Communication Services",
 "industry": "Internet Content & Information",
 "currency": "USD",
-"marketCap": 3633829904384.0,
+"marketCap": 3485348921344.0,
 "revenueGrowth": 0.247,
 "earningsGrowth": -0.253,
 "grossMargins": 0.6086,
 "operatingMargins": 0.3332,
-"forwardPE": 19.1497,
-"trailingPE": 15.4349,
-"heldPercentInstitutions": 0.8064,
+"forwardPE": 18.675,
+"trailingPE": 14.8042,
+"heldPercentInstitutions": 0.805,
 "shortPercentOfFloat": 0.0149,
 "numberOfAnalystOpinions": 53.0,
 "recommendationMean": 1.3448,
@@ -24534,12 +24534,12 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 142401246490.0,
+"avg": 143057783140.0,
 "low": 139000000000.0,
-"high": 148055000000.0,
-"numberOfAnalysts": 36.0,
+"high": 160492755320.0,
+"numberOfAnalysts": 37.0,
 "yearAgoRevenue": 113828000000.0,
-"growth": 0.251,
+"growth": 0.2568,
 "currency": "USD"
 },
 "+1q": {
@@ -24552,32 +24552,32 @@
 "currency": "USD"
 },
 "0y": {
-"avg": 499696932510.0,
+"avg": 500641579420.0,
 "low": 496163730000.0,
-"high": 505324000000.0,
-"numberOfAnalysts": 48.0,
+"high": 528860863299.0,
+"numberOfAnalysts": 50.0,
 "yearAgoRevenue": 402836000000.0,
-"growth": 0.2404,
+"growth": 0.2428,
 "currency": "USD"
 },
 "+1y": {
-"avg": 637574176140.0,
+"avg": 637037302250.0,
 "low": 545052000000.0,
-"high": 741375883900.0,
+"high": 714532189510.0,
 "numberOfAnalysts": 50.0,
-"yearAgoRevenue": 499696932510.0,
-"growth": 0.2759,
+"yearAgoRevenue": 500641579420.0,
+"growth": 0.2724,
 "currency": "USD"
 }
 },
 "earnings_estimate": {
 "0q": {
-"avg": 3.1996,
+"avg": 3.24,
 "low": 2.7,
-"high": 3.5763,
+"high": 4.129,
 "yearAgoEps": 2.82,
-"numberOfAnalysts": 40.0,
-"growth": 0.1346,
+"numberOfAnalysts": 42.0,
+"growth": 0.1489,
 "currency": "USD",
 "methodology": "gaap"
 },
@@ -24592,32 +24592,32 @@
 "methodology": "gaap"
 },
 "0y": {
-"avg": 19.5609,
+"avg": 19.5956,
 "low": 18.89,
-"high": 20.44,
+"high": 20.5924,
 "yearAgoEps": 10.81,
-"numberOfAnalysts": 47.0,
-"growth": 0.8095,
+"numberOfAnalysts": 48.0,
+"growth": 0.8127,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"avg": 14.9693,
+"avg": 14.9316,
 "low": 12.85,
-"high": 21.0315,
-"yearAgoEps": 19.5609,
+"high": 19.1084,
+"yearAgoEps": 19.5956,
 "numberOfAnalysts": 51.0,
-"growth": -0.2347,
+"growth": -0.238,
 "currency": "USD",
 "methodology": "gaap"
 }
 },
 "eps_trend": {
 "0q": {
-"current": 3.1996,
+"current": 3.24,
 "7daysAgo": 3.1997,
-"30daysAgo": 3.3497,
-"60daysAgo": 3.3388,
+"30daysAgo": 3.3379,
+"60daysAgo": 3.3324,
 "90daysAgo": 3.3329,
 "currency": "USD",
 "methodology": "gaap"
@@ -24632,20 +24632,20 @@
 "methodology": "gaap"
 },
 "0y": {
-"current": 19.5609,
+"current": 19.5956,
 "7daysAgo": 19.5265,
-"30daysAgo": 20.615,
-"60daysAgo": 20.6097,
+"30daysAgo": 20.5882,
+"60daysAgo": 20.6093,
 "90daysAgo": 20.5901,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"current": 14.9693,
+"current": 14.9316,
 "7daysAgo": 14.9536,
-"30daysAgo": 15.0311,
-"60daysAgo": 14.8982,
-"90daysAgo": 14.7807,
+"30daysAgo": 15.0761,
+"60daysAgo": 14.8806,
+"90daysAgo": 14.7765,
 "currency": "USD",
 "methodology": "gaap"
 }
@@ -24654,15 +24654,15 @@
 "0q": {
 "upLast7days": 10.0,
 "upLast30days": 10.0,
-"downLast30days": 25.0,
-"downLast7Days": 25.0,
+"downLast30days": 26.0,
+"downLast7Days": 27.0,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1q": {
 "upLast7days": 4.0,
-"upLast30days": 6.0,
-"downLast30days": 8.0,
+"upLast30days": 5.0,
+"downLast30days": 10.0,
 "downLast7Days": 11.0,
 "currency": "USD",
 "methodology": "gaap"
@@ -24676,10 +24676,10 @@
 "methodology": "gaap"
 },
 "+1y": {
-"upLast7days": 8.0,
-"upLast30days": 18.0,
-"downLast30days": 25.0,
-"downLast7Days": 28.0,
+"upLast7days": 11.0,
+"upLast30days": 19.0,
+"downLast30days": 26.0,
+"downLast7Days": 32.0,
 "currency": "USD",
 "methodology": "gaap"
 }
@@ -24875,27 +24875,27 @@
 }
 ],
 "layer": "hyperscaler",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-29",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:57Z",
+"fetched_utc": "2026-11-16T20:56:25Z",
 "shortName": "Amazon.com, Inc.",
 "sector": "Consumer Cyclical",
 "industry": "Internet Retail",
 "currency": "USD",
-"marketCap": 2872672256000.0,
+"marketCap": 2783409864704.0,
 "revenueGrowth": 0.121,
 "earningsGrowth": -0.031,
 "grossMargins": 0.5137,
 "operatingMargins": 0.1309,
-"forwardPE": 24.33,
-"trailingPE": 21.4766,
-"heldPercentInstitutions": 0.6868,
+"forwardPE": 23.5592,
+"trailingPE": 20.8092,
+"heldPercentInstitutions": 0.6888,
 "shortPercentOfFloat": 0.0096,
 "numberOfAnalystOpinions": 60.0,
 "recommendationMean": 1.3226,
-"targetMeanPrice": 326.7237,
+"targetMeanPrice": 326.2903,
 "revenue_q": [
 {
 "end": "2025-06-30",
@@ -24942,118 +24942,118 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 244858110420.0,
+"avg": 244883332160.0,
 "low": 240000000000.0,
 "high": 247611000000.0,
 "numberOfAnalysts": 46.0,
 "yearAgoRevenue": 213386000000.0,
-"growth": 0.1475,
+"growth": 0.1476,
 "currency": "USD"
 },
 "+1q": {
-"avg": 210026799030.0,
+"avg": 210079549030.0,
 "low": 202000000000.0,
 "high": 230220000000.0,
 "numberOfAnalysts": 32.0,
 "yearAgoRevenue": 181519000000.0,
-"growth": 0.1571,
+"growth": 0.1573,
 "currency": "USD"
 },
 "0y": {
-"avg": 829182275410.0,
+"avg": 829172414440.0,
 "low": 824239000000.0,
 "high": 837435000000.0,
-"numberOfAnalysts": 56.0,
+"numberOfAnalysts": 57.0,
 "yearAgoRevenue": 716924000000.0,
 "growth": 0.1566,
 "currency": "USD"
 },
 "+1y": {
-"avg": 959179557990.0,
+"avg": 959560313720.0,
 "low": 902078000000.0,
 "high": 984051000000.0,
 "numberOfAnalysts": 61.0,
-"yearAgoRevenue": 829182275410.0,
-"growth": 0.1568,
+"yearAgoRevenue": 829172414440.0,
+"growth": 0.1573,
 "currency": "USD"
 }
 },
 "earnings_estimate": {
 "0q": {
-"avg": 2.3988,
+"avg": 2.3957,
 "low": 2.13,
 "high": 2.67,
 "yearAgoEps": 1.95,
 "numberOfAnalysts": 43.0,
-"growth": 0.2301,
+"growth": 0.2286,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1q": {
-"avg": 2.2966,
+"avg": 2.297,
 "low": 1.98,
 "high": 2.52,
 "yearAgoEps": 2.78,
 "numberOfAnalysts": 29.0,
-"growth": -0.1739,
+"growth": -0.1737,
 "currency": "USD",
 "methodology": "gaap"
 },
 "0y": {
-"avg": 12.8011,
+"avg": 12.8017,
 "low": 12.04,
 "high": 13.08,
 "yearAgoEps": 7.17,
 "numberOfAnalysts": 53.0,
-"growth": 0.7854,
+"growth": 0.7855,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"avg": 10.6804,
+"avg": 10.685,
 "low": 9.03,
 "high": 13.4875,
-"yearAgoEps": 12.8011,
+"yearAgoEps": 12.8017,
 "numberOfAnalysts": 58.0,
-"growth": -0.1657,
+"growth": -0.1653,
 "currency": "USD",
 "methodology": "gaap"
 }
 },
 "eps_trend": {
 "0q": {
-"current": 2.3988,
-"7daysAgo": 2.4559,
-"30daysAgo": 2.435,
-"60daysAgo": 2.4407,
-"90daysAgo": 2.4407,
+"current": 2.3957,
+"7daysAgo": 2.3988,
+"30daysAgo": 2.4451,
+"60daysAgo": 2.4361,
+"90daysAgo": 2.4416,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1q": {
-"current": 2.2966,
-"7daysAgo": 2.3139,
-"30daysAgo": 2.3577,
-"60daysAgo": 2.3646,
-"90daysAgo": 2.3779,
+"current": 2.297,
+"7daysAgo": 2.2966,
+"30daysAgo": 2.3619,
+"60daysAgo": 2.3525,
+"90daysAgo": 2.378,
 "currency": "USD",
 "methodology": "gaap"
 },
 "0y": {
-"current": 12.8011,
-"7daysAgo": 12.9362,
-"30daysAgo": 12.9047,
-"60daysAgo": 12.917,
-"90daysAgo": 12.6706,
+"current": 12.8017,
+"7daysAgo": 12.8011,
+"30daysAgo": 12.923,
+"60daysAgo": 12.9061,
+"90daysAgo": 12.8248,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"current": 10.6804,
-"7daysAgo": 10.564,
-"30daysAgo": 10.5376,
-"60daysAgo": 10.5293,
-"90daysAgo": 10.4993,
+"current": 10.685,
+"7daysAgo": 10.6804,
+"30daysAgo": 10.5768,
+"60daysAgo": 10.5086,
+"90daysAgo": 10.5314,
 "currency": "USD",
 "methodology": "gaap"
 }
@@ -25061,8 +25061,8 @@
 "eps_revisions": {
 "0q": {
 "upLast7days": 8.0,
-"upLast30days": 10.0,
-"downLast30days": 17.0,
+"upLast30days": 11.0,
+"downLast30days": 25.0,
 "downLast7Days": 26.0,
 "currency": "USD",
 "methodology": "gaap"
@@ -25076,18 +25076,18 @@
 "methodology": "gaap"
 },
 "0y": {
-"upLast7days": 6.0,
-"upLast30days": 10.0,
-"downLast30days": 18.0,
-"downLast7Days": 21.0,
+"upLast7days": 1.0,
+"upLast30days": 17.0,
+"downLast30days": 29.0,
+"downLast7Days": 2.0,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"upLast7days": 16.0,
+"upLast7days": 25.0,
 "upLast30days": 28.0,
 "downLast30days": 16.0,
-"downLast7Days": 9.0,
+"downLast7Days": 18.0,
 "currency": "USD",
 "methodology": "gaap"
 }
@@ -25283,27 +25283,27 @@
 }
 ],
 "layer": "hyperscaler",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-21",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:58Z",
+"fetched_utc": "2026-11-16T20:56:27Z",
 "shortName": "Meta Platforms, Inc.",
 "sector": "Communication Services",
 "industry": "Internet Content & Information",
 "currency": "USD",
-"marketCap": 1630773706752.0,
+"marketCap": 1602558623744.0,
 "revenueGrowth": 0.261,
 "earningsGrowth": 2.648,
 "grossMargins": 0.8103,
 "operatingMargins": 0.3778,
-"forwardPE": 17.9221,
-"trailingPE": 21.7608,
-"heldPercentInstitutions": 0.7786,
+"forwardPE": 17.573,
+"trailingPE": 21.3893,
+"heldPercentInstitutions": 0.7804,
 "shortPercentOfFloat": 0.0341,
-"numberOfAnalystOpinions": 57.0,
-"recommendationMean": 1.4098,
-"targetMeanPrice": 850.1025,
+"numberOfAnalystOpinions": 58.0,
+"recommendationMean": 1.4193,
+"targetMeanPrice": 850.5883,
 "revenue_q": [
 {
 "end": "2025-09-30",
@@ -25350,39 +25350,39 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 75155372690.0,
+"avg": 75131075520.0,
 "low": 73578400000.0,
 "high": 76065000000.0,
-"numberOfAnalysts": 44.0,
+"numberOfAnalysts": 45.0,
 "yearAgoRevenue": 59893000000.0,
-"growth": 0.2548,
+"growth": 0.2544,
 "currency": "USD"
 },
 "+1q": {
-"avg": 68520511499.0,
+"avg": 68542011150.0,
 "low": 66433000000.0,
 "high": 71410000000.0,
-"numberOfAnalysts": 32.0,
+"numberOfAnalysts": 33.0,
 "yearAgoRevenue": 56311000000.0,
-"growth": 0.2168,
+"growth": 0.2172,
 "currency": "USD"
 },
 "0y": {
-"avg": 256875739840.0,
+"avg": 256855356280.0,
 "low": 253956600000.0,
 "high": 259775533310.0,
-"numberOfAnalysts": 54.0,
+"numberOfAnalysts": 56.0,
 "yearAgoRevenue": 200966000000.0,
-"growth": 0.2782,
+"growth": 0.2781,
 "currency": "USD"
 },
 "+1y": {
-"avg": 312629969860.0,
+"avg": 312689370360.0,
 "low": 293559000000.0,
 "high": 350349881920.0,
-"numberOfAnalysts": 59.0,
-"yearAgoRevenue": 256875739840.0,
-"growth": 0.217,
+"numberOfAnalysts": 60.0,
+"yearAgoRevenue": 256855356280.0,
+"growth": 0.2174,
 "currency": "USD"
 }
 },
@@ -25408,22 +25408,22 @@
 "methodology": "gaap"
 },
 "0y": {
-"avg": 29.1235,
+"avg": 29.0626,
 "low": 27.77,
 "high": 32.34,
 "yearAgoEps": 23.49,
 "numberOfAnalysts": 55.0,
-"growth": 0.2398,
+"growth": 0.2372,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"avg": 33.9721,
+"avg": 33.9489,
 "low": 29.32,
 "high": 40.1778,
-"yearAgoEps": 29.1235,
+"yearAgoEps": 29.0626,
 "numberOfAnalysts": 56.0,
-"growth": 0.1665,
+"growth": 0.1681,
 "currency": "USD",
 "methodology": "gaap"
 }
@@ -25432,7 +25432,7 @@
 "0q": {
 "current": 8.3311,
 "7daysAgo": 8.331,
-"30daysAgo": 8.2619,
+"30daysAgo": 8.2779,
 "60daysAgo": 8.222,
 "90daysAgo": 8.2292,
 "currency": "USD",
@@ -25448,18 +25448,18 @@
 "methodology": "gaap"
 },
 "0y": {
-"current": 29.1235,
+"current": 29.0626,
 "7daysAgo": 29.1234,
-"30daysAgo": 31.0444,
+"30daysAgo": 30.8684,
 "60daysAgo": 31.423,
 "90daysAgo": 31.7944,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"current": 33.9721,
-"7daysAgo": 33.9252,
-"30daysAgo": 34.0375,
+"current": 33.9489,
+"7daysAgo": 33.972,
+"30daysAgo": 34.0525,
 "60daysAgo": 33.9067,
 "90daysAgo": 33.948,
 "currency": "USD",
@@ -25691,23 +25691,23 @@
 }
 ],
 "layer": "hyperscaler",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-09-10",
 "fund": {
-"fetched_utc": "2026-11-13T18:29:59Z",
+"fetched_utc": "2026-11-16T20:56:28Z",
 "shortName": "Oracle Corporation",
 "sector": "Technology",
 "industry": "Software - Infrastructure",
 "currency": "USD",
-"marketCap": 387951984640.0,
+"marketCap": 370259001344.0,
 "revenueGrowth": 0.296,
 "earningsGrowth": 0.545,
 "grossMargins": 0.6396,
 "operatingMargins": 0.3427,
-"forwardPE": 11.2521,
-"trailingPE": 19.5039,
-"heldPercentInstitutions": 0.4362,
+"forwardPE": 10.7389,
+"trailingPE": 18.6144,
+"heldPercentInstitutions": 0.438,
 "shortPercentOfFloat": 0.0248,
 "numberOfAnalystOpinions": 40.0,
 "recommendationMean": 1.5,
@@ -25839,19 +25839,19 @@
 "eps_trend": {
 "0q": {
 "current": 1.89,
-"7daysAgo": 1.8891,
+"7daysAgo": 1.89,
 "30daysAgo": 1.8933,
-"60daysAgo": 1.8741,
-"90daysAgo": 1.8877,
+"60daysAgo": 1.892,
+"90daysAgo": 1.8896,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
 "current": 2.0208,
-"7daysAgo": 2.0228,
+"7daysAgo": 2.0208,
 "30daysAgo": 2.0226,
-"60daysAgo": 2.0347,
-"90daysAgo": 2.0609,
+"60daysAgo": 2.0222,
+"90daysAgo": 2.061,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -25879,14 +25879,14 @@
 "upLast7days": 0.0,
 "upLast30days": 1.0,
 "downLast30days": 4.0,
-"downLast7Days": 3.0,
+"downLast7Days": 4.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
 "upLast7days": 3.0,
-"upLast30days": 5.0,
-"downLast30days": 4.0,
+"upLast30days": 4.0,
+"downLast30days": 5.0,
 "downLast7Days": 5.0,
 "currency": "USD",
 "methodology": "normalized"
@@ -25894,8 +25894,8 @@
 "0y": {
 "upLast7days": 5.0,
 "upLast30days": 6.0,
-"downLast30days": 6.0,
-"downLast7Days": 5.0,
+"downLast30days": 7.0,
+"downLast7Days": 6.0,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -26099,27 +26099,27 @@
 }
 ],
 "layer": "software",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-02",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:00Z",
+"fetched_utc": "2026-11-16T20:56:29Z",
 "shortName": "Palantir Technologies Inc.",
 "sector": "Technology",
 "industry": "Software - Infrastructure",
 "currency": "USD",
-"marketCap": 405091975168.0,
+"marketCap": 385318191104.0,
 "revenueGrowth": 0.959,
 "earningsGrowth": 1.444,
 "grossMargins": 0.8474,
 "operatingMargins": 0.4564,
-"forwardPE": 66.2222,
-"trailingPE": 118.3965,
-"heldPercentInstitutions": 0.6608,
+"forwardPE": 62.9897,
+"trailingPE": 112.6172,
+"heldPercentInstitutions": 0.6602,
 "shortPercentOfFloat": 0.026,
 "numberOfAnalystOpinions": 28.0,
-"recommendationMean": 1.8485,
-"targetMeanPrice": 222.2536,
+"recommendationMean": 1.7879,
+"targetMeanPrice": 223.4321,
 "revenue_q": [
 {
 "end": "2025-09-30",
@@ -26144,12 +26144,12 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 2670136910.0,
+"avg": 2671797880.0,
 "low": 2650100000.0,
 "high": 2771399940.0,
-"numberOfAnalysts": 23.0,
+"numberOfAnalysts": 24.0,
 "yearAgoRevenue": 1406802000.0,
-"growth": 0.898,
+"growth": 0.8992,
 "currency": "USD"
 },
 "+1q": {
@@ -26162,21 +26162,21 @@
 "currency": "USD"
 },
 "0y": {
-"avg": 8549854970.0,
+"avg": 8551273760.0,
 "low": 8531600000.0,
 "high": 8652857940.0,
-"numberOfAnalysts": 28.0,
+"numberOfAnalysts": 29.0,
 "yearAgoRevenue": 4475446000.0,
-"growth": 0.9104,
+"growth": 0.9107,
 "currency": "USD"
 },
 "+1y": {
-"avg": 13120518910.0,
+"avg": 13111986040.0,
 "low": 12000000000.0,
 "high": 14667032850.0,
-"numberOfAnalysts": 30.0,
-"yearAgoRevenue": 8549854970.0,
-"growth": 0.5346,
+"numberOfAnalysts": 31.0,
+"yearAgoRevenue": 8551273760.0,
+"growth": 0.5333,
 "currency": "USD"
 }
 },
@@ -26270,8 +26270,8 @@
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 11.0,
-"upLast30days": 10.0,
+"upLast7days": 12.0,
+"upLast30days": 11.0,
 "downLast30days": 1.0,
 "downLast7Days": 0.0,
 "currency": "USD",
@@ -26287,8 +26287,8 @@
 },
 "+1y": {
 "upLast7days": 20.0,
-"upLast30days": 3.0,
-"downLast30days": 2.0,
+"upLast30days": 18.0,
+"downLast30days": 3.0,
 "downLast7Days": 1.0,
 "currency": "USD",
 "methodology": "normalized"
@@ -26485,23 +26485,23 @@
 }
 ],
 "layer": "software",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-28",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:02Z",
+"fetched_utc": "2026-11-16T20:56:30Z",
 "shortName": "ServiceNow, Inc.",
 "sector": "Technology",
 "industry": "Software - Application",
 "currency": "USD",
-"marketCap": 105732603904.0,
+"marketCap": 103236411392.0,
 "revenueGrowth": 0.205,
 "earningsGrowth": -0.442,
 "grossMargins": 0.7308,
 "operatingMargins": 0.1275,
-"forwardPE": 21.2128,
-"trailingPE": 73.2878,
-"heldPercentInstitutions": 0.8557,
+"forwardPE": 20.712,
+"trailingPE": 71.5576,
+"heldPercentInstitutions": 0.8506,
 "shortPercentOfFloat": 0.0262,
 "numberOfAnalystOpinions": 46.0,
 "recommendationMean": 1.449,
@@ -26667,15 +26667,15 @@
 "upLast7days": 4.0,
 "upLast30days": 4.0,
 "downLast30days": 35.0,
-"downLast7Days": 34.0,
+"downLast7Days": 35.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
 "upLast7days": 6.0,
 "upLast30days": 6.0,
-"downLast30days": 32.0,
-"downLast7Days": 32.0,
+"downLast30days": 33.0,
+"downLast7Days": 33.0,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -26871,23 +26871,23 @@
 }
 ],
 "layer": "software",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-08-26",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:03Z",
+"fetched_utc": "2026-11-16T20:56:31Z",
 "shortName": "Salesforce, Inc.",
 "sector": "Technology",
 "industry": "Software - Application",
 "currency": "USD",
-"marketCap": 178854363136.0,
+"marketCap": 177554030592.0,
 "revenueGrowth": 0.108,
 "earningsGrowth": 1.189,
 "grossMargins": 0.7728,
 "operatingMargins": 0.2152,
-"forwardPE": 13.5696,
-"trailingPE": 19.8829,
-"heldPercentInstitutions": 0.852,
+"forwardPE": 13.4709,
+"trailingPE": 19.7383,
+"heldPercentInstitutions": 0.8219,
 "shortPercentOfFloat": 0.0368,
 "numberOfAnalystOpinions": 53.0,
 "recommendationMean": 1.6786,
@@ -26999,7 +26999,7 @@
 "current": 3.4463,
 "7daysAgo": 3.4463,
 "30daysAgo": 3.4463,
-"60daysAgo": 3.4503,
+"60daysAgo": 3.442,
 "90daysAgo": 3.3635,
 "currency": "USD",
 "methodology": "normalized"
@@ -27008,7 +27008,7 @@
 "current": 3.5569,
 "7daysAgo": 3.5569,
 "30daysAgo": 3.5562,
-"60daysAgo": 3.5589,
+"60daysAgo": 3.552,
 "90daysAgo": 3.6363,
 "currency": "USD",
 "methodology": "normalized"
@@ -27017,7 +27017,7 @@
 "current": 16.7548,
 "7daysAgo": 16.7548,
 "30daysAgo": 16.7543,
-"60daysAgo": 16.6949,
+"60daysAgo": 16.6956,
 "90daysAgo": 14.1333,
 "currency": "USD",
 "methodology": "normalized"
@@ -27257,27 +27257,27 @@
 }
 ],
 "layer": "software",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-09-02",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:04Z",
+"fetched_utc": "2026-11-16T20:56:32Z",
 "shortName": "Snowflake Inc.",
 "sector": "Technology",
 "industry": "Software - Application",
 "currency": "USD",
-"marketCap": 101976834048.0,
+"marketCap": 98955100160.0,
 "revenueGrowth": 0.351,
 "earningsGrowth": null,
 "grossMargins": 0.6703,
 "operatingMargins": -0.2243,
-"forwardPE": 94.9389,
+"forwardPE": 91.531,
 "trailingPE": null,
-"heldPercentInstitutions": 0.8377,
+"heldPercentInstitutions": 0.8394,
 "shortPercentOfFloat": 0.0506,
-"numberOfAnalystOpinions": 48.0,
-"recommendationMean": 1.4615,
-"targetMeanPrice": 427.3335,
+"numberOfAnalystOpinions": 47.0,
+"recommendationMean": 1.3922,
+"targetMeanPrice": 434.0853,
 "revenue_q": [
 {
 "end": "2025-07-31",
@@ -27329,12 +27329,12 @@
 "currency": "USD"
 },
 "+1y": {
-"avg": 8144060610.0,
-"low": 7198953980.0,
+"avg": 8163750330.0,
+"low": 7550300000.0,
 "high": 8815000000.0,
-"numberOfAnalysts": 49.0,
+"numberOfAnalysts": 48.0,
 "yearAgoRevenue": 6323266090.0,
-"growth": 0.288,
+"growth": 0.2911,
 "currency": "USD"
 }
 },
@@ -27370,12 +27370,12 @@
 "methodology": "normalized"
 },
 "+1y": {
-"avg": 3.0446,
-"low": 2.0949,
+"avg": 3.0644,
+"low": 2.54,
 "high": 4.1,
 "yearAgoEps": 2.2272,
-"numberOfAnalysts": 49.0,
-"growth": 0.367,
+"numberOfAnalysts": 48.0,
+"growth": 0.3759,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -27401,18 +27401,18 @@
 },
 "0y": {
 "current": 2.2272,
-"7daysAgo": 2.2236,
+"7daysAgo": 2.2272,
 "30daysAgo": 2.2231,
-"60daysAgo": 2.216,
+"60daysAgo": 2.2222,
 "90daysAgo": 1.9356,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"current": 3.0446,
-"7daysAgo": 3.0272,
+"current": 3.0644,
+"7daysAgo": 3.0423,
 "30daysAgo": 3.0052,
-"60daysAgo": 2.9922,
+"60daysAgo": 2.9997,
 "90daysAgo": 2.6989,
 "currency": "USD",
 "methodology": "normalized"
@@ -27643,23 +27643,23 @@
 }
 ],
 "layer": "software",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-04",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:05Z",
+"fetched_utc": "2026-11-16T20:56:33Z",
 "shortName": "Datadog, Inc.",
 "sector": "Technology",
 "industry": "Software - Application",
 "currency": "USD",
-"marketCap": 66258530304.0,
+"marketCap": 62290673664.0,
 "revenueGrowth": 0.352,
 "earningsGrowth": 2.316,
 "grossMargins": 0.7961,
 "operatingMargins": 0.0236,
-"forwardPE": 57.6581,
-"trailingPE": 254.8889,
-"heldPercentInstitutions": 0.9348,
+"forwardPE": 54.2053,
+"trailingPE": 239.625,
+"heldPercentInstitutions": 0.9328,
 "shortPercentOfFloat": 0.0363,
 "numberOfAnalystOpinions": 48.0,
 "recommendationMean": 1.4082,
@@ -27688,7 +27688,7 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 1199877130.0,
+"avg": 1199877690.0,
 "low": 1191500000.0,
 "high": 1255871000.0,
 "numberOfAnalysts": 39.0,
@@ -27697,7 +27697,7 @@
 "currency": "USD"
 },
 "+1q": {
-"avg": 1236222460.0,
+"avg": 1236223550.0,
 "low": 1182000000.0,
 "high": 1276181100.0,
 "numberOfAnalysts": 34.0,
@@ -27706,7 +27706,7 @@
 "currency": "USD"
 },
 "0y": {
-"avg": 4524065470.0,
+"avg": 4524064440.0,
 "low": 4455000000.0,
 "high": 4599782720.0,
 "numberOfAnalysts": 47.0,
@@ -27715,11 +27715,11 @@
 "currency": "USD"
 },
 "+1y": {
-"avg": 5532997070.0,
+"avg": 5532997200.0,
 "low": 5307600000.0,
 "high": 5988197000.0,
 "numberOfAnalysts": 47.0,
-"yearAgoRevenue": 4524065470.0,
+"yearAgoRevenue": 4524064440.0,
 "growth": 0.223,
 "currency": "USD"
 }
@@ -27769,7 +27769,7 @@
 "eps_trend": {
 "0q": {
 "current": 0.694,
-"7daysAgo": 0.6387,
+"7daysAgo": 0.6922,
 "30daysAgo": 0.6384,
 "60daysAgo": 0.6383,
 "90daysAgo": 0.6378,
@@ -27778,7 +27778,7 @@
 },
 "+1q": {
 "current": 0.6865,
-"7daysAgo": 0.6549,
+"7daysAgo": 0.6865,
 "30daysAgo": 0.6549,
 "60daysAgo": 0.6541,
 "90daysAgo": 0.6541,
@@ -27787,42 +27787,42 @@
 },
 "0y": {
 "current": 2.7385,
-"7daysAgo": 2.5283,
+"7daysAgo": 2.733,
 "30daysAgo": 2.5276,
 "60daysAgo": 2.5271,
-"90daysAgo": 2.5269,
+"90daysAgo": 2.5272,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
 "current": 3.1829,
-"7daysAgo": 2.9859,
+"7daysAgo": 3.1729,
 "30daysAgo": 2.9745,
 "60daysAgo": 2.9717,
-"90daysAgo": 2.9655,
+"90daysAgo": 2.9684,
 "currency": "USD",
 "methodology": "normalized"
 }
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 18.0,
-"upLast30days": 18.0,
-"downLast30days": 1.0,
-"downLast7Days": 1.0,
+"upLast7days": 27.0,
+"upLast30days": 27.0,
+"downLast30days": 2.0,
+"downLast7Days": 2.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 12.0,
-"upLast30days": 12.0,
-"downLast30days": 3.0,
-"downLast7Days": 3.0,
+"upLast7days": 20.0,
+"upLast30days": 20.0,
+"downLast30days": 4.0,
+"downLast7Days": 4.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 19.0,
+"upLast7days": 29.0,
 "upLast30days": 29.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
@@ -28029,23 +28029,23 @@
 }
 ],
 "layer": "software",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-09-01",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:06Z",
+"fetched_utc": "2026-11-16T20:56:34Z",
 "shortName": "MongoDB, Inc.",
 "sector": "Technology",
 "industry": "Software - Infrastructure",
 "currency": "USD",
-"marketCap": 26958409728.0,
+"marketCap": 25533116416.0,
 "revenueGrowth": 0.305,
 "earningsGrowth": null,
 "grossMargins": 0.7269,
 "operatingMargins": -0.0047,
-"forwardPE": 42.3995,
-"trailingPE": 465.5146,
-"heldPercentInstitutions": 0.9416,
+"forwardPE": 40.1195,
+"trailingPE": 440.9028,
+"heldPercentInstitutions": 0.9455,
 "shortPercentOfFloat": 0.0355,
 "numberOfAnalystOpinions": 38.0,
 "recommendationMean": 1.5854,
@@ -28101,12 +28101,12 @@
 "currency": "USD"
 },
 "+1y": {
-"avg": 3614686480.0,
+"avg": 3618009660.0,
 "low": 3462300000.0,
 "high": 3855000000.0,
 "numberOfAnalysts": 38.0,
 "yearAgoRevenue": 3027090120.0,
-"growth": 0.1941,
+"growth": 0.1952,
 "currency": "USD"
 }
 },
@@ -28142,12 +28142,12 @@
 "methodology": "normalized"
 },
 "+1y": {
-"avg": 7.9051,
+"avg": 7.9126,
 "low": 7.0,
 "high": 9.49,
 "yearAgoEps": 6.5547,
 "numberOfAnalysts": 41.0,
-"growth": 0.206,
+"growth": 0.2072,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -28181,7 +28181,7 @@
 "methodology": "normalized"
 },
 "+1y": {
-"current": 7.9051,
+"current": 7.9126,
 "7daysAgo": 7.8987,
 "30daysAgo": 7.8464,
 "60daysAgo": 7.7873,
@@ -28415,27 +28415,27 @@
 }
 ],
 "layer": "software",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-08-26",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:07Z",
+"fetched_utc": "2026-11-16T20:56:35Z",
 "shortName": "CrowdStrike Holdings, Inc.",
 "sector": "Technology",
 "industry": "Software - Infrastructure",
 "currency": "USD",
-"marketCap": 231255687168.0,
+"marketCap": 228071260160.0,
 "revenueGrowth": 0.258,
 "earningsGrowth": null,
 "grossMargins": 0.7519,
 "operatingMargins": -0.0247,
-"forwardPE": 140.2525,
-"trailingPE": 4517.0,
-"heldPercentInstitutions": 0.7856,
+"forwardPE": 138.3049,
+"trailingPE": 3712.3335,
+"heldPercentInstitutions": 0.7941,
 "shortPercentOfFloat": 0.0218,
 "numberOfAnalystOpinions": 50.0,
 "recommendationMean": 1.6604,
-"targetMeanPrice": 249.6834,
+"targetMeanPrice": 250.1834,
 "revenue_q": [
 {
 "end": "2025-07-31",
@@ -28478,7 +28478,7 @@
 "currency": "USD"
 },
 "0y": {
-"avg": 6007742030.0,
+"avg": 6007740030.0,
 "low": 5996011610.0,
 "high": 6063630000.0,
 "numberOfAnalysts": 50.0,
@@ -28491,7 +28491,7 @@
 "low": 7196000000.0,
 "high": 7852340440.0,
 "numberOfAnalysts": 50.0,
-"yearAgoRevenue": 6007742030.0,
+"yearAgoRevenue": 6007740030.0,
 "growth": 0.2288,
 "currency": "USD"
 }
@@ -28544,7 +28544,7 @@
 "7daysAgo": 0.3115,
 "30daysAgo": 0.311,
 "60daysAgo": 0.311,
-"90daysAgo": 0.3103,
+"90daysAgo": 0.3104,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -28553,7 +28553,7 @@
 "7daysAgo": 0.3571,
 "30daysAgo": 0.3566,
 "60daysAgo": 0.3566,
-"90daysAgo": 0.353,
+"90daysAgo": 0.3531,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -28569,9 +28569,9 @@
 "+1y": {
 "current": 1.6103,
 "7daysAgo": 1.6103,
-"30daysAgo": 1.6059,
+"30daysAgo": 1.6074,
 "60daysAgo": 1.6059,
-"90daysAgo": 1.6296,
+"90daysAgo": 1.6297,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -28586,7 +28586,7 @@
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 1.0,
+"upLast7days": 0.0,
 "upLast30days": 1.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
@@ -28594,7 +28594,7 @@
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 2.0,
+"upLast7days": 0.0,
 "upLast30days": 2.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
@@ -28801,26 +28801,26 @@
 }
 ],
 "layer": "software",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-09-01",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:08Z",
+"fetched_utc": "2026-11-16T20:56:36Z",
 "shortName": "Palo Alto Networks, Inc.",
 "sector": "Technology",
 "industry": "Software - Infrastructure",
 "currency": "USD",
-"marketCap": 262788907008.0,
+"marketCap": 258412511232.0,
 "revenueGrowth": 0.345,
 "earningsGrowth": null,
 "grossMargins": 0.7038,
 "operatingMargins": 0.0705,
-"forwardPE": 65.7479,
-"trailingPE": 802.7097,
-"heldPercentInstitutions": 0.8542,
+"forwardPE": 64.6397,
+"trailingPE": 789.025,
+"heldPercentInstitutions": 0.8569,
 "shortPercentOfFloat": 0.0254,
 "numberOfAnalystOpinions": 51.0,
-"recommendationMean": 1.6909,
+"recommendationMean": 1.6545,
 "targetMeanPrice": 398.6269,
 "revenue_q": [
 {
@@ -28846,114 +28846,114 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 3307502950.0,
+"avg": 3307457560.0,
 "low": 3292425750.0,
 "high": 3367100000.0,
-"numberOfAnalysts": 45.0,
+"numberOfAnalysts": 44.0,
 "yearAgoRevenue": 2474000000.0,
 "growth": 0.3369,
 "currency": "USD"
 },
 "+1q": {
-"avg": 3419707370.0,
+"avg": 3420584280.0,
 "low": 3284000000.0,
 "high": 3570000000.0,
-"numberOfAnalysts": 44.0,
+"numberOfAnalysts": 43.0,
 "yearAgoRevenue": 2594000000.0,
-"growth": 0.3183,
+"growth": 0.3187,
 "currency": "USD"
 },
 "0y": {
-"avg": 14173692370.0,
+"avg": 14173705540.0,
 "low": 14116800000.0,
 "high": 14604500000.0,
-"numberOfAnalysts": 52.0,
+"numberOfAnalysts": 51.0,
 "yearAgoRevenue": 11480000000.0,
 "growth": 0.2346,
 "currency": "USD"
 },
 "+1y": {
-"avg": 16224938190.0,
+"avg": 16222754820.0,
 "low": 15642500000.0,
 "high": 17595000000.0,
-"numberOfAnalysts": 47.0,
-"yearAgoRevenue": 14173692370.0,
-"growth": 0.1447,
+"numberOfAnalysts": 46.0,
+"yearAgoRevenue": 14173705540.0,
+"growth": 0.1446,
 "currency": "USD"
 }
 },
 "earnings_estimate": {
 "0q": {
-"avg": 0.9706,
+"avg": 0.9708,
 "low": 0.95,
 "high": 0.98,
 "yearAgoEps": 0.93,
-"numberOfAnalysts": 44.0,
-"growth": 0.0437,
+"numberOfAnalysts": 43.0,
+"growth": 0.0439,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"avg": 0.3936,
+"avg": 0.3683,
 "low": 0.2389,
 "high": 0.59,
 "yearAgoEps": 0.61,
-"numberOfAnalysts": 15.0,
-"growth": -0.3548,
+"numberOfAnalysts": 13.0,
+"growth": -0.3962,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"avg": 4.1795,
+"avg": 4.1786,
 "low": 4.15,
 "high": 4.24,
 "yearAgoEps": 3.84,
-"numberOfAnalysts": 52.0,
-"growth": 0.0884,
+"numberOfAnalysts": 51.0,
+"growth": 0.0882,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"avg": 2.1456,
+"avg": 2.099,
 "low": 1.32,
 "high": 3.03,
-"yearAgoEps": 1.5411,
-"numberOfAnalysts": 18.0,
-"growth": 0.3923,
+"yearAgoEps": 1.4608,
+"numberOfAnalysts": 16.0,
+"growth": 0.4369,
 "currency": "USD",
 "methodology": "normalized"
 }
 },
 "eps_trend": {
 "0q": {
-"current": 0.9706,
+"current": 0.9708,
 "7daysAgo": 0.9706,
 "30daysAgo": 0.9706,
-"60daysAgo": 0.9715,
-"90daysAgo": 0.9363,
+"60daysAgo": 0.9706,
+"90daysAgo": 0.9366,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"current": 0.3936,
+"current": 0.3683,
 "7daysAgo": 0.3936,
 "30daysAgo": 0.3936,
 "60daysAgo": 0.3936,
-"90daysAgo": 0.472,
+"90daysAgo": 0.4692,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"current": 4.1795,
+"current": 4.1786,
 "7daysAgo": 4.1795,
 "30daysAgo": 4.184,
-"60daysAgo": 4.1911,
+"60daysAgo": 4.184,
 "90daysAgo": 4.1224,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"current": 2.1456,
+"current": 2.099,
 "7daysAgo": 2.1456,
 "30daysAgo": 2.2106,
 "60daysAgo": 2.2106,
@@ -29187,27 +29187,27 @@
 }
 ],
 "layer": "software",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-05",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:09Z",
+"fetched_utc": "2026-11-16T20:56:37Z",
 "shortName": "Cloudflare, Inc.",
 "sector": "Technology",
 "industry": "Software - Infrastructure",
 "currency": "USD",
-"marketCap": 110368686080.0,
+"marketCap": 105482010624.0,
 "revenueGrowth": 0.392,
 "earningsGrowth": null,
 "grossMargins": 0.719,
 "operatingMargins": -0.0789,
-"forwardPE": 166.5198,
+"forwardPE": 157.9563,
 "trailingPE": null,
-"heldPercentInstitutions": 0.903,
+"heldPercentInstitutions": 0.8932,
 "shortPercentOfFloat": 0.0277,
 "numberOfAnalystOpinions": 32.0,
 "recommendationMean": 1.8857,
-"targetMeanPrice": 341.0938,
+"targetMeanPrice": 344.1875,
 "revenue_q": [
 {
 "end": "2025-09-30",
@@ -29250,21 +29250,21 @@
 "currency": "USD"
 },
 "0y": {
-"avg": 2965146460.0,
+"avg": 2965138760.0,
 "low": 2963645000.0,
 "high": 2993409000.0,
-"numberOfAnalysts": 31.0,
+"numberOfAnalysts": 32.0,
 "yearAgoRevenue": 2167937000.0,
 "growth": 0.3677,
 "currency": "USD"
 },
 "+1y": {
-"avg": 3905979570.0,
-"low": 3549500000.0,
+"avg": 3919955330.0,
+"low": 3674050000.0,
 "high": 4295102000.0,
 "numberOfAnalysts": 33.0,
-"yearAgoRevenue": 2965146460.0,
-"growth": 0.3173,
+"yearAgoRevenue": 2965138760.0,
+"growth": 0.322,
 "currency": "USD"
 }
 },
@@ -29290,22 +29290,22 @@
 "methodology": "normalized"
 },
 "0y": {
-"avg": 1.3524,
+"avg": 1.3523,
 "low": 1.34,
 "high": 1.39,
 "yearAgoEps": 0.93,
-"numberOfAnalysts": 31.0,
-"growth": 0.4542,
+"numberOfAnalysts": 32.0,
+"growth": 0.4541,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"avg": 1.8494,
-"low": 1.39,
+"avg": 1.8633,
+"low": 1.65,
 "high": 2.47,
-"yearAgoEps": 1.3524,
+"yearAgoEps": 1.3523,
 "numberOfAnalysts": 33.0,
-"growth": 0.3675,
+"growth": 0.3779,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -29330,43 +29330,43 @@
 "methodology": "normalized"
 },
 "0y": {
-"current": 1.3524,
-"7daysAgo": 1.2613,
+"current": 1.3523,
+"7daysAgo": 1.3522,
 "30daysAgo": 1.2632,
 "60daysAgo": 1.2591,
-"90daysAgo": 1.2571,
+"90daysAgo": 1.2585,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
-"current": 1.8494,
-"7daysAgo": 1.6723,
+"current": 1.8633,
+"7daysAgo": 1.8351,
 "30daysAgo": 1.6761,
 "60daysAgo": 1.6761,
-"90daysAgo": 1.6704,
+"90daysAgo": 1.671,
 "currency": "USD",
 "methodology": "normalized"
 }
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 1.0,
-"upLast30days": 2.0,
+"upLast7days": 23.0,
+"upLast30days": 23.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 15.0,
-"upLast30days": 15.0,
-"downLast30days": 2.0,
-"downLast7Days": 2.0,
+"upLast7days": 14.0,
+"upLast30days": 14.0,
+"downLast30days": 1.0,
+"downLast7Days": 1.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
-"upLast7days": 2.0,
+"upLast7days": 23.0,
 "upLast30days": 23.0,
 "downLast30days": 0.0,
 "downLast7Days": 0.0,
@@ -29374,9 +29374,9 @@
 "methodology": "normalized"
 },
 "+1y": {
-"upLast7days": 2.0,
-"upLast30days": 4.0,
-"downLast30days": 1.0,
+"upLast7days": 23.0,
+"upLast30days": 24.0,
+"downLast30days": 0.0,
 "downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "normalized"
@@ -29573,26 +29573,26 @@
 }
 ],
 "layer": "software",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-09-03",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:10Z",
+"fetched_utc": "2026-11-16T20:56:38Z",
 "shortName": "Zscaler, Inc.",
 "sector": "Technology",
 "industry": "Software - Infrastructure",
 "currency": "USD",
-"marketCap": 31381510144.0,
+"marketCap": 31089639424.0,
 "revenueGrowth": 0.249,
 "earningsGrowth": null,
 "grossMargins": 0.7687,
 "operatingMargins": -0.0352,
-"forwardPE": 34.2284,
+"forwardPE": 33.91,
 "trailingPE": null,
-"heldPercentInstitutions": 0.535,
+"heldPercentInstitutions": 0.5272,
 "shortPercentOfFloat": 0.0552,
 "numberOfAnalystOpinions": 45.0,
-"recommendationMean": 1.617,
+"recommendationMean": 1.5957,
 "targetMeanPrice": 235.1944,
 "revenue_q": [
 {
@@ -29701,7 +29701,7 @@
 "current": 1.1611,
 "7daysAgo": 1.1611,
 "30daysAgo": 1.1611,
-"60daysAgo": 1.1612,
+"60daysAgo": 1.1611,
 "90daysAgo": 1.0777,
 "currency": "USD",
 "methodology": "normalized"
@@ -29710,8 +29710,8 @@
 "current": 1.1846,
 "7daysAgo": 1.1846,
 "30daysAgo": 1.1845,
-"60daysAgo": 1.1834,
-"90daysAgo": 1.1133,
+"60daysAgo": 1.1845,
+"90daysAgo": 1.1126,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -29719,8 +29719,8 @@
 "current": 4.9078,
 "7daysAgo": 4.9078,
 "30daysAgo": 4.9082,
-"60daysAgo": 4.9088,
-"90daysAgo": 4.5972,
+"60daysAgo": 4.9082,
+"90daysAgo": 4.5978,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -29728,8 +29728,8 @@
 "current": 5.6228,
 "7daysAgo": 5.6228,
 "30daysAgo": 5.6234,
-"60daysAgo": 5.5972,
-"90daysAgo": 5.4438,
+"60daysAgo": 5.602,
+"90daysAgo": 5.4332,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -29959,27 +29959,27 @@
 }
 ],
 "layer": "software",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-04",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:11Z",
+"fetched_utc": "2026-11-16T20:56:39Z",
 "shortName": "Applovin Corporation",
 "sector": "Communication Services",
 "industry": "Advertising Agencies",
 "currency": "USD",
-"marketCap": 135567048704.0,
+"marketCap": 137349521408.0,
 "revenueGrowth": 0.555,
 "earningsGrowth": 0.755,
 "grossMargins": 0.8878,
 "operatingMargins": 0.7778,
-"forwardPE": 19.6148,
-"trailingPE": 27.5535,
-"heldPercentInstitutions": 0.7566,
+"forwardPE": 19.8727,
+"trailingPE": 27.9158,
+"heldPercentInstitutions": 0.7421,
 "shortPercentOfFloat": 0.0383,
 "numberOfAnalystOpinions": 30.0,
 "recommendationMean": 1.5938,
-"targetMeanPrice": 449.6137,
+"targetMeanPrice": 453.2803,
 "revenue_q": [
 {
 "end": "2025-09-30",
@@ -30086,7 +30086,7 @@
 "0q": {
 "current": 4.7409,
 "7daysAgo": 4.7397,
-"30daysAgo": 4.4596,
+"30daysAgo": 4.4549,
 "60daysAgo": 4.4833,
 "90daysAgo": 4.5907,
 "currency": "USD",
@@ -30104,18 +30104,18 @@
 "0y": {
 "current": 16.262,
 "7daysAgo": 16.2516,
-"30daysAgo": 15.6519,
+"30daysAgo": 15.6475,
 "60daysAgo": 15.6604,
-"90daysAgo": 15.7413,
+"90daysAgo": 15.7567,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
 "current": 20.7244,
 "7daysAgo": 20.4709,
-"30daysAgo": 19.9549,
+"30daysAgo": 19.9134,
 "60daysAgo": 20.0024,
-"90daysAgo": 20.4608,
+"90daysAgo": 20.5031,
 "currency": "USD",
 "methodology": "gaap"
 }
@@ -30123,8 +30123,8 @@
 "eps_revisions": {
 "0q": {
 "upLast7days": 11.0,
-"upLast30days": 0.0,
-"downLast30days": 8.0,
+"upLast30days": 10.0,
+"downLast30days": 2.0,
 "downLast7Days": 0.0,
 "currency": "USD",
 "methodology": "gaap"
@@ -30138,17 +30138,17 @@
 "methodology": "gaap"
 },
 "0y": {
-"upLast7days": 0.0,
-"upLast30days": 1.0,
-"downLast30days": 9.0,
-"downLast7Days": 4.0,
+"upLast7days": 13.0,
+"upLast30days": 14.0,
+"downLast30days": 2.0,
+"downLast7Days": 1.0,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
 "upLast7days": 13.0,
-"upLast30days": 1.0,
-"downLast30days": 9.0,
+"upLast30days": 11.0,
+"downLast30days": 6.0,
 "downLast7Days": 2.0,
 "currency": "USD",
 "methodology": "gaap"
@@ -30345,23 +30345,23 @@
 }
 ],
 "layer": "software",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-02",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:12Z",
+"fetched_utc": "2026-11-16T20:56:40Z",
 "shortName": "Tempus AI, Inc.",
 "sector": "Healthcare",
 "industry": "Health Information Services",
 "currency": "USD",
-"marketCap": 12793650176.0,
+"marketCap": 11795912704.0,
 "revenueGrowth": 0.231,
 "earningsGrowth": null,
 "grossMargins": 0.6446,
 "operatingMargins": -0.1847,
-"forwardPE": -1773.4514,
+"forwardPE": -1635.1454,
 "trailingPE": null,
-"heldPercentInstitutions": 0.5888,
+"heldPercentInstitutions": 0.5816,
 "shortPercentOfFloat": 0.2409,
 "numberOfAnalystOpinions": 18.0,
 "recommendationMean": 2.1,
@@ -30516,16 +30516,16 @@
 "methodology": "normalized"
 },
 "+1q": {
-"upLast7days": 0.0,
+"upLast7days": 2.0,
 "upLast30days": 2.0,
 "downLast30days": 2.0,
-"downLast7Days": 0.0,
+"downLast7Days": 2.0,
 "currency": "USD",
 "methodology": "normalized"
 },
 "0y": {
 "upLast7days": 6.0,
-"upLast30days": 3.0,
+"upLast30days": 7.0,
 "downLast30days": 1.0,
 "downLast7Days": 1.0,
 "currency": "USD",
@@ -30534,7 +30534,7 @@
 "+1y": {
 "upLast7days": 2.0,
 "upLast30days": 3.0,
-"downLast30days": 0.0,
+"downLast30days": 4.0,
 "downLast7Days": 4.0,
 "currency": "USD",
 "methodology": "normalized"
@@ -30731,23 +30731,23 @@
 }
 ],
 "layer": "software",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-09-03",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:13Z",
+"fetched_utc": "2026-11-16T20:56:41Z",
 "shortName": "UiPath, Inc.",
 "sector": "Technology",
 "industry": "Software - Infrastructure",
 "currency": "USD",
-"marketCap": 6923549696.0,
+"marketCap": 6858405376.0,
 "revenueGrowth": 0.134,
 "earningsGrowth": 22.808,
 "grossMargins": 0.8258,
 "operatingMargins": 0.0937,
-"forwardPE": 14.4025,
-"trailingPE": 19.8284,
-"heldPercentInstitutions": 0.922,
+"forwardPE": 14.267,
+"trailingPE": 19.6418,
+"heldPercentInstitutions": 0.9265,
 "shortPercentOfFloat": 0.2416,
 "numberOfAnalystOpinions": 16.0,
 "recommendationMean": 2.85,
@@ -31117,23 +31117,23 @@
 }
 ],
 "layer": "software",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-09-02",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:14Z",
+"fetched_utc": "2026-11-16T20:56:41Z",
 "shortName": "C3.ai, Inc.",
 "sector": "Technology",
 "industry": "Software - Infrastructure",
 "currency": "USD",
-"marketCap": 1911672576.0,
+"marketCap": 1723560064.0,
 "revenueGrowth": -0.255,
 "earningsGrowth": null,
 "grossMargins": 0.2909,
 "operatingMargins": -1.9813,
-"forwardPE": -25.2871,
+"forwardPE": -22.7988,
 "trailingPE": null,
-"heldPercentInstitutions": 0.6576,
+"heldPercentInstitutions": 0.6389,
 "shortPercentOfFloat": 0.2842,
 "numberOfAnalystOpinions": 10.0,
 "recommendationMean": null,
@@ -31503,23 +31503,23 @@
 }
 ],
 "layer": "software",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-11-05",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:15Z",
+"fetched_utc": "2026-11-16T20:56:43Z",
 "shortName": "SoundHound AI, Inc.",
 "sector": "Technology",
 "industry": "Software - Application",
 "currency": "USD",
-"marketCap": 1702050944.0,
+"marketCap": 1579952640.0,
 "revenueGrowth": 0.485,
 "earningsGrowth": null,
 "grossMargins": 0.3994,
 "operatingMargins": -0.9059,
-"forwardPE": -55.0292,
+"forwardPE": -51.0816,
 "trailingPE": null,
-"heldPercentInstitutions": 0.3843,
+"heldPercentInstitutions": 0.3855,
 "shortPercentOfFloat": 0.3617,
 "numberOfAnalystOpinions": 5.0,
 "recommendationMean": 1.3333,
@@ -31548,39 +31548,39 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 86645330.0,
+"avg": 86734000.0,
 "low": 86443000.0,
-"high": 86993000.0,
-"numberOfAnalysts": 3.0,
+"high": 87000000.0,
+"numberOfAnalysts": 4.0,
 "yearAgoRevenue": 55059000.0,
-"growth": 0.5737,
+"growth": 0.5753,
 "currency": "USD"
 },
 "+1q": {
-"avg": 78473000.0,
+"avg": 76348000.0,
 "low": 63641000.0,
-"high": 97500000.0,
+"high": 89000000.0,
 "numberOfAnalysts": 4.0,
 "yearAgoRevenue": 44195000.0,
-"growth": 0.7756,
+"growth": 0.7275,
 "currency": "USD"
 },
 "0y": {
-"avg": 255156670.0,
+"avg": 255246750.0,
 "low": 254960000.0,
-"high": 255510000.0,
-"numberOfAnalysts": 3.0,
+"high": 255517000.0,
+"numberOfAnalysts": 4.0,
 "yearAgoRevenue": 168920000.0,
-"growth": 0.5105,
+"growth": 0.5111,
 "currency": "USD"
 },
 "+1y": {
-"avg": 378564500.0,
+"avg": 375439500.0,
 "low": 374916000.0,
-"high": 387500000.0,
+"high": 376642000.0,
 "numberOfAnalysts": 4.0,
-"yearAgoRevenue": 255156670.0,
-"growth": 0.4837,
+"yearAgoRevenue": 255246750.0,
+"growth": 0.4709,
 "currency": "USD"
 }
 },
@@ -31641,7 +31641,7 @@
 "7daysAgo": -0.05,
 "30daysAgo": -0.05,
 "60daysAgo": -0.055,
-"90daysAgo": -0.058,
+"90daysAgo": -0.055,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -31659,7 +31659,7 @@
 "7daysAgo": -0.1,
 "30daysAgo": -0.1,
 "60daysAgo": -0.1475,
-"90daysAgo": -0.148,
+"90daysAgo": -0.1475,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -31889,27 +31889,27 @@
 }
 ],
 "layer": "software",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-29",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:16Z",
+"fetched_utc": "2026-11-16T20:56:43Z",
 "shortName": "Reddit, Inc.",
 "sector": "Communication Services",
 "industry": "Internet Content & Information",
 "currency": "USD",
-"marketCap": 19141380096.0,
+"marketCap": 17942267904.0,
 "revenueGrowth": 0.53,
 "earningsGrowth": 0.749,
 "grossMargins": 0.9155,
 "operatingMargins": 0.294,
-"forwardPE": 10.6755,
-"trailingPE": 20.2306,
-"heldPercentInstitutions": 0.994,
+"forwardPE": 10.2105,
+"trailingPE": 18.9633,
+"heldPercentInstitutions": 0.984,
 "shortPercentOfFloat": 0.1518,
 "numberOfAnalystOpinions": 29.0,
 "recommendationMean": 2.2188,
-"targetMeanPrice": 150.0138,
+"targetMeanPrice": 148.4621,
 "revenue_q": [
 {
 "end": "2025-09-30",
@@ -31952,21 +31952,21 @@
 "currency": "USD"
 },
 "0y": {
-"avg": 3384563040.0,
+"avg": 3385622630.0,
 "low": 3283000000.0,
 "high": 3440674870.0,
-"numberOfAnalysts": 28.0,
+"numberOfAnalysts": 29.0,
 "yearAgoRevenue": 2202506000.0,
-"growth": 0.5367,
+"growth": 0.5372,
 "currency": "USD"
 },
 "+1y": {
-"avg": 4352775910.0,
+"avg": 4346429070.0,
 "low": 3994000000.0,
 "high": 4877963910.0,
 "numberOfAnalysts": 31.0,
-"yearAgoRevenue": 3384563040.0,
-"growth": 0.2861,
+"yearAgoRevenue": 3385622630.0,
+"growth": 0.2838,
 "currency": "USD"
 }
 },
@@ -31982,32 +31982,32 @@
 "methodology": "gaap"
 },
 "+1q": {
-"avg": 1.2306,
+"avg": 1.2271,
 "low": 0.59,
 "high": 1.45,
 "yearAgoEps": 1.01,
 "numberOfAnalysts": 17.0,
-"growth": 0.2184,
+"growth": 0.2149,
 "currency": "USD",
 "methodology": "gaap"
 },
 "0y": {
-"avg": 5.4944,
+"avg": 5.496,
 "low": 5.24,
 "high": 5.66,
 "yearAgoEps": 2.62,
-"numberOfAnalysts": 25.0,
-"growth": 1.0971,
+"numberOfAnalysts": 26.0,
+"growth": 1.0977,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"avg": 6.8572,
+"avg": 6.8155,
 "low": 3.31,
 "high": 8.4662,
-"yearAgoEps": 5.4944,
+"yearAgoEps": 5.496,
 "numberOfAnalysts": 27.0,
-"growth": 0.248,
+"growth": 0.2401,
 "currency": "USD",
 "methodology": "gaap"
 }
@@ -32015,36 +32015,36 @@
 "eps_trend": {
 "0q": {
 "current": 1.8298,
-"7daysAgo": 1.8198,
-"30daysAgo": 1.8224,
-"60daysAgo": 1.8151,
-"90daysAgo": 1.8116,
+"7daysAgo": 1.8239,
+"30daysAgo": 1.8298,
+"60daysAgo": 1.8171,
+"90daysAgo": 1.8151,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1q": {
-"current": 1.2306,
-"7daysAgo": 1.2369,
+"current": 1.2271,
+"7daysAgo": 1.2388,
 "30daysAgo": 1.3023,
-"60daysAgo": 1.3167,
-"90daysAgo": 1.3148,
+"60daysAgo": 1.3023,
+"90daysAgo": 1.3167,
 "currency": "USD",
 "methodology": "gaap"
 },
 "0y": {
-"current": 5.4944,
+"current": 5.496,
 "7daysAgo": 5.4796,
 "30daysAgo": 5.3936,
-"60daysAgo": 5.3829,
+"60daysAgo": 5.3755,
 "90daysAgo": 5.3632,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1y": {
-"current": 6.8572,
+"current": 6.8155,
 "7daysAgo": 6.8616,
 "30daysAgo": 7.1012,
-"60daysAgo": 7.0371,
+"60daysAgo": 7.0638,
 "90daysAgo": 7.0064,
 "currency": "USD",
 "methodology": "gaap"
@@ -32052,18 +32052,18 @@
 },
 "eps_revisions": {
 "0q": {
-"upLast7days": 4.0,
-"upLast30days": 5.0,
-"downLast30days": 9.0,
-"downLast7Days": 9.0,
+"upLast7days": 7.0,
+"upLast30days": 8.0,
+"downLast30days": 13.0,
+"downLast7Days": 14.0,
 "currency": "USD",
 "methodology": "gaap"
 },
 "+1q": {
 "upLast7days": 1.0,
 "upLast30days": 1.0,
-"downLast30days": 5.0,
-"downLast7Days": 5.0,
+"downLast30days": 10.0,
+"downLast7Days": 10.0,
 "currency": "USD",
 "methodology": "gaap"
 },
@@ -32275,26 +32275,26 @@
 }
 ],
 "layer": "physical",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-10-21",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:17Z",
+"fetched_utc": "2026-11-16T20:56:44Z",
 "shortName": "Tesla, Inc.",
 "sector": "Consumer Cyclical",
 "industry": "Auto Manufacturers",
 "currency": "USD",
-"marketCap": 1543354449920.0,
+"marketCap": 1501217947648.0,
 "revenueGrowth": -0.002,
 "earningsGrowth": -0.436,
 "grossMargins": 0.1929,
 "operatingMargins": 0.0303,
-"forwardPE": 180.8292,
-"trailingPE": 429.0659,
-"heldPercentInstitutions": 0.4473,
+"forwardPE": 175.8922,
+"trailingPE": 417.3517,
+"heldPercentInstitutions": 0.4478,
 "shortPercentOfFloat": 0.0203,
 "numberOfAnalystOpinions": 40.0,
-"recommendationMean": 2.2727,
+"recommendationMean": 2.2955,
 "targetMeanPrice": 412.4763,
 "revenue_q": [
 {
@@ -32320,12 +32320,12 @@
 ],
 "revenue_estimate": {
 "0q": {
-"avg": 29313093470.0,
+"avg": 29287236330.0,
 "low": 26676000000.0,
 "high": 35449624740.0,
 "numberOfAnalysts": 28.0,
 "yearAgoRevenue": 24901000000.0,
-"growth": 0.1772,
+"growth": 0.1761,
 "currency": "USD"
 },
 "+1q": {
@@ -32338,7 +32338,7 @@
 "currency": "USD"
 },
 "0y": {
-"avg": 107861989120.0,
+"avg": 107861607250.0,
 "low": 99579000000.0,
 "high": 119429000000.0,
 "numberOfAnalysts": 43.0,
@@ -32347,23 +32347,23 @@
 "currency": "USD"
 },
 "+1y": {
-"avg": 122406652500.0,
+"avg": 122408354400.0,
 "low": 105129000000.0,
 "high": 149878000000.0,
 "numberOfAnalysts": 43.0,
-"yearAgoRevenue": 107861989120.0,
-"growth": 0.1348,
+"yearAgoRevenue": 107861607250.0,
+"growth": 0.1349,
 "currency": "USD"
 }
 },
 "earnings_estimate": {
 "0q": {
-"avg": 0.5001,
+"avg": 0.499,
 "low": 0.3421,
 "high": 0.88,
 "yearAgoEps": 0.5,
 "numberOfAnalysts": 27.0,
-"growth": 0.0002,
+"growth": -0.0021,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -32400,11 +32400,11 @@
 },
 "eps_trend": {
 "0q": {
-"current": 0.5001,
-"7daysAgo": 0.4858,
-"30daysAgo": 0.4833,
+"current": 0.499,
+"7daysAgo": 0.5001,
+"30daysAgo": 0.4923,
 "60daysAgo": 0.4882,
-"90daysAgo": 0.4951,
+"90daysAgo": 0.4882,
 "currency": "USD",
 "methodology": "normalized"
 },
@@ -32420,18 +32420,18 @@
 "0y": {
 "current": 1.7242,
 "7daysAgo": 1.7242,
-"30daysAgo": 1.7367,
+"30daysAgo": 1.7506,
 "60daysAgo": 1.7656,
-"90daysAgo": 1.7785,
+"90daysAgo": 1.7697,
 "currency": "USD",
 "methodology": "normalized"
 },
 "+1y": {
 "current": 2.1592,
 "7daysAgo": 2.1592,
-"30daysAgo": 2.2424,
+"30daysAgo": 2.2755,
 "60daysAgo": 2.2519,
-"90daysAgo": 2.2565,
+"90daysAgo": 2.2519,
 "currency": "USD",
 "methodology": "normalized"
 }
@@ -32661,23 +32661,23 @@
 }
 ],
 "layer": "physical",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": "2026-08-05",
 "fund": {
-"fetched_utc": "2026-11-13T18:30:18Z",
+"fetched_utc": "2026-11-16T20:56:45Z",
 "shortName": "Symbotic Inc.",
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery",
 "currency": "USD",
-"marketCap": 21181714432.0,
+"marketCap": 20673208320.0,
 "revenueGrowth": 0.217,
 "earningsGrowth": null,
 "grossMargins": 0.2127,
 "operatingMargins": 0.0052,
-"forwardPE": 47.8994,
-"trailingPE": 437.375,
-"heldPercentInstitutions": 0.812,
+"forwardPE": 46.7494,
+"trailingPE": 426.875,
+"heldPercentInstitutions": 0.8213,
 "shortPercentOfFloat": 0.3155,
 "numberOfAnalystOpinions": 16.0,
 "recommendationMean": 2.2632,
@@ -33047,7 +33047,7 @@
 }
 ],
 "layer": "bench",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": null
 },
@@ -33207,7 +33207,7 @@
 }
 ],
 "layer": "bench",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": null
 },
@@ -33367,7 +33367,7 @@
 }
 ],
 "layer": "bench",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": null
 },
@@ -33527,7 +33527,7 @@
 }
 ],
 "layer": "bench",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": null
 },
@@ -33687,7 +33687,7 @@
 }
 ],
 "layer": "bench",
-"history_days": 501,
+"history_days": 499,
 "since_listing": null,
 "last_report": null
 }
