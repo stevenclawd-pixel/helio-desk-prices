@@ -1,5 +1,5 @@
 {
-"generated_utc": "2026-11-19T02:42:41Z",
+"generated_utc": "2026-11-19T04:18:50Z",
 "source": "Yahoo Finance via yfinance: daily bars (auto-adjusted), statements, analyst estimates",
 "fundamentals_refreshed": 0,
 "partial_bar_dropped": false,
@@ -5315,402 +5315,6 @@
 ]
 }
 },
-"SNDK": {
-"Close": 776.22,
-"sma10": 857.072,
-"sma20": 1037.7405,
-"sma50": 1384.2375,
-"sma150": 1488.631,
-"sma200": 1284.6617,
-"sma200_slope20": 57.3104,
-"hi52": 2354.3899,
-"lo52": 183.0,
-"vol50": 10287344.0,
-"ret21": -0.4315,
-"ret63": -0.5151,
-"rs21": -0.381,
-"rs63": -0.4749,
-"low10": 749.39,
-"date": "2026-11-18",
-"change_pct": -2.6366,
-"red_day": true,
-"volume": 12719700.0,
-"vol_vs_50d": 1.2364,
-"pct_from_hi52": -67.031,
-"trend_template": false,
-"bars": [
-{
-"date": "2026-11-05",
-"o": 962.248,
-"h": 967.99,
-"l": 803.97,
-"c": 806.43
-},
-{
-"date": "2026-11-06",
-"o": 898.27,
-"h": 912.09,
-"l": 816.42,
-"c": 835.06
-},
-{
-"date": "2026-11-09",
-"o": 856.44,
-"h": 904.0,
-"l": 830.644,
-"c": 886.51
-},
-{
-"date": "2026-11-10",
-"o": 861.97,
-"h": 914.82,
-"l": 826.668,
-"c": 859.99
-},
-{
-"date": "2026-11-11",
-"o": 928.06,
-"h": 1011.05,
-"l": 920.11,
-"c": 977.69
-},
-{
-"date": "2026-11-12",
-"o": 887.395,
-"h": 953.2,
-"l": 869.46,
-"c": 937.46
-},
-{
-"date": "2026-11-13",
-"o": 915.86,
-"h": 939.53,
-"l": 848.498,
-"c": 885.01
-},
-{
-"date": "2026-11-16",
-"o": 828.225,
-"h": 838.48,
-"l": 799.0,
-"c": 809.11
-},
-{
-"date": "2026-11-17",
-"o": 809.825,
-"h": 821.46,
-"l": 749.39,
-"c": 797.24
-},
-{
-"date": "2026-11-18",
-"o": 805.87,
-"h": 813.183,
-"l": 753.83,
-"c": 776.22
-}
-],
-"ret5": -0.2061,
-"ret126": -0.4426,
-"ret189": 0.2498,
-"ret252": 1.9194,
-"rs63_smh": -0.3318,
-"ud_vol_50": 0.5032,
-"accum_days_25": 3,
-"dist_days_25": 11,
-"atr14_pct": 14.4085,
-"dollar_vol50": 13421931998.9709,
-"pivot": 1802.0,
-"pivot_date": "2026-10-01",
-"base_low": 749.39,
-"base_depth": 0.5841,
-"tight10": 0.2596,
-"pct_vs_pivot": -0.5692,
-"low5": 749.39,
-"high20": 1408.446,
-"recent": [
-{
-"date": "2026-11-12",
-"chg": -0.0411,
-"vol_ratio": 1.3189,
-"high": 953.2,
-"low": 869.46,
-"close": 937.46
-},
-{
-"date": "2026-11-13",
-"chg": -0.0559,
-"vol_ratio": 1.209,
-"high": 939.53,
-"low": 848.498,
-"close": 885.01
-},
-{
-"date": "2026-11-16",
-"chg": -0.0858,
-"vol_ratio": 1.2302,
-"high": 838.48,
-"low": 799.0,
-"close": 809.11
-},
-{
-"date": "2026-11-17",
-"chg": -0.0147,
-"vol_ratio": 1.5532,
-"high": 821.46,
-"low": 749.39,
-"close": 797.24
-},
-{
-"date": "2026-11-18",
-"chg": -0.0264,
-"vol_ratio": 1.244,
-"high": 813.183,
-"low": 753.83,
-"close": 776.22
-}
-],
-"layer": "memory",
-"history_days": 444,
-"since_listing": {
-"first_date": "2025-02-13",
-"sessions": 444,
-"first_close": 36.0,
-"high": 2354.3899,
-"high_date": "2026-06-22",
-"low_since_high": 749.39,
-"low": 27.885,
-"pct_from_high": -0.6703,
-"pct_vs_first_close": 20.5617
-},
-"last_report": "2026-10-29",
-"fund": {
-"fetched_utc": "2026-11-18T19:22:03Z",
-"shortName": "Sandisk Corporation",
-"sector": "Technology",
-"industry": "Computer Hardware",
-"currency": "USD",
-"marketCap": 109248348160.0,
-"revenueGrowth": 3.779,
-"earningsGrowth": 69.133,
-"grossMargins": 0.7995,
-"operatingMargins": 0.7268,
-"forwardPE": 2.6562,
-"trailingPE": 6.1364,
-"heldPercentInstitutions": 0.7883,
-"shortPercentOfFloat": 0.0346,
-"numberOfAnalystOpinions": 24.0,
-"recommendationMean": 1.48,
-"targetMeanPrice": 2047.375,
-"revenue_q": [
-{
-"end": "2025-09-30",
-"revenue": 2308000000.0
-},
-{
-"end": "2025-12-31",
-"revenue": 3025000000.0
-},
-{
-"end": "2026-03-31",
-"revenue": 5950000000.0
-},
-{
-"end": "2026-06-30",
-"revenue": 8965000000.0
-},
-{
-"end": "2026-09-30",
-"revenue": 11031000000.0
-}
-],
-"revenue_estimate": {
-"0q": {
-"avg": 12506351860.0,
-"low": 12393328500.0,
-"high": 13023891000.0,
-"numberOfAnalysts": 16.0,
-"yearAgoRevenue": 3025000000.0,
-"growth": 3.1343,
-"currency": "USD"
-},
-"+1q": {
-"avg": 12478235170.0,
-"low": 11672656450.0,
-"high": 13378800000.0,
-"numberOfAnalysts": 16.0,
-"yearAgoRevenue": 5950000000.0,
-"growth": 1.0972,
-"currency": "USD"
-},
-"0y": {
-"avg": 49573915650.0,
-"low": 48031000000.0,
-"high": 51421800000.0,
-"numberOfAnalysts": 20.0,
-"yearAgoRevenue": 20248000000.0,
-"growth": 1.4483,
-"currency": "USD"
-},
-"+1y": {
-"avg": 61323562670.0,
-"low": 53838113560.0,
-"high": 80249200000.0,
-"numberOfAnalysts": 20.0,
-"yearAgoRevenue": 49573915650.0,
-"growth": 0.237,
-"currency": "USD"
-}
-},
-"earnings_estimate": {
-"0q": {
-"avg": 57.1181,
-"low": 56.0,
-"high": 60.12,
-"yearAgoEps": 6.2,
-"numberOfAnalysts": 17.0,
-"growth": 8.2126,
-"currency": "USD",
-"methodology": "normalized"
-},
-"+1q": {
-"avg": 57.5219,
-"low": 54.17,
-"high": 63.38,
-"yearAgoEps": 23.41,
-"numberOfAnalysts": 17.0,
-"growth": 1.4572,
-"currency": "USD",
-"methodology": "normalized"
-},
-"0y": {
-"avg": 227.4808,
-"low": 219.3,
-"high": 241.233,
-"yearAgoEps": 70.88,
-"numberOfAnalysts": 21.0,
-"growth": 2.2094,
-"currency": "USD",
-"methodology": "normalized"
-},
-"+1y": {
-"avg": 289.054,
-"low": 243.95,
-"high": 356.85,
-"yearAgoEps": 227.4808,
-"numberOfAnalysts": 20.0,
-"growth": 0.2707,
-"currency": "USD",
-"methodology": "normalized"
-}
-},
-"eps_trend": {
-"0q": {
-"current": 57.1181,
-"7daysAgo": 57.1181,
-"30daysAgo": 53.0924,
-"60daysAgo": 52.9347,
-"90daysAgo": 52.4121,
-"currency": "USD",
-"methodology": "normalized"
-},
-"+1q": {
-"current": 57.5219,
-"7daysAgo": 57.5219,
-"30daysAgo": 54.8416,
-"60daysAgo": 54.8358,
-"90daysAgo": 54.0951,
-"currency": "USD",
-"methodology": "normalized"
-},
-"0y": {
-"current": 227.4808,
-"7daysAgo": 227.8023,
-"30daysAgo": 214.8233,
-"60daysAgo": 214.0982,
-"90daysAgo": 213.2349,
-"currency": "USD",
-"methodology": "normalized"
-},
-"+1y": {
-"current": 289.054,
-"7daysAgo": 287.2584,
-"30daysAgo": 266.2971,
-"60daysAgo": 264.7216,
-"90daysAgo": 265.1222,
-"currency": "USD",
-"methodology": "normalized"
-}
-},
-"eps_revisions": {
-"0q": {
-"upLast7days": 11.0,
-"upLast30days": 11.0,
-"downLast30days": 1.0,
-"downLast7Days": 1.0,
-"currency": "USD",
-"methodology": "normalized"
-},
-"+1q": {
-"upLast7days": 8.0,
-"upLast30days": 8.0,
-"downLast30days": 3.0,
-"downLast7Days": 3.0,
-"currency": "USD",
-"methodology": "normalized"
-},
-"0y": {
-"upLast7days": 18.0,
-"upLast30days": 18.0,
-"downLast30days": 2.0,
-"downLast7Days": 2.0,
-"currency": "USD",
-"methodology": "normalized"
-},
-"+1y": {
-"upLast7days": 15.0,
-"upLast30days": 15.0,
-"downLast30days": 3.0,
-"downLast7Days": 3.0,
-"currency": "USD",
-"methodology": "normalized"
-}
-},
-"earnings_history": {
-"2025-12-31 00:00:00": {
-"epsActual": 6.2,
-"epsEstimate": 3.5434,
-"epsDifference": 2.66,
-"surprisePercent": 0.7497,
-"methodology": "normalized"
-},
-"2026-03-31 00:00:00": {
-"epsActual": 23.41,
-"epsEstimate": 14.6611,
-"epsDifference": 8.75,
-"surprisePercent": 0.5967,
-"methodology": "normalized"
-},
-"2026-06-30 00:00:00": {
-"epsActual": 39.25,
-"epsEstimate": 34.515,
-"epsDifference": 4.73,
-"surprisePercent": 0.1372,
-"methodology": "normalized"
-},
-"2026-09-30 00:00:00": {
-"epsActual": 49.51,
-"epsEstimate": 46.4061,
-"epsDifference": 3.1,
-"surprisePercent": 0.0669,
-"methodology": "normalized"
-}
-},
-"next_earnings": [
-"2026-10-29"
-]
-}
-},
 "ANET": {
 "Close": 193.94,
 "sma10": 186.913,
@@ -9580,7 +9184,7 @@
 "sma200": 402.1493,
 "sma200_slope20": 7.0476,
 "hi52": 487.47,
-"lo52": 264.0257,
+"lo52": 264.0256,
 "vol50": 12753736.0,
 "ret21": -0.1469,
 "ret63": -0.126,
@@ -11124,7 +10728,7 @@
 "sma200": 181.3516,
 "sma200_slope20": 0.3481,
 "hi52": 306.5594,
-"lo52": 106.6384,
+"lo52": 106.6385,
 "vol50": 11746902.0,
 "ret21": -0.1029,
 "ret63": -0.2193,
@@ -20002,7 +19606,7 @@
 "sma200": 1015.3925,
 "sma200_slope20": 23.2548,
 "hi52": 1113.077,
-"lo52": 706.2555,
+"lo52": 706.2556,
 "vol50": 587204.0,
 "ret21": 0.0549,
 "ret63": -0.0378,
@@ -33696,5 +33300,7 @@
 "last_report": null
 }
 },
-"errors": {}
+"errors": {
+"SNDK": "not enough history"
+}
 }
