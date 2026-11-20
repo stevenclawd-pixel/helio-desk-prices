@@ -1,7 +1,7 @@
 {
-"generated_utc": "2026-11-20T02:29:10Z",
+"generated_utc": "2026-11-20T04:07:00Z",
 "source": "Yahoo Finance via yfinance: daily bars (auto-adjusted), statements, analyst estimates",
-"fundamentals_refreshed": 0,
+"fundamentals_refreshed": 1,
 "partial_bar_dropped": false,
 "bench": {
 "SPY": {
@@ -106,10 +106,10 @@
 "sma20": 683.328,
 "sma50": 712.9969,
 "sma150": 709.229,
-"sma200": 682.0074,
+"sma200": 682.0075,
 "sma200_slope20": 6.3216,
 "hi52": 762.86,
-"lo52": 554.4123,
+"lo52": 554.4124,
 "vol50": 42637770.0,
 "ret21": -0.1105,
 "ret63": -0.0949,
@@ -5315,6 +5315,402 @@
 ]
 }
 },
+"SNDK": {
+"Close": 94.395,
+"sma10": 106.4931,
+"sma20": 126.5565,
+"sma50": 170.6861,
+"sma150": 185.9407,
+"sma200": 160.6893,
+"sma200_slope20": 6.7009,
+"hi52": 294.2987,
+"lo52": 22.875,
+"vol50": 83332780.48,
+"ret21": -0.4521,
+"ret63": -0.5269,
+"rs21": -0.3781,
+"rs63": -0.4641,
+"low10": 93.6738,
+"date": "2026-11-19",
+"change_pct": -2.7131,
+"red_day": true,
+"volume": 119852712.0,
+"vol_vs_50d": 1.4382,
+"pct_from_hi52": -67.9254,
+"trend_template": false,
+"bars": [
+{
+"date": "2026-11-06",
+"o": 112.2838,
+"h": 114.0113,
+"l": 102.0525,
+"c": 104.3825
+},
+{
+"date": "2026-11-09",
+"o": 107.055,
+"h": 113.0,
+"l": 103.8305,
+"c": 110.8138
+},
+{
+"date": "2026-11-10",
+"o": 107.7462,
+"h": 114.3525,
+"l": 103.3334,
+"c": 107.4987
+},
+{
+"date": "2026-11-11",
+"o": 116.0075,
+"h": 126.3812,
+"l": 115.0137,
+"c": 122.2113
+},
+{
+"date": "2026-11-12",
+"o": 110.9244,
+"h": 119.15,
+"l": 108.6825,
+"c": 117.1825
+},
+{
+"date": "2026-11-13",
+"o": 114.4825,
+"h": 117.4413,
+"l": 106.0623,
+"c": 110.6263
+},
+{
+"date": "2026-11-16",
+"o": 103.5281,
+"h": 104.81,
+"l": 99.875,
+"c": 101.1387
+},
+{
+"date": "2026-11-17",
+"o": 101.2281,
+"h": 102.6825,
+"l": 93.6738,
+"c": 99.655
+},
+{
+"date": "2026-11-18",
+"o": 100.7337,
+"h": 101.6479,
+"l": 94.2288,
+"c": 97.0275
+},
+{
+"date": "2026-11-19",
+"o": 101.4337,
+"h": 105.845,
+"l": 94.1588,
+"c": 94.395
+}
+],
+"ret5": -0.1945,
+"ret126": -0.5103,
+"ret189": 0.1618,
+"ret252": 2.0832,
+"rs63_smh": -0.3253,
+"ud_vol_50": 0.4938,
+"accum_days_25": 3,
+"dist_days_25": 11,
+"atr14_pct": 13.662,
+"dollar_vol50": 13355814198.0163,
+"pivot": 225.25,
+"pivot_date": "2026-10-01",
+"base_low": 93.6738,
+"base_depth": 0.5841,
+"tight10": 0.2947,
+"pct_vs_pivot": -0.5809,
+"low5": 93.6738,
+"high20": 176.0558,
+"recent": [
+{
+"date": "2026-11-13",
+"chg": -0.0559,
+"vol_ratio": 1.209,
+"high": 117.4413,
+"low": 106.0623,
+"close": 110.6263
+},
+{
+"date": "2026-11-16",
+"chg": -0.0858,
+"vol_ratio": 1.2302,
+"high": 104.81,
+"low": 99.875,
+"close": 101.1387
+},
+{
+"date": "2026-11-17",
+"chg": -0.0147,
+"vol_ratio": 1.5532,
+"high": 102.6825,
+"low": 93.6738,
+"close": 99.655
+},
+{
+"date": "2026-11-18",
+"chg": -0.0264,
+"vol_ratio": 1.2654,
+"high": 101.6479,
+"low": 94.2288,
+"close": 97.0275
+},
+{
+"date": "2026-11-19",
+"chg": -0.0271,
+"vol_ratio": 1.4557,
+"high": 105.845,
+"low": 94.1588,
+"close": 94.395
+}
+],
+"layer": "memory",
+"history_days": 445,
+"since_listing": {
+"first_date": "2025-02-13",
+"sessions": 445,
+"first_close": 4.5,
+"high": 294.2987,
+"high_date": "2026-06-22",
+"low_since_high": 93.6738,
+"low": 3.4856,
+"pct_from_high": -0.6793,
+"pct_vs_first_close": 19.9767
+},
+"last_report": "2026-10-29",
+"fund": {
+"fetched_utc": "2026-11-20T04:06:58Z",
+"shortName": "Sandisk Corporation",
+"sector": "Technology",
+"industry": "Computer Hardware",
+"currency": "USD",
+"marketCap": 107451228160.0,
+"revenueGrowth": 3.779,
+"earningsGrowth": 69.133,
+"grossMargins": 0.7995,
+"operatingMargins": 0.7268,
+"forwardPE": 2.6125,
+"trailingPE": 6.0355,
+"heldPercentInstitutions": 0.7939,
+"shortPercentOfFloat": 0.0346,
+"numberOfAnalystOpinions": 24.0,
+"recommendationMean": 1.48,
+"targetMeanPrice": 255.9219,
+"revenue_q": [
+{
+"end": "2025-09-30",
+"revenue": 2308000000.0
+},
+{
+"end": "2025-12-31",
+"revenue": 3025000000.0
+},
+{
+"end": "2026-03-31",
+"revenue": 5950000000.0
+},
+{
+"end": "2026-06-30",
+"revenue": 8965000000.0
+},
+{
+"end": "2026-09-30",
+"revenue": 11031000000.0
+}
+],
+"revenue_estimate": {
+"0q": {
+"avg": 12506351860.0,
+"low": 12393328500.0,
+"high": 13023891000.0,
+"numberOfAnalysts": 16.0,
+"yearAgoRevenue": 3025000000.0,
+"growth": 3.1343,
+"currency": "USD"
+},
+"+1q": {
+"avg": 12478235170.0,
+"low": 11672656450.0,
+"high": 13378800000.0,
+"numberOfAnalysts": 16.0,
+"yearAgoRevenue": 5950000000.0,
+"growth": 1.0972,
+"currency": "USD"
+},
+"0y": {
+"avg": 49573915650.0,
+"low": 48031000000.0,
+"high": 51421800000.0,
+"numberOfAnalysts": 20.0,
+"yearAgoRevenue": 20248000000.0,
+"growth": 1.4483,
+"currency": "USD"
+},
+"+1y": {
+"avg": 61323562670.0,
+"low": 53838113560.0,
+"high": 80249200000.0,
+"numberOfAnalysts": 20.0,
+"yearAgoRevenue": 49573915650.0,
+"growth": 0.237,
+"currency": "USD"
+}
+},
+"earnings_estimate": {
+"0q": {
+"avg": 7.1398,
+"low": 7.0,
+"high": 7.515,
+"yearAgoEps": 0.775,
+"numberOfAnalysts": 17.0,
+"growth": 8.2126,
+"currency": "USD",
+"methodology": "normalized"
+},
+"+1q": {
+"avg": 7.1902,
+"low": 6.7713,
+"high": 7.9225,
+"yearAgoEps": 2.9263,
+"numberOfAnalysts": 17.0,
+"growth": 1.4572,
+"currency": "USD",
+"methodology": "normalized"
+},
+"0y": {
+"avg": 28.4351,
+"low": 27.4125,
+"high": 30.1541,
+"yearAgoEps": 8.86,
+"numberOfAnalysts": 21.0,
+"growth": 2.2094,
+"currency": "USD",
+"methodology": "normalized"
+},
+"+1y": {
+"avg": 36.1317,
+"low": 30.4937,
+"high": 44.6063,
+"yearAgoEps": 28.4351,
+"numberOfAnalysts": 20.0,
+"growth": 0.2707,
+"currency": "USD",
+"methodology": "normalized"
+}
+},
+"eps_trend": {
+"0q": {
+"current": 7.1398,
+"7daysAgo": 7.1398,
+"30daysAgo": 6.6365,
+"60daysAgo": 6.6168,
+"90daysAgo": 6.5515,
+"currency": "USD",
+"methodology": "normalized"
+},
+"+1q": {
+"current": 7.1902,
+"7daysAgo": 7.1902,
+"30daysAgo": 6.8552,
+"60daysAgo": 6.8545,
+"90daysAgo": 6.7619,
+"currency": "USD",
+"methodology": "normalized"
+},
+"0y": {
+"current": 28.4351,
+"7daysAgo": 28.4753,
+"30daysAgo": 26.8529,
+"60daysAgo": 26.7623,
+"90daysAgo": 26.6544,
+"currency": "USD",
+"methodology": "normalized"
+},
+"+1y": {
+"current": 36.1317,
+"7daysAgo": 35.9073,
+"30daysAgo": 33.2871,
+"60daysAgo": 33.0902,
+"90daysAgo": 33.1403,
+"currency": "USD",
+"methodology": "normalized"
+}
+},
+"eps_revisions": {
+"0q": {
+"upLast7days": 11.0,
+"upLast30days": 11.0,
+"downLast30days": 1.0,
+"downLast7Days": 1.0,
+"currency": "USD",
+"methodology": "normalized"
+},
+"+1q": {
+"upLast7days": 8.0,
+"upLast30days": 8.0,
+"downLast30days": 3.0,
+"downLast7Days": 3.0,
+"currency": "USD",
+"methodology": "normalized"
+},
+"0y": {
+"upLast7days": 18.0,
+"upLast30days": 18.0,
+"downLast30days": 2.0,
+"downLast7Days": 2.0,
+"currency": "USD",
+"methodology": "normalized"
+},
+"+1y": {
+"upLast7days": 15.0,
+"upLast30days": 15.0,
+"downLast30days": 3.0,
+"downLast7Days": 3.0,
+"currency": "USD",
+"methodology": "normalized"
+}
+},
+"earnings_history": {
+"2025-12-31 00:00:00": {
+"epsActual": 0.775,
+"epsEstimate": 0.4429,
+"epsDifference": 0.33,
+"surprisePercent": 0.7498,
+"methodology": "normalized"
+},
+"2026-03-31 00:00:00": {
+"epsActual": 2.9263,
+"epsEstimate": 1.8326,
+"epsDifference": 1.09,
+"surprisePercent": 0.5967,
+"methodology": "normalized"
+},
+"2026-06-30 00:00:00": {
+"epsActual": 4.9062,
+"epsEstimate": 4.3144,
+"epsDifference": 0.59,
+"surprisePercent": 0.1372,
+"methodology": "normalized"
+},
+"2026-09-30 00:00:00": {
+"epsActual": 6.1887,
+"epsEstimate": 5.8008,
+"epsDifference": 0.39,
+"surprisePercent": 0.0669,
+"methodology": "normalized"
+}
+},
+"next_earnings": [
+"2026-10-29"
+]
+}
+},
 "ANET": {
 "Close": 193.94,
 "sma10": 186.913,
@@ -7789,7 +8185,7 @@
 "layer": "network",
 "history_days": 500,
 "since_listing": null,
-"last_report": "2026-08-06",
+"last_report": "2026-11-05",
 "fund": {
 "fetched_utc": "2026-11-19T19:28:16Z",
 "shortName": "Applied Optoelectronics, Inc.",
@@ -9569,8 +9965,8 @@
 "sma150": 1666.5436,
 "sma200": 1597.94,
 "sma200_slope20": 16.4536,
-"hi52": 1994.7452,
-"lo52": 940.3462,
+"hi52": 1994.7453,
+"lo52": 940.3461,
 "vol50": 1599666.0,
 "ret21": -0.1901,
 "ret63": -0.2301,
@@ -15353,7 +15749,7 @@
 "sma200": 634.3984,
 "sma200_slope20": 13.175,
 "hi52": 788.4945,
-"lo52": 408.1475,
+"lo52": 408.1476,
 "vol50": 1267508.0,
 "ret21": -0.0228,
 "ret63": -0.081,
@@ -16281,7 +16677,7 @@
 "layer": "power",
 "history_days": 500,
 "since_listing": null,
-"last_report": "2026-11-06",
+"last_report": "2026-11-09",
 "fund": {
 "fetched_utc": "2026-11-19T19:28:45Z",
 "shortName": "Vistra Corp.",
@@ -17439,7 +17835,7 @@
 "layer": "power",
 "history_days": 500,
 "since_listing": null,
-"last_report": "2026-08-05",
+"last_report": "2026-11-05",
 "fund": {
 "fetched_utc": "2026-11-19T19:28:49Z",
 "shortName": "NuScale Power Corporation",
@@ -33300,7 +33696,5 @@
 "last_report": null
 }
 },
-"errors": {
-"SNDK": "not enough history"
-}
+"errors": {}
 }
