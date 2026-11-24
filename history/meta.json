@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-20T02:31:22Z",
+ "generated_utc": "2026-11-24T18:30:45Z",
  "years": 5,
  "symbols": [
   "SPY",
@@ -137,6 +137,7 @@
   "CBRS",
   "WDC",
   "STX",
+  "SNDK",
   "CIEN",
   "COHR",
   "LITE",
@@ -284,7 +285,5 @@
   "FTNT",
   "ZS"
  ],
- "errors": {
-  "SNDK": "not enough history"
- }
+ "errors": {}
 }
